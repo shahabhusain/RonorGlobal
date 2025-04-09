@@ -34,7 +34,7 @@ const Resource = () => {
           <div className=' mt-12 grid grid-cols-5 gap-6'>
           {
             data.map((item, index) => (
-                <div key={index} className=' bg-[#00105C] border-l-[12px] border-l-red-500 flex flex-col gap-5 p-6 rounded-r-md'>
+                <div key={index} className=' bg-[#00105C] border-l-[20px] border-l-red-500 flex flex-col gap-5 p-6 rounded-r-3xl'>
                 <h1 className=' text-white text-[20px] font-[800]'>{item.title}</h1>
                 <p className=' text-white text-[12px] font-[500]'>{item.desc}</p>
                 <button className=' text-[20px] text-white flex gap-3 items-center'> <LuDownload /> <span className=' font-[800]'>Pdf</span></button>

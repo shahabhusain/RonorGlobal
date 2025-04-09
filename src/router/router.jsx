@@ -4,13 +4,15 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import Layout1 from "../layout/Layout1";
-import Home from "../pages/Home";
 import Blog from "../pages/Blog";
 import ContactUs from "../pages/ContactUs";
-import AllSectors from "../pages/InvestGhana/AllSectors";
 import AllStates from "../pages/Opportunity/AllStates";
 import Careers from "../pages/Careers";
-import Budget from "../pages/Budget";
+import AllSectors from "../pages/Opportunity/AllSectors";
+import Home from "../pages/Home/Home";
+import Opportunity from "../pages/Home/Opportunity";
+import Budget from "../components/GhanaOpportunity/Budget/Budget";
+
 export const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout1 />}>
@@ -19,8 +21,9 @@ export const router = createBrowserRouter(
       <Route path="/allstates" element={<AllStates />} />
       <Route path="/careers" element={<Careers />} />
       <Route path="/blog" element={<Blog />} />
-      <Route path="/budget" element={<Budget />} />
       <Route path="/conatctus" element={<ContactUs />} />
+      <Route path="/opportunity" element={<Opportunity />} />
+      <Route path="/budget" element={<Budget />} />
     </Route>
   )
 );

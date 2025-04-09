@@ -3,6 +3,7 @@ import { FaArrowRight, FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 import img1 from '../../assets/sec1.png'
 import img2 from '../../assets/sec2.png'
 import img3 from '../../assets/sec3.png'
+import { Link } from 'react-router-dom'
 
 const Investible = () => {
   const sectors = [
@@ -67,18 +68,18 @@ const Investible = () => {
     <div className='mt-20 w-[90%] mx-auto'>
       <div className='flex items-center justify-between mb-8'>
         <h1 className='text-[#00105C] text-[32px] md:text-[42px] font-[700]'>Investible Sectors</h1>
-        <button className='text-[16px] md:text-[20px] text-white font-[600] bg-red-500 py-2 px-4 md:py-3 md:px-5 rounded-md flex items-center gap-2 md:gap-4'>
+        <Link to="/allsectors" className='text-[16px] md:text-[20px] text-white font-[600] bg-red-500 py-2 px-4 md:py-3 md:px-5 rounded-md flex items-center gap-2 md:gap-4'>
           View All Sectors <FaArrowRight />
-        </button>
+        </Link>
       </div>
 
       <div className='relative'>
         <div className='flex overflow-hidden'>
-          <div className='flex w-full transition-transform duration-300'>
+          <div className='flex w-full items-center justify-around transition-transform duration-300'>
             {visibleSectors.map((sector, index) => (
               <div
                 key={sector.id}
-                className={`flex-shrink-0 w-full md:w-1/3 px-2 ${index === 1 ? 'scale-105' : ''}`}
+                className={` w-[400px] h-[520px] px-2 ${index === 1 ? 'scale-105' : ''}`}
               >
                 <div className="relative w-full  rounded-xl overflow-hidden group shadow-lg">
                   <img

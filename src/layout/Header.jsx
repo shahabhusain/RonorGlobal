@@ -3,7 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { TiArrowSortedDown } from "react-icons/ti";
 import { Link, useLocation } from "react-router-dom";
 import PreNav from "./PreNav";
-
+import logo from '../assets/logo.png'
 const Header = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const [hidePreNav, setHidePreNav] = useState(false);
@@ -27,21 +27,20 @@ const Header = () => {
 
   const dropdownItems = {
     investGhana: [
-      { name: "All Sectors", path: "/allsectors" },
-      { name: "Agriculture & Allied Sector", path: "/agriculture" },
-      { name: "Auto Components", path: "/auto-components" },
-      { name: "Automobile", path: "/automobile" },
-      { name: "Ayush", path: "/ayush" },
-      { name: "Biotechnology", path: "/biotechnology" },
+      { name: "About Us", path: "/" },
+      { name: "#GhanaAtDavos", path: "/" },
+      { name: "ABonded Manufacturing", path: "/" },
+      { name: "One District One Product", path: "/" },
+      { name: "Tenders", path: "/" },
     ],
     allSectors: [
       { name: "All States", path: "/allstates" },
-      { name: "Civil Aviation", path: "/civil-aviation" },
-      { name: "Construction", path: "/construction" },
-      { name: "Consumer Goods", path: "/consumer-goods" },
-      { name: "Beauty & Personal Care", path: "/beauty" },
-      { name: "Gems & Jewellery", path: "/gems" },
-      { name: "Furniture", path: "/furniture" },
+      { name: "Civil Aviation", path: "/" },
+      { name: "Construction", path: "/" },
+      { name: "Consumer Goods", path: "/" },
+      { name: "Beauty & Personal Care", path: "/" },
+      { name: "Gems & Jewellery", path: "/" },
+      { name: "Furniture", path: "/" },
     ],
   };
 
@@ -50,7 +49,7 @@ const Header = () => {
       {!hidePreNav && <PreNav />}
 
       <div className="w-full flex justify-between items-center py-3 px-2 md:px-4 lg:px-10">
-        <h1 className="text-[#00105C] text-[24px] font-[700]">Invest gana</h1>
+        <h1 className="text-[#00105C] text-[24px] font-[700] flex items-center gap-3"><img src={logo} alt="" />Invest gana</h1>
         
         <nav className="hidden md:flex gap-5 md:gap-3 lg:gap-12 text-[#8B8B8B] text-sm md:text-[14px] lg:text-[17px] font-semibold">
           {/* Home Link */}
@@ -73,7 +72,7 @@ const Header = () => {
               Invest Ghana <TiArrowSortedDown className="text-[20px]" />
             </div>
             {activeDropdown === "investGhana" && (
-              <div className="absolute top-4 left-0 mt-2 w-56 bg-[#00105C] text-white shadow-lg rounded-md py-2 z-50">
+              <div className="absolute top-3 left-0 mt-2 w-56 bg-[#00105C] text-white shadow-lg rounded-md py-2 z-50">
                 {dropdownItems.investGhana.map((item, index) => (
                   <Link
                     key={index}

@@ -39,24 +39,26 @@ const Services = () => {
     <div className='w-[95%] mx-auto pt-20'>
       <h1 className='text-[40px] font-[700] text-[#00105C]'>Our Services</h1>
 
-      <div className=' flex gap-6 mt-12'>
+      <div className='flex gap-6 mt-12 justify-center'>
         {servicesData.map((item, index) => (
           <div
             key={index}
             className='group flex flex-col gap-4 items-center border-[2px] w-[270px] hover:w-[400px] border-[#7A7A7A] py-8 px-3 rounded-md relative transition-all duration-300 ease-in-out hover:px-12 hover:bg-[#00105C] hover:border-none'
           >
-            <img
-              className='w-[70px] transition-all duration-300 group-hover:invert'
-              src={item.img}
-              alt=""
-            />
-            <h1 className='text-[25px] font-[700] text-center transition-colors duration-300 text-[#00105C] group-hover:text-white'>
-              {item.title}
-            </h1>
-            <p className='text-[18px] font-[500] text-center transition-colors duration-300 text-black group-hover:text-white'>
+            <div className='flex flex-col group-hover:flex-row items-center gap-3 group-hover:mt-12 transition-all duration-300'>
+              <img
+                className='w-[70px] transition-all duration-300 group-hover:invert'
+                src={item.img}
+                alt=""
+              />
+              <h1 className='text-[25px] font-[700] text-center transition-colors duration-300 text-[#00105C] group-hover:text-white'>
+                {item.title}
+              </h1>
+            </div>
+            <p className='text-[18px] group-hover:text-start font-[500] text-center transition-colors duration-300 text-black group-hover:text-white'>
               {item.desc}
             </p>
-            <img className='absolute top-3 right-3' src={double} alt="" />
+            <img className='absolute top-3 right-3 w-6 h-6' src={double} alt="" />
           </div>
         ))}
       </div>

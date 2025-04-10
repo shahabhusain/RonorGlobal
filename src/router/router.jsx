@@ -12,6 +12,7 @@ import AllSectors from "../pages/Opportunity/AllSectors";
 import Home from "../pages/Home/Home";
 import Opportunity from "../pages/Home/Opportunity";
 import Budget from "../components/GhanaOpportunity/Budget/Budget";
+import About from "../pages/About/About";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -24,6 +25,8 @@ export const router = createBrowserRouter(
       <Route path="/conatctus" element={<ContactUs />} />
       <Route path="/opportunity" element={<Opportunity />} />
       <Route path="/budget" element={<Budget />} />
+      <Route path="/about" element={<About />} />
+
     </Route>
   )
 );

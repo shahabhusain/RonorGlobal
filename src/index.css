@@ -20,6 +20,14 @@ body{
   height: 700px;
 }
 
+.bg2{
+  background-image: url(../src/assets/About/about.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
 .text-stroke {
   -webkit-text-stroke: 2px black;
   color: white;

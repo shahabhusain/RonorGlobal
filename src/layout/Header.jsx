@@ -27,7 +27,7 @@ const Header = () => {
 
   const dropdownItems = {
     investGhana: [
-      { name: "About Us", path: "/" },
+      { name: "About Us", path: "/about" },
       { name: "#GhanaAtDavos", path: "/" },
       { name: "ABonded Manufacturing", path: "/" },
       { name: "One District One Product", path: "/" },

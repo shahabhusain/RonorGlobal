@@ -9,7 +9,7 @@ import ContactUs from "../pages/ContactUs";
 import AllStates from "../pages/Opportunity/AllStates";
 import Careers from "../pages/Careers";
 import AllSectors from "../pages/Opportunity/AllSectors";
-import Home from "../pages/Home/Home";
+import Home from "../pages/home/Home";
 import Opportunity from "../pages/Home/Opportunity";
 import Budget from "../components/GhanaOpportunity/Budget/Budget";
 import About from "../pages/About/About";

@@ -28,19 +28,19 @@ const Header = () => {
   const dropdownItems = {
     investGhana: [
       { name: "About Us", path: "/about" },
-      { name: "#GhanaAtDavos", path: "/" },
-      { name: "ABonded Manufacturing", path: "/" },
-      { name: "One District One Product", path: "/" },
-      { name: "Tenders", path: "/" },
+      { name: "#GhanaAtDavos", path: "/ghana" },
+      { name: "ABonded Manufacturing", path: "/bonded" },
+      { name: "One District One Product", path: "/district" },
+      { name: "Tenders", path: "/tender" },
     ],
     allSectors: [
       { name: "All States", path: "/allstates" },
-      { name: "Civil Aviation", path: "/" },
-      { name: "Construction", path: "/" },
-      { name: "Consumer Goods", path: "/" },
-      { name: "Beauty & Personal Care", path: "/" },
-      { name: "Gems & Jewellery", path: "/" },
-      { name: "Furniture", path: "/" },
+      { name: "Civil Aviation", path: "/civil" },
+      { name: "Construction", path: "/construction" },
+      { name: "Capital Goods", path: "/capital" },
+      { name: "Beauty & Personal Care", path: "/beautiful" },
+      { name: "Furniture", path: "/jewelery" },
+      { name: " Gems & Jewellery", path: "/germs" },
     ],
   };
 

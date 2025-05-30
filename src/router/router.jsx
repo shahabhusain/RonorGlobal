@@ -14,6 +14,21 @@ import Opportunity from "../pages/home/Opportunity";
 import Budget from "../components/GhanaOpportunity/Budget/Budget";
 import About from "../pages/About/About";
 import Latest from "../pages/Latest/Latest";
+import Contact from "../components/Contact";
+import Ghana from "../pages/About/Ghana";
+import Bonded from "../pages/About/Bonded";
+import District from "../pages/About/District";
+import Tender from "../pages/About/Tender";
+import NewApplication from "../pages/About/NewApplication";
+import Collaborate from "../pages/About/Collaborate";
+import CareerDetail from "../pages/CareerDetail";
+import BlogDeatil from "../pages/BlogDeatil";
+import CivilAviationsPage from "../pages/AllStates/CivilAviationsPage";
+import Construction from "../pages/AllStates/Construction";
+import CapitalGoods from '../pages/AllStates/CapitalGoods'
+import Beautiful from '../pages/AllStates/Beautiful'
+import Germs from '../pages/AllStates/Germs'
+import Jewelery from '../pages/AllStates/Jewelery'
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -22,13 +37,26 @@ export const router = createBrowserRouter(
       <Route path="/allsectors" element={<AllSectors />} />
       <Route path="/allstates" element={<AllStates />} />
       <Route path="/careers" element={<Careers />} />
+      <Route path="/civil" element={<CivilAviationsPage />} />
+      <Route path="/construction" element={<Construction />} />
+      <Route path="/capital" element={<CapitalGoods />} />
+      <Route path="/germs" element={<Germs />} />
+      <Route path="/jewelery" element={<Jewelery />} />
+            <Route path="/beautiful" element={<Beautiful />} />
       <Route path="/blog" element={<Blog />} />
+      <Route path="/blogdetail" element={<BlogDeatil />} />
+      <Route path="/careersdetail" element={<CareerDetail />} />
       <Route path="/conatctus" element={<ContactUs />} />
       <Route path="/opportunity" element={<Opportunity />} />
       <Route path="/budget" element={<Budget />} />
       <Route path="/about" element={<About />} />
       <Route path="/latest" element={<Latest />} />
-
+      <Route path="/ghana" element={<Ghana />} />
+      <Route path="/bonded" element={<Bonded />} />
+      <Route path="/district" element={<District />} />
+      <Route path="/tender" element={<Tender />} />
+       <Route path="/collaborate" element={<Collaborate />} />
+       <Route path="/newapplication" element={<NewApplication />} />
     </Route>
   )
 );

@@ -8,7 +8,7 @@ import client from "../../assets/client.png"
 const Client = () => {
   return (
     <div className=' bg-[#0C1644] p-12 my-20'>
- <Swiper  slidesPerView={1} spaceBetween={30} pagination={true} modules={[Pagination]} className="mySwiper">
+ <Swiper  slidesPerView={1.2} spaceBetween={30} pagination={true} modules={[Pagination]} className="mySwiper">
         <SwiperSlide>
         <div>
             <h1 className=' text-[42px] font-[700] text-white flex items-center gap-2'><RiDoubleQuotesL /> Paypal</h1> 

@@ -10,6 +10,7 @@
 body{
   max-width: 1550px;
   margin: 0 auto;
+  background: #70707009;
 }
 
 .bg1{
@@ -18,6 +19,104 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   height: 700px;
+}
+
+.civil{
+   background-image: url(../src/assets/AllStates/civil.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.civill{
+   background-image: url(../src/assets/AllStates/civill.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.civill1{
+   background-image: url(../src/assets/AllStates/bea.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.civill2{
+   background-image: url(../src/assets/AllStates/cap.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.civill3{
+   background-image: url(../src/assets/AllStates/fur.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.civill4{
+   background-image: url(../src/assets/AllStates/jev.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.civil1{
+   background-image: url(../src/assets/AllStates/bg1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   height: 480px;
+  width: 330px;
+}
+
+.civil2{
+   background-image: url(../src/assets/AllStates/bg2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    height: 480px;
+  width: 330px;
+}
+
+.civil3{
+   background-image: url(../src/assets/AllStates/bg3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 480px;
+  width: 330px;
+}
+
+.civil4{
+   background-image: url(../src/assets/AllStates/bg4.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    height: 480px;
+  width: 330px;
+}
+
+
+.input{
+    @apply w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400
+    }
+
+
+.bgbb3{
+   background-image: url(../src/assets/Career/hero.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
 }
 
 .bg2{
@@ -37,6 +136,42 @@ body{
   height: 1000px;
   margin: auto;
   border-radius: 122px;
+}
+
+.bgg{
+  background-image: url(../src/assets/About/image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 540px;
+}
+
+.bgb{
+  background-image: url(../src/assets/About/bgb.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700px;
+}
+
+.bggg4{
+  background-image: url(../src/assets/About/shake.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 528px;
+}
+
+.bgg44{
+    background-image: url(../src/assets/About/tender.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 628px;
 }
 
 .text-stroke {
@@ -81,3 +216,10 @@ body{
 }
 
 
+.swiper-pagination {
+  position: relative !important;
+  text-align: center !important;
+  transition: 300ms opacity !important;
+  transform: translate3d(0, 0, 0) !important;
+  z-index: 10 !important;
+}

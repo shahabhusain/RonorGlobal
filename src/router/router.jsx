@@ -58,7 +58,7 @@ export const router = createBrowserRouter(
       <Route path="/blog" element={<Blog />} />
       <Route path="/blogdetail" element={<BlogDeatil />} />
       <Route path="/careersdetail" element={<CareerDetail />} />
-      <Route path="/conatctus" element={<ContactUs />} />
+      <Route path="/contactus" element={<ContactUs />} />
       <Route path="/opportunity" element={<Opportunity />} />
       <Route path="/budget" element={<Budget />} />
       <Route path="/about" element={<About />} />
@@ -81,7 +81,7 @@ export const router = createBrowserRouter(
                  <Route path="/education" element={<Education />} />
                   <Route path="/financial" element={<Financial />} />
                    <Route path="/transport" element={<Transport />} />
-                   
+
     </Route>
   )
 );

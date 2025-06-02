@@ -78,7 +78,7 @@ const Header = () => {
               Invest Ghana <TiArrowSortedDown className="text-[20px]" />
             </div>
             {activeDropdown === "investGhana" && (
-              <div className="absolute top-7 left-0 mt-2 w-56 bg-[#00105C] text-white shadow-lg rounded-md py-2 z-50">
+              <div className="absolute top-2 left-0 mt-2 w-56 bg-[#00105C] text-white shadow-lg rounded-md py-2 z-50">
                 {dropdownItems.investGhana.map((item, index) => (
                   <Link
                     key={index}
@@ -108,7 +108,7 @@ const Header = () => {
               Opportunity <TiArrowSortedDown className="text-[20px]" />
             </div>
             {activeDropdown === "allSectors" && (
-              <div className="absolute top-7 left-0 mt-2 w-56 bg-white shadow-lg rounded-md py-2 z-50">
+              <div className="absolute top-2 left-0 mt-2 w-56 bg-white shadow-lg rounded-md py-2 z-50">
                 {dropdownItems.allSectors.map((item, index) => (
                   <Link
                     key={index}

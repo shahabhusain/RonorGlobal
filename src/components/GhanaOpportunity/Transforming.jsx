@@ -84,8 +84,8 @@ const Transforming = () => {
         <div className=' flex flex-col gap-4 w-[20%]'>
               {
                 Data.map((item, index)=>(
-                    <button onClick={()=>setSelect(index)}  key={index} className={`${select === index ? "" : "border-[2px] rounded-lg border-[#7A7A7A]"} text-[#00105C] text-[20px] font-[700] py-3 px-2 flex items-center`}>{select === index ? <div className=' relative'><img src={img} alt="" className='' /> <div className=' flex flex-col pl-4 absolute top-10'>
-                         <img className=' w-[30px]' src={item.w_icon} alt="" /> <h1 className=' text-white text-[20px]'>{item.title}</h1></div></div> : <div className=' flex items-center gap-4'><img src={item.img} alt="" />{item.title} </div>}</button>
+                    <button onClick={()=>setSelect(index)}  key={index} className={`${select === index ? "" : "border-[2px] rounded-lg border-[#7A7A7A]"} text-[#00105C] xl:text-[20px] lg:text-[15px] md:text-[15px] text-[14px] font-[700] py-3 px-2 flex items-center`}>{select === index ? <div className=' relative'><img src={img} alt="" className='' /> <div className=' flex flex-col pl-4 absolute xl:top-10 top-4'>
+                         <img className=' xl:w-[30px] w-[20px]' src={item.w_icon} alt="" /> <h1 className=' text-white xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px]'>{item.title}</h1></div></div> : <div className=' flex items-center gap-4'><img src={item.img} alt="" />{item.title} </div>}</button>
                 ))
               }
         </div>

@@ -14,7 +14,7 @@ const Target = () => {
     ]
   return (
     <div className=' flex items-center gap-20 mt-5'>
-        <img className='' src={target} alt="" />
+        <img className=' w-[50%]' src={target} alt="" />
         <div className=''>
             <button className=' bg-red-500 py-1 px-5 rounded-full text-white text-[30px] font-[600]'>Target</button>
             <div>

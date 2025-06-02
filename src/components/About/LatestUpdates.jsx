@@ -42,8 +42,8 @@ const LatestUpdates = () => {
     <div className=' mt-20'>
         <img src={main} alt="" />
 
-           <div className=' p-20 border-[2px] bg-[#f8f8f8] border-[#0000004f] rounded-2xl border-inside-blur w-[90%] mx-auto my-20 '> 
-          <h1 className=' text-[42px] font-[700] text-[#00105C]'>Latest Updates</h1>
+           <div className=' xl:p-20 lg:p-10 border-[2px] bg-[#f8f8f8] border-[#0000004f] rounded-2xl border-inside-blur w-[90%] mx-auto my-20 '> 
+          <h1 className=' xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-[700] text-[#00105C]'>Latest Updates</h1>
           <div className=" mx-auto px-4 py-10">
       <ul className="space-y-12">
         {newsData.map((item, index) => (
@@ -52,7 +52,7 @@ const LatestUpdates = () => {
                 <div className=' w-[50px] h-[50px] bg-[#AFDCFF] flex items-center justify-center rounded-full'>
                 <div className='bg-[#00105C] w-[28px] h-[28px] rounded-full'></div>
                 </div>
-              <span className="text-[20px] text-[#00105C] font-medium max-w-[600px]">{item.title}</span>
+              <span className="xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px] text-[#00105C] font-medium max-w-[600px]">{item.title}</span>
             </div>
             <span className="text-[00105C] text-[#00105C] whitespace-nowrap">{item.date}</span>
           </li>

@@ -29,6 +29,18 @@ import CapitalGoods from '../pages/AllStates/CapitalGoods'
 import Beautiful from '../pages/AllStates/Beautiful'
 import Germs from '../pages/AllStates/Germs'
 import Jewelery from '../pages/AllStates/Jewelery'
+import AgricultureAgroProcessing from "../pages/home/AllSectors/AgricultureAgroProcessing";
+import Oil from "../pages/home/AllSectors/Oil";
+import Health from "../pages/home/AllSectors/Health";
+import Ict from "../pages/home/AllSectors/Ict";
+import Manufacture from "../pages/home/AllSectors/Manufacture";
+import Mining from "../pages/home/AllSectors/Mining";
+import Property from "../pages/home/AllSectors/Property";
+import Recreation from "../pages/home/AllSectors/Recreation";
+import Energy from "../pages/home/AllSectors/Energy";
+import Education from "../pages/home/AllSectors/Education";
+import Financial from "../pages/home/AllSectors/Financial";
+import Transport from "../pages/home/AllSectors/Transport";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -57,6 +69,19 @@ export const router = createBrowserRouter(
       <Route path="/tender" element={<Tender />} />
        <Route path="/collaborate" element={<Collaborate />} />
        <Route path="/newapplication" element={<NewApplication />} />
+        <Route path="/agriculture" element={<AgricultureAgroProcessing />} />
+         <Route path="/oil" element={<Oil />} />
+          <Route path="/health" element={<Health />} />
+           <Route path="/ict" element={<Ict />} />
+            <Route path="/manufacture" element={<Manufacture />} />
+             <Route path="/mining" element={<Mining />} />
+              <Route path="/property" element={<Property />} />
+               <Route path="/recreation" element={<Recreation />} />
+                <Route path="/energy" element={<Energy />} />
+                 <Route path="/education" element={<Education />} />
+                  <Route path="/financial" element={<Financial />} />
+                   <Route path="/transport" element={<Transport />} />
+                   
     </Route>
   )
 );

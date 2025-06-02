@@ -29,6 +29,104 @@ body{
   height: 500px;
 }
 
+.trans{
+   background-image: url(../src/assets/AllSectors/agri.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+
+.trans1 {
+  background-image: url(../src/assets/AllSectors/oil.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.trans2 {
+  background-image: url(../src/assets/AllSectors/health.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.trans3 {
+  background-image: url(../src/assets/AllSectors/ict.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.trans4 {
+  background-image: url(../src/assets/AllSectors/manu.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.trans5 {
+  background-image: url(../src/assets/AllSectors/mining.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.trans6 {
+  background-image: url(../src/assets/AllSectors/property.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.trans7 {
+  background-image: url(../src/assets/AllSectors/recreation.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.trans8 {
+  background-image: url(../src/assets/AllSectors/energy.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.trans9 {
+  background-image: url(../src/assets/AllSectors/education.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.trans10 {
+  background-image: url(../src/assets/AllSectors/finan.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.trans11 {
+  background-image: url(../src/assets/AllSectors/trans.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+
 .civill{
    background-image: url(../src/assets/AllStates/civill.png);
   background-size: cover;

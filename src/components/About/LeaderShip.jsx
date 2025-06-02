@@ -112,11 +112,11 @@ const LeaderShip = () => {
          {
             data.map((item, index)=>(
                 <div key={index} className=' relative'>
-                <img className=' w-[250px] ml-8' src={item.img} alt="" />
-                <div className=' bg-[#00105C] p-12 pt-32 rounded-b-2xl flex flex-col gap-2 absolute top-[142px] z-[-1]'>
-                     <h1 className=' text-[20px] text-white font-[600] text-center'>{item.title}</h1>
+                <img className=' xl:w-[250px] lg:w-[150px] md:ml-8' src={item.img} alt="" />
+                <div className=' bg-[#00105C] xl:p-12 p-4 pt-12 xl:pt-32 rounded-b-2xl flex flex-col gap-2 absolute top-[142px] z-[-1]'>
+                     <h1 className=' xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px] text-white font-[600] text-center'>{item.title}</h1>
                      <div className=' w-full h-[2px] bg-red-500'></div>
-                     <p className=' text-[16px] font-[400] text-white text-center'>{item.desc}</p>
+                     <p className=' xl:text-[16px] lg:text-[14px] md:text-[12px] text-[10px]  font-[400] text-white text-center'>{item.desc}</p>
                 </div>
             </div>
             ))

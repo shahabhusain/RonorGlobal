@@ -37,7 +37,7 @@ const Services = () => {
 
   return (
     <div className='w-[95%] mx-auto pt-20'>
-      <h1 className='text-[40px] font-[700] text-[#00105C]'>Our Services</h1>
+      <h1 className='xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-[700] text-[#00105C]'>Our Services</h1>
 
       <div className='flex gap-6 mt-12 justify-center'>
         {servicesData.map((item, index) => (
@@ -51,11 +51,11 @@ const Services = () => {
                 src={item.img}
                 alt=""
               />
-              <h1 className='text-[25px] font-[700] text-center transition-colors duration-300 text-[#00105C] group-hover:text-white'>
+              <h1 className='lg:text-[25px] md:text-[20px] text-[15px] font-[700] text-center transition-colors duration-300 text-[#00105C] group-hover:text-white'>
                 {item.title}
               </h1>
             </div>
-            <p className='text-[18px] group-hover:text-start font-[500] text-center transition-colors duration-300 text-black group-hover:text-white'>
+            <p className='lg:text-[18px] md:text-[16px] text-[14px] group-hover:text-start font-[500] text-center transition-colors duration-300 text-black group-hover:text-white'>
               {item.desc}
             </p>
             <img className='absolute top-3 right-3 w-6 h-6' src={double} alt="" />

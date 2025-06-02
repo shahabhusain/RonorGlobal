@@ -83,7 +83,7 @@ const Team = () => {
   return (
     <div className=' w-[95%] mx-auto my-20'>
          <div className=' flex items-center justify-center'>
-         <h1 className=' text-[40px] font-[700] text-white bg-red-500 py-2 px-5 rounded-2xl'>Meet Our Team</h1>
+         <h1 className=' xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-[700] text-white bg-red-500 py-2 px-5 rounded-2xl'>Meet Our Team</h1>
          </div>
            {
             open === 0 ?   <div className=' grid grid-cols-4 gap-6 mt-12'>
@@ -92,9 +92,9 @@ const Team = () => {
                     <div className='' key={index}>
                     <img src={item.img} alt="" />
                     <div className=' border-[2px] border-[#0000003f] py-4 h-[150px] flex flex-col gap-3 '>
-                        <h1 className=' text-[#00105C] text-[20px] font-[600] px-6'>{item.title}</h1>
+                        <h1 className=' text-[#00105C] xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px] font-[600] px-6'>{item.title}</h1>
                          <div className=' w-full h-[1px] bg-[#70707079]'></div>
-                        <p className=' text-[16px] font-[400] text-red-500 px-6'>{item.desc}</p>
+                        <p className=' xl:text-[16px] lg:text-[14px] md:text-[12px] text-[10px] font-[400] text-red-500 px-6'>{item.desc}</p>
                     </div>
                 </div>
                 ))
@@ -102,8 +102,8 @@ const Team = () => {
          </div> : open === 1 ? <><LeaderShip /></> : null
            }
          <div className=' flex items-center justify-center gap-12 mt-52'>
-            <button onClick={()=>setOpen(0)} className={` ${open === 0 ? "text-white text-[40px] font-[700] bg-red-500 py-2 px-5 rounded-full" : "border-[2px] border-red-500 rounded-full text-[40px] py-2 px-5 font-[700] text-[#00105C]"}`}>Board of Directors</button>
-            <button onClick={()=>setOpen(1)} className={` ${open === 1 ? "text-white text-[40px] font-[700] bg-red-500 py-2 px-5 rounded-full" : "border-[2px] border-red-500 rounded-full text-[40px] py-2 px-5 font-[700] text-[#00105C]"} border-[2px] border-red-500 rounded-full text-[40px] py-2 px-5 font-[700] text-[#00105C]`}>Leadership Team</button>
+            <button onClick={()=>setOpen(0)} className={` ${open === 0 ? "text-white xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-[700] bg-red-500 py-2 px-5 rounded-full" : "border-[2px] border-red-500 rounded-full text-[40px] py-2 px-5 font-[700] text-[#00105C]"}`}>Board of Directors</button>
+            <button onClick={()=>setOpen(1)} className={` ${open === 1 ? "text-white xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-[700] bg-red-500 py-2 px-5 rounded-full" : "border-[2px] border-red-500 rounded-full text-[40px] py-2 px-5 font-[700] text-[#00105C]"} border-[2px] border-red-500 rounded-full text-[40px] py-2 px-5 font-[700] text-[#00105C]`}>Leadership Team</button>
          </div>
     </div>
   )

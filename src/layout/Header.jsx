@@ -3,11 +3,14 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { TiArrowSortedDown } from "react-icons/ti";
 import { Link, useLocation } from "react-router-dom";
 import PreNav from "./PreNav";
-import logo from '../assets/logo.png'
+import logo from "../assets/logo.png";
+
 const Header = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const [hidePreNav, setHidePreNav] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
+  const [mobileDropdown, setMobileDropdown] = useState(null);
+
   const location = useLocation();
 
   useEffect(() => {
@@ -40,7 +43,7 @@ const Header = () => {
       { name: "Capital Goods", path: "/capital" },
       { name: "Beauty & Personal Care", path: "/beautiful" },
       { name: "Furniture", path: "/jewelery" },
-      { name: " Gems & Jewellery", path: "/germs" },
+      { name: "Gems & Jewellery", path: "/germs" },
     ],
   };
 
@@ -48,22 +51,25 @@ const Header = () => {
     <header className="bg-white mx-auto w-full fixed top-0 left-0 z-50">
       {!hidePreNav && <PreNav />}
 
-      <div className="w-full flex justify-between items-center py-3 px-2 md:px-4 lg:px-10">
-        <h1 className="text-[#00105C] text-[24px] font-[700] flex items-center gap-3"><img src={logo} alt="" />Invest gana</h1>
-        
-        <nav className="hidden md:flex gap-5 md:gap-3 lg:gap-12 text-[#8B8B8B] text-sm md:text-[14px] lg:text-[17px] font-semibold">
-          {/* Home Link */}
+      <div className="w-full flex justify-between items-center py-3 px-2 md:px-4 lg:px-6">
+        <Link
+          to="/"
+          className="text-[#00105C] xl:text-[24px] lg:text-[16px] md:text-[14px] text-[14px] font-[700] flex items-center md:gap-3 gap-1"
+        >
+          <img src={logo} alt="logo" className="w-6 md:w-8" />
+          Ronor Group
+        </Link>
+
+        {/* Desktop Nav */}
+        <nav className="hidden md:flex gap-5 xl:gap-12 lg:gap-2 text-[#8B8B8B] text-sm md:text-[13px] lg:text-[14px] xl:text-[17px] font-semibold">
           <Link
             to="/"
-            className={`hover:text-[#0C1644] ${
-              isActive("/") ? "text-[#0C1644] font-bold" : "text-[#8B8B8B]"
-            }`}
+            className={`hover:text-[#0C1644] ${isActive("/") ? "text-[#0C1644] font-bold" : ""}`}
           >
             Home
           </Link>
-          
-          {/* Invest Ghana with Dropdown */}
-          <div 
+
+          <div
             className="relative"
             onMouseEnter={() => setActiveDropdown("investGhana")}
             onMouseLeave={() => setActiveDropdown(null)}
@@ -72,12 +78,12 @@ const Header = () => {
               Invest Ghana <TiArrowSortedDown className="text-[20px]" />
             </div>
             {activeDropdown === "investGhana" && (
-              <div className="absolute top-3 left-0 mt-2 w-56 bg-[#00105C] text-white shadow-lg rounded-md py-2 z-50">
+              <div className="absolute top-7 left-0 mt-2 w-56 bg-[#00105C] text-white shadow-lg rounded-md py-2 z-50">
                 {dropdownItems.investGhana.map((item, index) => (
                   <Link
                     key={index}
                     to={item.path}
-                    className="block px-4 py-2 text-sm text-white hover:bg-gray-100 hover:text-black"
+                    className="block px-4 py-2 hover:bg-gray-100 hover:text-black"
                   >
                     {item.name}
                   </Link>
@@ -85,19 +91,15 @@ const Header = () => {
               </div>
             )}
           </div>
-          
-          {/* Careers Link */}
+
           <Link
             to="/careers"
-            className={`hover:text-[#0C1644] ${
-              isActive("/careers") ? "text-[#0C1644] font-bold" : "text-[#8B8B8B]"
-            }`}
+            className={`hover:text-[#0C1644] ${isActive("/careers") ? "text-[#0C1644] font-bold" : ""}`}
           >
             Careers
           </Link>
-          
-          {/* All Sectors with Dropdown */}
-          <div 
+
+          <div
             className="relative"
             onMouseEnter={() => setActiveDropdown("allSectors")}
             onMouseLeave={() => setActiveDropdown(null)}
@@ -106,12 +108,12 @@ const Header = () => {
               Opportunity <TiArrowSortedDown className="text-[20px]" />
             </div>
             {activeDropdown === "allSectors" && (
-              <div className="absolute top-3.5 left-0 mt-2 w-56 bg-white shadow-lg rounded-md py-2 z-50">
+              <div className="absolute top-7 left-0 mt-2 w-56 bg-white shadow-lg rounded-md py-2 z-50">
                 {dropdownItems.allSectors.map((item, index) => (
                   <Link
                     key={index}
                     to={item.path}
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                   >
                     {item.name}
                   </Link>
@@ -119,39 +121,35 @@ const Header = () => {
               </div>
             )}
           </div>
-          
-          {/* Blog Link */}
+
           <Link
             to="/blog"
-            className={`hover:text-[#0C1644] ${
-              isActive("/blog") ? "text-[#0C1644] font-bold" : "text-[#8B8B8B]"
-            }`}
+            className={`hover:text-[#0C1644] ${isActive("/blog") ? "text-[#0C1644] font-bold" : ""}`}
           >
             Blog
           </Link>
         </nav>
-      
-        <div className="flex items-center gap-5">
-          <Link to="/conatctus">
-            <button className="hidden md:block bg-[#F00]  text-white px-4 md:px-5 py-1 md:py-3 text-xs md:text-[14px] lg:text-[15px] font-normal rounded-md">
-              Contact Us
-            </button>
+
+        {/* Desktop Buttons */}
+        <div className="hidden md:flex items-center gap-3">
+          <Link to="/contactus">
+            <button className="bg-[#F00] text-white xl:px-4 px-1 py-2 rounded-md text-sm">Contact Us</button>
           </Link>
 
           <Link to="/budget">
-            <button
-              onClick={() => setShowMobileMenu(false)}
-              className="Block bg-[#898989] text-white px-4 md:px-5 py-1 md:py-3 text-xs md:text-[15px] lg:text-[15px] font-normal rounded-md"
-            >
-              Budget 2025
-            </button>
+            <button className="bg-[#898989] text-white xl:px-4 px-1 py-2 rounded-md text-sm">Budget 2025</button>
           </Link>
-          
-          <div className="bg-black text-white md:px-5 py-1 md:py-2 rounded-md">
-            <input className="focus:outline-none border-none bg-transparent" type="text" placeholder="search ..." />
+
+          <div className="bg-black text-white px-3 py-1 rounded-md">
+            <input
+              className="focus:outline-none bg-transparent text-sm"
+              type="text"
+              placeholder="Search..."
+            />
           </div>
         </div>
-        
+
+        {/* Mobile Menu Icon */}
         <button
           className="md:hidden text-[#DC2625] text-2xl"
           onClick={() => setShowMobileMenu(true)}
@@ -159,53 +157,101 @@ const Header = () => {
           <FaBars />
         </button>
       </div>
-      
+
+      {/* Mobile Menu */}
       {showMobileMenu && (
-        <div className="fixed inset-0 bg-white z-50 flex flex-col items-center py-10 space-y-5 shadow-lg">
+        <div className="fixed inset-0 bg-white z-50 flex flex-col items-center px-5 pt-10 pb-20 space-y-4 overflow-auto">
           <button
-            className="absolute top-4 right-6 text-[#DC2625] text-2xl"
+            className="absolute top-4 right-4 text-[#DC2625] text-2xl"
             onClick={() => setShowMobileMenu(false)}
           >
             <FaTimes />
           </button>
-          
-          {["/", "/invest-ghana", "/careers", "/all-sectors", "/blog"].map(
-            (path, index) => (
-              <Link
-                key={index}
-                to={path}
-                className={`hover:text-[#0C1644] ${
-                  isActive(path) ? "text-[#0C1644] font-bold" : "text-[#8B8B8B]"
-                }`}
-                onClick={() => setShowMobileMenu(false)}
-              >
-                {path === "/"
-                  ? "Home"
-                  : path.substring(1).split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}
-              </Link>
-            )
-          )}
-          
-          <Link to="/contactus">
+
+          <Link to="/" onClick={() => setShowMobileMenu(false)} className="text-lg font-semibold">
+            Home
+          </Link>
+
+          <div className="w-full">
             <button
-              onClick={() => setShowMobileMenu(false)}
-              className="Block bg-[#F00] w-[194px] h-[48px] text-white px-4 md:px-5 py-1 md:py-2 text-xs md:text-[18px] lg:text-[18px] font-normal rounded-md"
+              className="w-full text-left flex justify-between items-center font-medium"
+              onClick={() =>
+                setMobileDropdown((prev) =>
+                  prev === "investGhana" ? null : "investGhana"
+                )
+              }
             >
+              Invest Ghana <TiArrowSortedDown />
+            </button>
+            {mobileDropdown === "investGhana" && (
+              <div className="ml-4 mt-2 space-y-2">
+                {dropdownItems.investGhana.map((item, index) => (
+                  <Link
+                    key={index}
+                    to={item.path}
+                    onClick={() => setShowMobileMenu(false)}
+                    className="block text-sm"
+                  >
+                    {item.name}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+
+          <Link to="/careers" onClick={() => setShowMobileMenu(false)} className="text-lg font-semibold">
+            Careers
+          </Link>
+
+          <div className="w-full">
+            <button
+              className="w-full text-left flex justify-between items-center font-medium"
+              onClick={() =>
+                setMobileDropdown((prev) =>
+                  prev === "allSectors" ? null : "allSectors"
+                )
+              }
+            >
+              Opportunity <TiArrowSortedDown />
+            </button>
+            {mobileDropdown === "allSectors" && (
+              <div className="ml-4 mt-2 space-y-2">
+                {dropdownItems.allSectors.map((item, index) => (
+                  <Link
+                    key={index}
+                    to={item.path}
+                    onClick={() => setShowMobileMenu(false)}
+                    className="block text-sm"
+                  >
+                    {item.name}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+
+          <Link to="/blog" onClick={() => setShowMobileMenu(false)} className="text-lg font-semibold">
+            Blog
+          </Link>
+
+          <Link to="/contactus" onClick={() => setShowMobileMenu(false)} className="w-full">
+            <button className="w-full bg-[#F00] text-white py-2 rounded-md text-base">
               Contact Us
             </button>
           </Link>
 
-          <Link to="/budget">
-            <button
-              onClick={() => setShowMobileMenu(false)}
-              className="Block bg-[#F00] w-[194px] h-[48px] text-white px-4 md:px-5 py-1 md:py-2 text-xs md:text-[18px] lg:text-[18px] font-normal rounded-md"
-            >
+          <Link to="/budget" onClick={() => setShowMobileMenu(false)} className="w-full">
+            <button className="w-full bg-[#898989] text-white py-2 rounded-md text-base">
               Budget 2025
             </button>
           </Link>
 
-          <div className="bg-black text-white md:px-5 py-1 md:py-2">
-            <input className="focus:outline-none border-none" type="text" placeholder="search ..." />
+          <div className="bg-black w-full px-3 py-2 rounded-md">
+            <input
+              className="w-full bg-transparent text-white focus:outline-none text-sm"
+              type="text"
+              placeholder="Search..."
+            />
           </div>
         </div>
       )}

@@ -40,15 +40,15 @@ const Initiatives = () => {
     <div className=' bg-[#00105C] p-6 rounded-3xl w-[90%] mx-auto mt-20 flex items-center gap-6 justify-between'>
         <div className=' w-[70%]'>
         <div className=' flex items-center justify-center'>
-       <button className=' text-[40px] font-[700] text-white bg-red-500 py-2 px-5 rounded-md'>Initiatives</button> 
+       <button className=' xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-[700] text-white bg-red-500 py-2 px-5 rounded-md'>Initiatives</button> 
        </div>
        <div className=' bg-white p-6 rounded-3xl mt-6'>
-           <h1 className=' uppercase text-[40px] font-[600] text-[#00105C] border-b-[3px] border-b-red-500 pb-2 w-fit'>Make in Ghana</h1>
+           <h1 className=' uppercase xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-[600] text-[#00105C] border-b-[3px] border-b-red-500 pb-2 w-fit'>Make in Ghana</h1>
            <div className=' flex items-center gap-12 mt-6 justify-between'>
             <img src={lion} alt="" />
             <div className=' flex flex-col gap-4'>
-            <p className=' text-[18px] font-[500] text-black'>The Make in Ghana initiative was launched by the Prime Minister in September 2014 as part of a wider set of nation-building initiatives. Devised to transform India into a global design and manufacturing hub, Make in India was a timely response to a critical situation.</p>
-            <Link to="/latest" className=' flex items-center w-fit gap-2 text-white bg-[#00105C] py-2 px-5 rounded-full text-[20px] font-[600]'>More Detail <FaArrowRight /></Link>
+            <p className=' xl:text-[18px] lg:text-[16px] md:text-[16px] text-[15px] font-[500] text-black'>The Make in Ghana initiative was launched by the Prime Minister in September 2014 as part of a wider set of nation-building initiatives. Devised to transform India into a global design and manufacturing hub, Make in India was a timely response to a critical situation.</p>
+            <Link to="/latest" className=' flex items-center w-fit gap-2 text-white bg-[#00105C] py-2 px-5 rounded-full xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px] font-[600]'>More Detail <FaArrowRight /></Link>
             </div>
            </div>
          
@@ -64,6 +64,7 @@ const Initiatives = () => {
                   <img
                     src={sector.image}
                     alt="image"
+                    className=' xl:w-[200px] lg:w-[100px]'
                   />
                   </div>
             ))}
@@ -90,12 +91,12 @@ const Initiatives = () => {
         </div>
 
 
-       <div className=' w-[30%] relative'>
+       <div className=' xl:w-[30%] lg:w-[35%] relative'>
            <img src={shak} alt="" />
-             <div className=' absolute top-12 px-12 text-center flex flex-col items-center justify-center gap-y-20'>
-             <h1 className=' text-[32px] font-[700] text-red-500'>Come Work With Us</h1>
-             <p className=' text-[18px] font-[500] text-white'>We are an organisation of young & vibrant professionals, looking for candidates who are passionate about India’s...</p>
-             <button className=' flex items-center w-fit gap-2 text-white bg-[#00105C] py-2 px-5 rounded-full text-[20px] font-[600]'>Know more <FaArrowRight /></button>
+             <div className=' absolute top-12 xl:px-12 px-4 text-center flex flex-col items-center justify-center xl:gap-y-20 lg:gap-y-10'>
+             <h1 className=' xl:text-[32px] lg:text-[28px] md:text-[24px] text-[20px] font-[700] text-red-500'>Come Work With Us</h1>
+             <p className=' xl:text-[18px] lg:text-[16px] md:text-[15px] text-[14px]font-[500] text-white'>We are an organisation of young & vibrant professionals, looking for candidates who are passionate about India’s...</p>
+             <button className=' flex items-center w-fit gap-2 text-white bg-[#00105C] py-2 px-5 rounded-full xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px] font-[600]'>Know more <FaArrowRight /></button>
              </div>
        </div>
     </div>

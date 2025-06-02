@@ -17,7 +17,7 @@ const Hero = () => {
          </h1>
             </div>
     </div>
-    <h1 className=' text-[30px] font-[600] text-white bg-red-500 py-3 px-32 flex items-center justify-between'><span className=' flex items-center gap-4'><FaLocationArrow />Promenade 67 & 73, Davos, Switzerland </span>  <span className=' flex items-center gap-4'><FaCalendar /> January 20th-24th, 2025</span></h1>
+    <h1 className=' xl:text-[30px] lg:text-[25px] md:text-[20px] text-[15px]  font-[600] text-white bg-red-500 py-3 px-32 flex items-center justify-between'><span className=' flex items-center gap-4'><FaLocationArrow />Promenade 67 & 73, Davos, Switzerland </span>  <span className=' flex items-center gap-4'><FaCalendar /> January 20th-24th, 2025</span></h1>
        </div>
   )
 }

@@ -29,15 +29,15 @@ const Resource = () => {
     ]
   return (
     <div className=' w-[95%] mx-auto my-20'>
-       <h1 className=' text-[#00105C] text-[40px] font-[800]'>Resources Repository</h1>
+       <h1 className=' text-[#00105C] xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-[800]'>Resources Repository</h1>
 
-          <div className=' mt-12 grid grid-cols-5 gap-6'>
+          <div className=' mt-12 grid grid-cols-5 lg:gap-6 gap-3'>
           {
             data.map((item, index) => (
                 <div key={index} className=' bg-[#00105C] border-l-[20px] border-l-red-500 flex flex-col gap-5 p-6 rounded-r-3xl'>
-                <h1 className=' text-white text-[20px] font-[800]'>{item.title}</h1>
-                <p className=' text-white text-[12px] font-[500]'>{item.desc}</p>
-                <button className=' text-[20px] text-white flex gap-3 items-center'> <LuDownload /> <span className=' font-[800]'>Pdf</span></button>
+                <h1 className=' text-white xl:text-[20px] lg:text-[14px] md:text-[16px] text-[15px] font-[800]'>{item.title}</h1>
+                <p className=' text-white  text-[12px] font-[500]'>{item.desc}</p>
+                <button className=' xl:text-[20px] lg:text-[14px] md:text-[16px] text-[15px] text-white flex gap-3 items-center'> <LuDownload /> <span className=' font-[800]'>Pdf</span></button>
             </div>
             ))
           }

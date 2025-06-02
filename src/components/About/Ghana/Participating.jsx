@@ -138,11 +138,11 @@ export default function Participating() {
     <div className="w-full">
          <h1 className=' bg-[#00105C] text-center p-4 my-20 text-[40px] font-[700] text-white'>Participating States and their Agenda</h1>
          <div className=' flex items-center justify-between w-[95%] mb-20 mx-auto'>
-            <img src={icon1} alt="" />
-            <img src={icon2} alt="" />
-            <img src={icon3} alt="" />
-            <img src={icon4} alt="" />
-            <img src={icon5} alt="" />
+            <img className=' xl:w-[500px] lg:w-[150px]' src={icon1} alt="" />
+            <img className=' xl:w-[500px] lg:w-[150px]' src={icon2} alt="" />
+            <img className=' xl:w-[500px] lg:w-[150px]' src={icon3} alt="" />
+            <img className=' xl:w-[500px] lg:w-[150px]' src={icon4} alt="" />
+            <img className=' xl:w-[500px] lg:w-[150px]' src={icon5} alt="" />
          </div>
       <div className="overflow-x-auto w-[95%] mx-auto shadow-lg rounded-lg">
         <table className="min-w-full bg-white border-collapse">

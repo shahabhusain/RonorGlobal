@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Mail, Phone } from 'lucide-react';
-import map from '../assets/map.png'
 export default function Contact() {
   const [formData, setFormData] = useState({
     firstName: '',
@@ -208,7 +207,6 @@ export default function Contact() {
           </div>
         </div>
 
-           <img className=' p-6' src={map} alt="" />
       </div>
     </div>
   );

@@ -14,13 +14,13 @@ const Apply = () => {
   return (
         <div>
              <div className=' w-[95%] mx-auto my-20 absolute top-[23rem] left-8'>
-        <div className=' bg- shadow-md p-12 rounded-xl bg-white'>
+        <div className=' shadow-md p-12 rounded-xl bg-white'>
            <div className=' flex items-center justify-between'>
              <div className=' flex items-center gap-4'>
             <img src={logo} alt="" />
               <div>
-                <h1 className=' text-[28px] font-[700] text-[#00105C]'>Junior Specialist</h1>
-                <p className=' text-[20px] font-[500] text-black'>Company Secretary</p>
+                <h1 className=' xl:text-[18px] lg:text-[16px] md:text-[15px] text-[14px] font-[700] text-[#00105C]'>Junior Specialist</h1>
+                <p className='  xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px] font-[500] text-black'>Company Secretary</p>
               </div>
            </div>
           <div className=' flex items-center gap-4'>
@@ -34,24 +34,24 @@ const Apply = () => {
                            <div className=' flex items-center gap-3'>
             <span className=' bg-[#E2F0F9] p-3 rounded-md'><MdOutlineDepartureBoard size={20} /></span>
              <div>
-                <h1 className=' text-[18px] font-[400] text-[#00105C]'>Department</h1>
-                <p className=' text-[18px] font-[700] text-black'>Invest Ghana</p>
+                <h1 className=' xl:text-[18px] lg:text-[16px] md:text-[15px] text-[14px] font-[400] text-[#00105C]'>Department</h1>
+                <p className='  xl:text-[18px] lg:text-[16px] md:text-[15px] text-[14px] font-[700] text-black'>Invest Ghana</p>
               </div>
            </div>
 
                       <div className=' flex items-center gap-3'>
             <span className=' bg-[#E2F0F9] p-3 rounded-md'><PiIdentificationCard size={20} /></span>
              <div>
-                <h1 className=' text-[18px] font-[400] text-[#00105C]'>Job ID</h1>
-                <p className=' text-[18px] font-[700] text-black'>406</p>
+                <h1 className=' xl:text-[18px] lg:text-[16px] md:text-[15px] text-[14px] font-[400] text-[#00105C]'>Job ID</h1>
+                <p className=' xl:text-[18px] lg:text-[16px] md:text-[15px] text-[14px] font-[700] text-black'>406</p>
               </div>
            </div>
 
                       <div className=' flex items-center gap-3'>
             <span className=' bg-[#E2F0F9] p-3 rounded-md'><MdMessage size={20} /></span>
              <div>
-                <h1 className=' text-[18px] font-[400] text-[#00105C]'>Experience</h1>
-                <p className=' text-[18px] font-[700] text-black'>5-6 Years</p>
+                <h1 className=' xl:text-[18px] lg:text-[16px] md:text-[15px] text-[14px] font-[400] text-[#00105C]'>Experience</h1>
+                <p className=' xl:text-[18px] lg:text-[16px] md:text-[15px] text-[14px] font-[700] text-black'>5-6 Years</p>
               </div>
            </div>
 
@@ -59,16 +59,16 @@ const Apply = () => {
                       <div className=' flex items-center gap-3'>
             <span className=' bg-[#E2F0F9] p-3 rounded-md'><MdLocationOn size={20} /></span>
              <div>
-                <h1 className=' text-[18px] font-[400] text-[#00105C]'>Location</h1>
-                <p className=' text-[18px] font-[700] text-black'>Delhi</p>
+                <h1 className=' xl:text-[18px] lg:text-[16px] md:text-[15px] text-[14px] font-[400] text-[#00105C]'>Location</h1>
+                <p className=' xl:text-[18px] lg:text-[16px] md:text-[15px] text-[14px] font-[700] text-black'>Delhi</p>
               </div>
            </div>
 
                       <div className=' flex items-center gap-3'>
             <span className=' bg-[#E2F0F9] p-3 rounded-md'><FaCalendarAlt size={20} /></span>
              <div>
-                <h1 className=' text-[18px] font-[400] text-[#00105C]'>Date Posted</h1>
-                <p className=' text-[18px] font-[700] text-black'>Posted 1 week ago</p>
+                <h1 className=' xl:text-[18px] lg:text-[16px] md:text-[15px] text-[14px] font-[400] text-[#00105C]'>Date Posted</h1>
+                <p className=' xl:text-[18px] lg:text-[16px] md:text-[15px] text-[14px] font-[700] text-black'>Posted 1 week ago</p>
               </div>
            </div>
             </div>

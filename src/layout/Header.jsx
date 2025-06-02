@@ -3,7 +3,6 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { TiArrowSortedDown } from "react-icons/ti";
 import { Link, useLocation } from "react-router-dom";
 import PreNav from "./PreNav";
-import logo from "../assets/logo.png";
 
 const Header = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -56,7 +55,6 @@ const Header = () => {
           to="/"
           className="text-[#00105C] xl:text-[24px] lg:text-[16px] md:text-[14px] text-[14px] font-[700] flex items-center md:gap-3 gap-1"
         >
-          <img src={logo} alt="logo" className="w-6 md:w-8" />
           Ronor Group
         </Link>
 

@@ -22,18 +22,15 @@ const Hero = () => {
     <Swiper
       modules={[Autoplay, Pagination, Navigation]}
       autoplay={{ delay: 5000 }}
-      pagination={{ clickable: true }}
-      navigation
       loop
-      className="h-screen"
     >
       {heroImages.map((bg, index) => (
         <SwiperSlide key={index}>
           <div
-            className="h-screen bg-cover bg-center flex items-center justify-center"
+            className="md:h-screen h-[400px] bg-cover bg-center flex items-center justify-center"
             style={{ backgroundImage: `url(${bg})` }}
           >
-            <div className="flex flex-col gap-5 items-center w-[90%] sm:w-[80%] md:w-[70%] mx-auto text-center backdrop-blur-sm p-5 sm:p-8 md:p-10 rounded-lg">
+            <div className="flex flex-col gap-5 items-center w-[90%] sm:w-[80%] md:w-[70%] mx-auto text-center md:backdrop-blur-sm p-5 sm:p-8 md:p-10 rounded-lg">
               <h1 className="text-[22px] md:text-[42px] lg:text-[72px] xl:text-[98px] font-[800] text-white drop-shadow-lg">
                 Ghana
               </h1>
@@ -42,30 +39,30 @@ const Hero = () => {
                 A LAND OF ECONOMIC OPPORTUNITIES
               </button>
 
-              <div className="bg-[#ffffff31] border-[#ffffff61] border-[2px] rounded-lg flex flex-col md:flex-row items-center justify-center p-4 sm:p-6 gap-4 sm:gap-6 w-full">
+              <div className="bg-[#ffffff31] border-[#ffffff61] border-[2px] rounded-lg flex items-center justify-center p-4 sm:p-6 gap-4 sm:gap-6 w-full">
                 {/* Box 1 */}
-                <div className="flex flex-col items-center justify-center gap-3 border-b-[1px] md:border-b-0 md:border-r-[2px] border-[#ffffff77] pb-4 md:pb-0 md:pr-6 w-full md:w-auto">
+                <div className="flex flex-col items-center justify-center md:gap-3 gap-1 border-b-[1px] md:border-b-0 md:border-r-[2px] border-[#ffffff77] pb-4 md:pb-0 md:pr-6 w-full md:w-auto">
                   <img className="w-[50px] sm:w-[60px] md:w-[70px]" src={img1} alt="" />
-                  <h1 className="text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px] font-[700] text-white">5th Largest Economy</h1>
-                  <p className="text-[11px] md:text-[13px] lg:text-[14px] xl:text-[16px] font-[500] text-white max-w-[300px] text-center">
+                  <h1 className="text-[8px] md:text-[14px] lg:text-[16px] xl:text-[18px] font-[700] text-white">5th Largest Economy</h1>
+                  <p className="text-[6px] md:text-[13px] lg:text-[14px] xl:text-[16px] font-[500] text-white max-w-[300px] text-center">
                     Estimated GDP Growth: 6.4% (FY25) — Fastest Among Large Economies
                   </p>
                 </div>
 
                 {/* Box 2 */}
-                <div className="flex flex-col items-center justify-center gap-3 border-b-[1px] md:border-b-0 md:border-r-[2px] border-[#ffffff77] pb-4 md:pb-0 md:pr-6 w-full md:w-auto">
+                <div className="flex flex-col items-center justify-center md:gap-3 gap-1 border-b-[1px] md:border-b-0 md:border-r-[2px] border-[#ffffff77] pb-4 md:pb-0 md:pr-6 w-full md:w-auto">
                   <img className="w-[50px] sm:w-[60px] md:w-[70px]" src={img2} alt="" />
-                  <h1 className="text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px] font-[700] text-white">Robust FDI</h1>
-                  <p className="text-[11px] md:text-[13px] lg:text-[14px] xl:text-[16px] font-[500] text-white max-w-[300px] text-center">
+                  <h1 className="text-[8px] md:text-[14px] lg:text-[16px] xl:text-[18px] font-[700] text-white">Robust FDI</h1>
+                  <p className="text-[6px] md:text-[13px] lg:text-[14px] xl:text-[16px] font-[500] text-white max-w-[300px] text-center">
                     69.14% of total FDI inflows (since April 2000) came after 2014
                   </p>
                 </div>
 
                 {/* Box 3 */}
-                <div className="flex flex-col items-center justify-center gap-3 w-full md:w-auto">
+                <div className="flex flex-col items-center justify-center md:gap-3 gap-1 w-full md:w-auto">
                   <img className="w-[50px] sm:w-[60px] md:w-[70px]" src={img3} alt="" />
-                  <h1 className="text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px] font-[700] text-white">Booming Exports</h1>
-                  <p className="text-[11px] md:text-[13px] lg:text-[14px] xl:text-[16px] font-[500] text-white max-w-[300px] text-center">
+                  <h1 className="text-[8px] md:text-[14px] lg:text-[16px] xl:text-[18px] font-[700] text-white">Booming Exports</h1>
+                  <p className="text-[6px] md:text-[13px] lg:text-[14px] xl:text-[16px] font-[500] text-white max-w-[300px] text-center">
                     Total: 433.09 Bn during FY 2023-24
                   </p>
                 </div>

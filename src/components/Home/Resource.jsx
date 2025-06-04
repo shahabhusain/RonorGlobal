@@ -31,7 +31,7 @@ const Resource = () => {
     <div className=' w-[95%] mx-auto my-20'>
        <h1 className=' text-[#00105C] xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-[800]'>Resources Repository</h1>
 
-          <div className=' mt-12 grid grid-cols-5 lg:gap-6 gap-3'>
+          <div className=' mt-12 grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-6 gap-3'>
           {
             data.map((item, index) => (
                 <div key={index} className=' bg-[#00105C] border-l-[20px] border-l-red-500 flex flex-col gap-5 p-6 rounded-r-3xl'>

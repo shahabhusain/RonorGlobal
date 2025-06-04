@@ -8,11 +8,36 @@ import client from "../../assets/client.png"
 const Client = () => {
   return (
     <div className=' bg-[#0C1644] p-12 my-20'>
- <Swiper  slidesPerView={1.2} spaceBetween={30} pagination={true} modules={[Pagination]} className="mySwiper">
+ <Swiper
+  slidesPerView={1.2}
+  spaceBetween={30}
+  breakpoints={{
+    640: {
+      slidesPerView: 1.5,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 25,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+    1280: {
+      slidesPerView: 4,
+      spaceBetween: 35,
+    },
+  }}
+  pagination={true}
+  modules={[Pagination]}
+  className="mySwiper"
+>
+
         <SwiperSlide>
         <div>
             <h1 className=' xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-[700] text-white flex items-center gap-2'><RiDoubleQuotesL /> Paypal</h1> 
-            <div className=' flex items-center gap-3 mt-4'>
+            <div className=' flex flex-col md:flex-row items-center gap-3 mt-4'>
               <img src={client} alt="" />
               <div className=' flex flex-col gap-3'>
                 <h1 className=' xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] text-white font-[700]'>I congratulate Invest India on being an amazing catalyst in helping businesses grow in gHANA. Companies lik... </h1>
@@ -25,7 +50,7 @@ const Client = () => {
         <SwiperSlide>
              <div>
             <h1 className=' xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-[700] text-white flex items-center gap-2'><RiDoubleQuotesL /> Paypal</h1> 
-            <div className=' flex items-center gap-3 mt-4'>
+            <div className=' flex flex-col md:flex-row items-center gap-3 mt-4'>
               <img src={client} alt="" />
               <div className=' flex flex-col gap-3'>
                 <h1 className=' xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] text-white font-[700]'>I congratulate Invest India on being an amazing catalyst in helping businesses grow in gHANA. Companies lik... </h1>

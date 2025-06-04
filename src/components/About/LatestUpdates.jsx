@@ -50,7 +50,7 @@ const LatestUpdates = () => {
           <li key={index} className=" flex justify-between items-start">
             <div className="flex items-center gap-6">
                 <div className=' w-[50px] h-[50px] bg-[#AFDCFF] flex items-center justify-center rounded-full'>
-                <div className='bg-[#00105C] w-[28px] h-[28px] rounded-full'></div>
+                <div className='bg-[#00105C] md:w-[28px] md:h-[28px] w-[18px] h-[18px] rounded-full'></div>
                 </div>
               <span className="xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px] text-[#00105C] font-medium max-w-[600px]">{item.title}</span>
             </div>

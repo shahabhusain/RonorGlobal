@@ -161,8 +161,8 @@ const DropDown = () => {
     <div className=' w-[90%] mx-auto mb-20 flex flex-col gap-4'>
           <div>
           <div onClick={()=>setOpen(1)} className='bg-[#FF0000] cursor-pointer  py-3 px-5 text-white flex items-center justify-between'>
-            <h1 className=' text-[48px] font-[800]'>SPOTLIGHT</h1>
-            <button onClick={()=>setOpen(1)} className=' text-[48px] font-[800]'>{open === 1 ? <>-</> : <>+</>}</button>
+            <h1 className=' xl:xl:text-[48px] lg:text-[40px] md:text-[32px] text-[25px] lg:text-[] font-[800]'>SPOTLIGHT</h1>
+            <button onClick={()=>setOpen(1)} className=' xl:text-[48px] lg:text-[40px] md:text-[32px] text-[25px] font-[800]'>{open === 1 ? <>-</> : <>+</>}</button>
         </div>
           {open === 1 ? <>
              <div className=' grid grid-cols-2 gap-5 mt-6'>
@@ -170,8 +170,8 @@ const DropDown = () => {
             drop1.map((item, index)=>(
                 <div key={index} className=' flex-col flex gap-3'>
                    <img src={item.img} alt="" />
-                   <h1 className=' text-[25px] font-[700] text-[#00105C]'>{item.title}</h1>
-                   <p className=' text-[20px] font-[400] text-[#00105C]'>{item.desc}</p>
+                   <h1 className=' xl:text-[25px] lg:text-[20px] md:text-[17px] text-[15px] font-[700] text-[#00105C]'>{item.title}</h1>
+                   <p className=' xl:text-[20px] lg:text-[18px] md:text-[16px] text-[14px] font-[400] text-[#00105C]'>{item.desc}</p>
                 </div>
             ))
           }
@@ -181,8 +181,8 @@ const DropDown = () => {
 
         <div>
         <div onClick={()=>setOpen(2)} className='bg-[#00105C] cursor-pointer  py-3 px-5 text-white flex items-center justify-between'>
-            <h1 className=' text-[48px] font-[800]'>SPOTLIGHT</h1>
-            <button onClick={()=>setOpen(2)} className=' text-[48px] font-[800]'>{open === 2 ? <>-</> : <>+</>}</button>
+            <h1 className=' xl:text-[48px] lg:text-[40px] md:text-[32px] text-[25px] font-[800]'>SPOTLIGHT</h1>
+            <button onClick={()=>setOpen(2)} className=' xl:text-[48px] lg:text-[40px] md:text-[32px] text-[25px] font-[800]'>{open === 2 ? <>-</> : <>+</>}</button>
         </div>
         {open === 2 ? <>
              <div className=' grid grid-cols-2 gap-5 mt-6'>
@@ -190,8 +190,8 @@ const DropDown = () => {
             drop2.map((item, index)=>(
                 <div key={index} className=' flex-col flex gap-3'>
                    <img src={item.img} alt="" />
-                   <h1 className=' text-[25px] font-[700] text-[#00105C]'>{item.title}</h1>
-                   <p className=' text-[20px] font-[400] text-[#00105C]'>{item.desc}</p>
+                   <h1 className=' xl:text-[25px] lg:text-[20px] md:text-[17px] text-[15px]  font-[700] text-[#00105C]'>{item.title}</h1>
+                   <p className=' xl:text-[20px] lg:text-[18px] md:text-[16px] text-[14px] font-[400] text-[#00105C]'>{item.desc}</p>
                 </div>
             ))
           }
@@ -201,8 +201,8 @@ const DropDown = () => {
 
           <div>
           <div onClick={()=>setOpen(3)} className='bg-[#8B8B8B] cursor-pointer  py-3 px-5 text-white flex items-center justify-between'>
-            <h1 className=' text-[48px] font-[800]'>SPOTLIGHT</h1>
-            <button onClick={()=>setOpen(3)} className=' text-[48px] font-[800]'>{open === 3 ? <>-</> : <>+</>}</button>
+            <h1 className=' xl:text-[48px] lg:text-[40px] md:text-[32px] text-[25px] font-[800]'>SPOTLIGHT</h1>
+            <button onClick={()=>setOpen(3)} className=' xl:text-[48px] lg:text-[40px] md:text-[32px] text-[25px] font-[800]'>{open === 3 ? <>-</> : <>+</>}</button>
         </div>
         {open === 3 ? <>
              <div className=' grid grid-cols-2 gap-5 mt-6'>
@@ -210,8 +210,8 @@ const DropDown = () => {
             drop3.map((item, index)=>(
                 <div key={index} className=' flex-col flex gap-3'>
                    <img src={item.img} alt="" />
-                   <h1 className=' text-[25px] font-[700] text-[#00105C]'>{item.title}</h1>
-                   <p className=' text-[20px] font-[400] text-[#00105C]'>{item.desc}</p>
+                   <h1 className=' xl:text-[25px] lg:text-[20px] md:text-[17px] text-[15px] font-[700] text-[#00105C]'>{item.title}</h1>
+                   <p className=' xl:text-[20px] lg:text-[18px] md:text-[16px] text-[14px] font-[400] text-[#00105C]'>{item.desc}</p>
                 </div>
             ))
           }
@@ -221,8 +221,8 @@ const DropDown = () => {
 
           <div>
           <div onClick={()=>setOpen(4)} className='bg-[#2B71B5] cursor-pointer  py-3 px-5 text-white flex items-center justify-between'>
-            <h1 className=' text-[48px] font-[800]'>SPOTLIGHT</h1>
-            <button onClick={()=>setOpen(4)} className=' text-[48px] font-[800]'>{open === 4 ? <>-</> : <>+</>}</button>
+            <h1 className=' xl:text-[48px] lg:text-[40px] md:text-[32px] text-[25px] font-[800]'>SPOTLIGHT</h1>
+            <button onClick={()=>setOpen(4)} className=' xl:text-[48px] lg:text-[40px] md:text-[32px] text-[25px] font-[800]'>{open === 4 ? <>-</> : <>+</>}</button>
         </div>
         {open === 4 ? <>
              <div className=' grid grid-cols-2 gap-5 mt-6'>
@@ -230,8 +230,8 @@ const DropDown = () => {
             drop4.map((item, index)=>(
                 <div key={index} className=' flex-col flex gap-3'>
                    <img src={item.img} alt="" />
-                   <h1 className=' text-[25px] font-[700] text-[#00105C]'>{item.title}</h1>
-                   <p className=' text-[20px] font-[400] text-[#00105C]'>{item.desc}</p>
+                   <h1 className=' xl:text-[25px] lg:text-[20px] md:text-[17px] text-[15px]  font-[700] text-[#00105C]'>{item.title}</h1>
+                   <p className=' xl:text-[20px] lg:text-[18px] md:text-[16px] text-[14px] font-[400] text-[#00105C]'>{item.desc}</p>
                 </div>
             ))
           }
@@ -241,8 +241,8 @@ const DropDown = () => {
 
           <div>
           <div onClick={()=>setOpen(5)} className='bg-[#48cd86] cursor-pointer  py-3 px-5 text-white flex items-center justify-between'>
-            <h1 className=' text-[48px] font-[800]'>SPOTLIGHT</h1>
-            <button onClick={()=>setOpen(5)} className=' text-[48px] font-[800]'>{open === 5 ? <>-</> : <>+</>}</button>
+            <h1 className=' xl:text-[48px] lg:text-[40px] md:text-[32px] text-[25px] font-[800]'>SPOTLIGHT</h1>
+            <button onClick={()=>setOpen(5)} className=' xl:text-[48px] lg:text-[40px] md:text-[32px] text-[25px] font-[800]'>{open === 5 ? <>-</> : <>+</>}</button>
         </div>
         {open === 5 ? <>
              <div className=' grid grid-cols-2 gap-5 mt-6'>
@@ -250,8 +250,8 @@ const DropDown = () => {
             drop5.map((item, index)=>(
                 <div key={index} className=' flex-col flex gap-3'>
                    <img src={item.img} alt="" />
-                   <h1 className=' text-[25px] font-[700] text-[#00105C]'>{item.title}</h1>
-                   <p className=' text-[20px] font-[400] text-[#00105C]'>{item.desc}</p>
+                   <h1 className=' xl:text-[25px] lg:text-[20px] md:text-[17px] text-[15px]  font-[700] text-[#00105C]'>{item.title}</h1>
+                   <p className=' xl:text-[20px] lg:text-[18px] md:text-[16px] text-[14px] font-[400] text-[#00105C]'>{item.desc}</p>
                 </div>
             ))
           }

@@ -7,7 +7,7 @@ const Initaitive = () => {
   return (
     <div className='my-20'>
         <div className=' flex items-center justify-between'>
-         <div className=' px-12'>
+         <div className=' md:px-12 px-4'>
          <h1 className=' xl:text-[30px] lg:text-[25px] md:text-[20px] text-[15px] font-[700] text-black  border-b-[4px] border-b-black  pb-3'>sustainability & initiatives</h1>
          </div>
           <div className=' border-[#7A7A7A] border-l-[2px] border-t-[2px] border-b-[2px] rounded-l-full py-2 px-3 flex items-center gap-2'>

@@ -81,15 +81,15 @@ const Transforming = () => {
        <h1 className=' text-[30px] max-w-[333px] font-[700] text-red-500 border-b-[3px] border-[#000] rounded-sm pb-4 '>Transforming Ghana sectors</h1>
        </div>
        <div className=' mt-12 flex justify-between'>
-        <div className=' flex flex-col gap-4 w-[20%]'>
+        <div className=' flex flex-col gap-4 md:w-[20%] w-[45%]'>
               {
                 Data.map((item, index)=>(
-                    <button onClick={()=>setSelect(index)}  key={index} className={`${select === index ? "" : "border-[2px] rounded-lg border-[#7A7A7A]"} text-[#00105C] xl:text-[20px] lg:text-[15px] md:text-[15px] text-[14px] font-[700] py-3 px-2 flex items-center`}>{select === index ? <div className=' relative'><img src={img} alt="" className='' /> <div className=' flex flex-col pl-4 absolute xl:top-10 top-4'>
+                    <button onClick={()=>setSelect(index)}  key={index} className={`${select === index ? "" : "border-[2px] rounded-lg border-[#7A7A7A]"} text-[#00105C] xl:text-[20px] lg:text-[15px] md:text-[15px] text-[10px] font-[700] py-3 px-2 flex items-center`}>{select === index ? <div className=' relative'><img src={img} alt="" className='' /> <div className=' flex flex-col pl-4 absolute xl:top-10 top-4'>
                          <img className=' xl:w-[30px] w-[20px]' src={item.w_icon} alt="" /> <h1 className=' text-white xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px]'>{item.title}</h1></div></div> : <div className=' flex items-center gap-4'><img src={item.img} alt="" />{item.title} </div>}</button>
                 ))
               }
         </div>
-        <div className=' w-[70%]'>
+        <div className=' md:w-[70%] w-[50%]'>
            {select === 0 ? <><ThirdLargest /></> : select === 1 ? <><GreenEnergy /></> : select === 2 ? <><Ev /></> : select === 3 ? <><Pharmace /></> : select === 4 ? <><Es /></> : select === 5 ? <><Chemical /></> : select === 6 ? <><Food /></> : select === 7 ? <><Texttile /></> : null}
         </div>
        </div>

@@ -39,11 +39,11 @@ const Services = () => {
     <div className='w-[95%] mx-auto pt-20'>
       <h1 className='xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-[700] text-[#00105C]'>Our Services</h1>
 
-      <div className='flex gap-6 mt-12 justify-center'>
+      <div className='flex flex-col md:flex-row gap-6 mt-12 justify-center'>
         {servicesData.map((item, index) => (
           <div
             key={index}
-            className='group flex flex-col gap-4 items-center border-[2px] w-[270px] hover:w-[400px] border-[#7A7A7A] py-8 px-3 rounded-md relative transition-all duration-300 ease-in-out hover:px-12 hover:bg-[#00105C] hover:border-none'
+            className='group flex flex-col gap-4 items-center border-[2px] md:w-[270px] w-[355px]  md:hover:w-[400px] border-[#7A7A7A] py-8 px-3 rounded-md relative transition-all duration-300 ease-in-out hover:px-12 hover:bg-[#00105C] hover:border-none'
           >
             <div className='flex flex-col group-hover:flex-row items-center gap-3 group-hover:mt-12 transition-all duration-300'>
               <img

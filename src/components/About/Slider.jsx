@@ -43,6 +43,7 @@ const Slider = () => {
                     {visibleSectors.map((sector, index) => (
                         <div key={index}>
                           <img
+                            className=' md:w-[150px] w-[100px]'
                             src={sector.image}
                             alt="image"
                           />
@@ -69,9 +70,9 @@ const Slider = () => {
                    </div>
            
                 <div className=' flex flex-col gap-y-8 mt-20'>
-                <h1 className=' flex items-center gap-4 text-[37px] font-[800] text-[#00105C]'><span className=' border-r-[8px] pr-3 border-red-500'>About</span> <span className=' border-r-[8px] pr-3 border-red-500'>Contact</span> <span className=' border-r-[8px] pr-3 border-red-500'>Cookies Policy</span> <span className=' border-r-[8px] pr-3 border-red-500'>DownloadsLinks</span> <span className=' border-r-[8px] pr-3 border-red-500'>Terms Of Service</span></h1>
+                <h1 className=' flex flex-col md:flex-row items-center gap-4 xl:text-[37px] lg:text-[30px] md:text-[22px] text-[16px] font-[800] text-[#00105C]'><span className=' border-r-[8px] pr-3 border-red-500'>About</span> <span className=' border-r-[8px] pr-3 border-red-500'>Contact</span> <span className=' border-r-[8px] pr-3 border-red-500'>Cookies Policy</span> <span className=' border-r-[8px] pr-3 border-red-500'>DownloadsLinks</span> <span className=' border-r-[8px] pr-3 border-red-500'>Terms Of Service</span></h1>
 
-<h1  className='text-[37px] font-[800] text-[#00105C]'>Use of the 'Make in Ghana’s logo is strictly prohibited without 
+<h1  className='xl:text-[37px] lg:text-[30px] md:text-[22px] md:text-start text-center text-[16px] font-[800] text-[#00105C]'>Use of the 'Make in Ghana’s logo is strictly prohibited without 
 permission of <span className=' text-red-500'>DPIIT</span></h1>
                 </div>
     </div>

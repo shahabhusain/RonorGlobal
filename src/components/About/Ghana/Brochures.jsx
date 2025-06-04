@@ -13,19 +13,19 @@ import img11 from '../../../assets/About/pd11.png'
 const Brochures = () => {
   return (
     <div>
-                 <h1 className=' bg-[#00105C] text-center p-4 my-20 text-[40px] font-[700] text-white'>Brochures</h1>
+                 <h1 className=' bg-[#00105C] text-center p-4 my-20 xl:text-[40px] lg:text-[30px] md:text-[25px] text-[25px] font-[700] text-white'>Brochures</h1>
                  <div className=' grid grid-cols-4 gap-5 w-[95%] mx-auto'>
-                    <img src={img1} alt="" />
-                    <img src={img2} alt="" />
-                    <img src={img3} alt="" />
-                    <img src={img4} alt="" />
-                    <img src={img5} alt="" />
-                    <img src={img6} alt="" />
-                    <img src={img7} alt="" />
-                    <img src={img8} alt="" />
-                    <img src={img9} alt="" />
-                    <img src={img10} alt="" />
-                    <img src={img11} alt="" />
+                    <img className='md:w-[500px] w-[100px]' src={img1} alt="" />
+                    <img className='md:w-[500px] w-[100px]' src={img2} alt="" />
+                    <img className='md:w-[500px] w-[100px]' src={img3} alt="" />
+                    <img className='md:w-[500px] w-[100px]' src={img4} alt="" />
+                    <img className='md:w-[500px] w-[100px]' src={img5} alt="" />
+                    <img className='md:w-[500px] w-[100px]' src={img6} alt="" />
+                    <img className='md:w-[500px] w-[100px]' src={img7} alt="" />
+                    <img className='md:w-[500px] w-[100px]' src={img8} alt="" />
+                    <img className='md:w-[500px] w-[100px]' src={img9} alt="" />
+                    <img className='md:w-[500px] w-[100px]' src={img10} alt="" />
+                    <img className='md:w-[500px] w-[100px]' src={img11} alt="" />
                  </div>
     </div>
   )

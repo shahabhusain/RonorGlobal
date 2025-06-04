@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa6";
 import preside from '../../assets/About/preside.png'
 const Investing = () => {
   return (
-    <div className=' flex items-center gap-12 bg-[#00105C] py-12 w-[95%] mx-auto my-20 rounded-3xl'>
+    <div className=' flex items-center gap-12 bg-[#00105C] py-12 md:px-0 px-4 w-[95%] mx-auto my-20 rounded-3xl'>
              <div>
              <h1 className=' xl:text-[38px] lg:text-[30px] md:text-[25px] text-[20px] font-[700] text-white bg-red-500 py-3 px-5'>Your one-stop shop for investing in ghana</h1>
           <div className=' flex flex-col gap-12 mt-8 xl:px-12 lg:px-4'>
@@ -19,7 +19,7 @@ const Investing = () => {
         </div>
           </div>
              </div>
-          <img className=' xl:px-12 lg:px-2' src={preside} alt="" />
+          <img className=' xl:px-12 lg:px-2 md:block hidden' src={preside} alt="" />
     </div>
   )
 }

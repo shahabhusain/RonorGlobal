@@ -136,37 +136,37 @@ export default function Participating() {
 
   return (
     <div className="w-full">
-         <h1 className=' bg-[#00105C] text-center p-4 my-20 text-[40px] font-[700] text-white'>Participating States and their Agenda</h1>
-         <div className=' flex items-center justify-between w-[95%] mb-20 mx-auto'>
-            <img className=' xl:w-[500px] lg:w-[150px]' src={icon1} alt="" />
-            <img className=' xl:w-[500px] lg:w-[150px]' src={icon2} alt="" />
-            <img className=' xl:w-[500px] lg:w-[150px]' src={icon3} alt="" />
-            <img className=' xl:w-[500px] lg:w-[150px]' src={icon4} alt="" />
-            <img className=' xl:w-[500px] lg:w-[150px]' src={icon5} alt="" />
+         <h1 className=' bg-[#00105C] text-center p-4 my-20 xl:text-[40px] lg:text-[30px] md:text-[25px] text-[25px] font-[700] text-white'>Participating States and their Agenda</h1>
+         <div className=' grid md:grid-cols-5 grid-cols-3 w-[95%] mb-20 mx-auto'>
+            <img className=' xl:w-[500px] w-[100px]' src={icon1} alt="" />
+            <img className=' xl:w-[500px] w-[100px]' src={icon2} alt="" />
+            <img className=' xl:w-[500px] w-[100px]' src={icon3} alt="" />
+            <img className=' xl:w-[500px] w-[100px]' src={icon4} alt="" />
+            <img className=' xl:w-[500px] w-[100px]' src={icon5} alt="" />
          </div>
       <div className="overflow-x-auto w-[95%] mx-auto shadow-lg rounded-lg">
         <table className="min-w-full bg-white border-collapse">
           <thead>
             <tr className="bg-[#00105C] text-white">
-              <th className="py-3 px-2 text-left text-[20px] font-[500] border border-indigo-800 w-12">S.No.</th>
-              <th className="py-3 px-2 text-left text-[20px] font-[500] border border-indigo-800 w-28">State</th>
-              <th className="py-3 px-2 text-left text-[20px] font-[500] border border-indigo-800 w-36">Theme</th>
-              <th className="py-3 px-2 text-left text-[20px] font-[500] border border-indigo-800">Topic</th>
-              <th className="py-3 px-2 text-left text-[20px] font-[500] border border-indigo-800 w-24">Schedule (CET)</th>
-              <th className="py-3 px-2 text-left text-[20px] font-[500] border border-indigo-800 w-28">Venue</th>
-              <th className="py-3 px-2 text-left text-[20px] font-[500] border border-indigo-800 w-28">Chair</th>
+              <th className="py-3 px-2 text-left xl:text-[20px] lg:text-[18px] md:text-[16px] text-[14px] font-[500] border border-indigo-800 w-12">S.No.</th>
+              <th className="py-3 px-2 text-left xl:text-[20px] lg:text-[18px] md:text-[16px] text-[14px] font-[500] border border-indigo-800 w-28">State</th>
+              <th className="py-3 px-2 text-left xl:text-[20px] lg:text-[18px] md:text-[16px] text-[14px] font-[500] border border-indigo-800 w-36">Theme</th>
+              <th className="py-3 px-2 text-left xl:text-[20px] lg:text-[18px] md:text-[16px] text-[14px] font-[500] border border-indigo-800">Topic</th>
+              <th className="py-3 px-2 text-left xl:text-[20px] lg:text-[18px] md:text-[16px] text-[14px] font-[500] border border-indigo-800 w-24">Schedule (CET)</th>
+              <th className="py-3 px-2 text-left xl:text-[20px] lg:text-[18px] md:text-[16px] text-[14px] font-[500] border border-indigo-800 w-28">Venue</th>
+              <th className="py-3 px-2 text-left xl:text-[20px] lg:text-[18px] md:text-[16px] text-[14px] font-[500] border border-indigo-800 w-28">Chair</th>
             </tr>
           </thead>
           <tbody>
             {scheduleData.map((item, index) => (
               <tr key={item.id} className={index % 2 === 0 ? "bg-blue-50" : "bg-blue-100"}>
-                <td className="py-2 px-2 text-[15px] border border-gray-200 font-medium">{item.id}</td>
-                <td className="py-2 px-2 text-[15px] border border-gray-200 font-medium">{item.state}</td>
-                <td className="py-2 px-2 text-[15px] border border-gray-200 font-medium">{item.theme}</td>
-                <td className="py-2 px-2 text-[15px] border border-gray-200">{item.topic}</td>
-                <td className="py-2 px-2 text-[15px] border border-gray-200">{item.schedule}</td>
-                <td className="py-2 px-2 text-[15px] border border-gray-200">{item.venue}</td>
-                <td className="py-2 px-2 text-[15px] border border-gray-200">{item.chair}</td>
+                <td className="py-2 px-2 md:text-[15px] text-[12px] border border-gray-200 font-medium">{item.id}</td>
+                <td className="py-2 px-2 md:text-[15px] text-[12px] border border-gray-200 font-medium">{item.state}</td>
+                <td className="py-2 px-2 md:text-[15px] text-[12px] border border-gray-200 font-medium">{item.theme}</td>
+                <td className="py-2 px-2 md:text-[15px] text-[12px] border border-gray-200">{item.topic}</td>
+                <td className="py-2 px-2 md:text-[15px] text-[12px] border border-gray-200">{item.schedule}</td>
+                <td className="py-2 px-2 md:text-[15px] text-[12px] border border-gray-200">{item.venue}</td>
+                <td className="py-2 px-2 md:text-[15px] text-[12px] border border-gray-200">{item.chair}</td>
               </tr>
             ))}
           </tbody>

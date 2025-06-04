@@ -4,9 +4,9 @@ import uni from '../../../assets/uni.png'
 const Union = () => {
   return (
      <div className='mt-20 px-12'>
-         <div className=' flex gap-7  '>
-        <img className=' w-[70%]' src={union} alt="" />
-          <div className='w-[30%]'>
+         <div className=' flex flex-col md:flex-row gap-7  '>
+        <img className=' md:w-[70%]' src={union} alt="" />
+          <div className='md:w-[30%]'>
           <div className=' border-[1px] flex flex-col items-center gap-4 border-[#7A7A7A] rounded-md p-4 '>
            <p className=' text-[18px] text-center font-[500] text-black'>We are Ghana national investment
            facilitation agency.</p>

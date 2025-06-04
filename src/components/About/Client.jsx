@@ -7,9 +7,9 @@ import { RiDoubleQuotesL } from "react-icons/ri";
 import client from "../../assets/client.png"
 const Client = () => {
   return (
-    <div className=' bg-[#0C1644] p-12 my-20'>
+    <div className=' bg-[#0C1644] my-20 p-12'>
  <Swiper
-  slidesPerView={1.2}
+  slidesPerView={1.5}
   spaceBetween={30}
   breakpoints={{
     640: {

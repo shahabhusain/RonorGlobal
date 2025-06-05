@@ -34,7 +34,7 @@ function JobBoard() {
 
   return (
      <div className=' mt-20'>
-           <h1 className="text-[42px] font-bold mb-4 text-center text-white bg-red-600 py-3 ">
+           <h1 className="xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px]  font-bold mb-4 text-center text-white bg-red-600 py-3 ">
         Latest Jobs Opportunities
       </h1>
         <div className="w-[95%] mx-auto mt-16">

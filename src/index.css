@@ -25,7 +25,6 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 500px;
 }
 
 .trans{
@@ -131,7 +130,6 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 500px;
 }
 
 .civill1{
@@ -139,7 +137,6 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 500px;
 }
 
 .civill2{
@@ -147,7 +144,6 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 500px;
 }
 
 .civill3{
@@ -155,15 +151,13 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 500px;
 }
 
 .civill4{
    background-image: url(../src/assets/AllStates/jev.png);
-  background-size: cover;
+ background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 500px;
 }
 
 .civil1{
@@ -213,7 +207,7 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 400px;
+
 }
 
 .bg2{
@@ -248,7 +242,6 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 700px;
 }
 
 .bggg4{
@@ -257,7 +250,7 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 528px;
+
 }
 
 .bgg44{
@@ -266,7 +259,6 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 628px;
 }
 
 .text-stroke {

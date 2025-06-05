@@ -2,7 +2,7 @@ import React from 'react'
 import img1 from '../../assets/Career/shak.png'
 const WhyWeChoose = () => {
   return (
-    <div className='bg-[#0C1644] p-12 rounded-2xl text-white flex gap-12 w-[95%] mx-auto mt-20 justify-between '>
+    <div className='bg-[#0C1644] md:p-12 p-4 rounded-2xl text-white flex gap-12 flex-col md:flex-row w-[95%] mx-auto mt-20 justify-between '>
       <div className=' flex flex-col gap-12'>
         <h1 className=' xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-[800]'>Why choose Invest India</h1>
         <h2 className=' xl:text-[32px] lg:text-[25px] md:text-[20px] text-[16px] font-[600]'>This is a once-in-a-lifetime opportunity to work with a national platform in start-up like setup.</h2>

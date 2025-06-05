@@ -9,7 +9,7 @@ import Contact from '../../components/About/Ghana/Contact'
 
 const District = () => {
   return (
-    <div className=' my-32'>
+    <div className=' md:my-32 my-12'>
         <Hero />
         <Snapshot />
         <WhatWeDo />

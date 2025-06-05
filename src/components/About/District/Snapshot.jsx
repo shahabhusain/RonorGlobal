@@ -3,8 +3,8 @@ import you from '../../../assets/you.png'
 const Snapshot = () => {
   return (
     <div>
-        <h1 className=' bg-[#0C1644] py-6 px-12 text-white text-[40px] font-[800] text-center'>Snapshot</h1>
-        <div className=' bg-[#002be825] p-12  w-[90%] mx-auto rounded-3xl mt-20 flex items-center justify-between gap-12'>
+        <h1 className=' bg-[#0C1644] py-6 px-12 text-white xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-[800] text-center'>Snapshot</h1>
+        <div className=' bg-[#002be825] md:p-12 px-4 py-4  w-[90%] mx-auto rounded-3xl mt-20 flex flex-col-reverse md:flex-row items-center justify-between gap-12'>
                 <div className='flex flex-col gap-5'>
                 <h1 className=' xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px] font-[600] text-black'>The ODOP initiative is aimed at manifesting the vision of the Hon’ble Prime Minister of Ghana to foster balanced regional development across all districts of the country.</h1>
             <h2 className='xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px] font-[600] text-black'>The idea is to select, brand, and promote One Product from each District of the country</h2>

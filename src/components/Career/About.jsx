@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className=' mb-20 mt-72 flex flex-col gap-12 w-[95%] mx-auto'>
+    <div className=' mb-20 md:mt-72 mt-12 flex flex-col gap-12 w-[95%] mx-auto'>
       <div className='flex flex-col gap-6'>
           <h1 className=' xl:text-[35px] lg:text-[30px] md:text-[25px] text-[20px] font-[700] bg-red-500 text-white py-3 px-5 w-fit'>About the Department</h1>
         <p className=' xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px] font-[400] text-black'>Invest India is the National Investment Promotion and Facilitation Agency under the Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce and Industry, Government of India. It hosts teams working with various government initiatives such as Make in India, Startup India, AGNii, and PMG</p>

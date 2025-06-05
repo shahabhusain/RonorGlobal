@@ -42,14 +42,14 @@ const Blog = () => {
     <div className="min-h-screen bg-gray-100">
       {/* Header */}
       <div className="bg-red-500 mt-20 text-white text-center py-4">
-        <h1 className="text-[42px] font-bold">Blogs</h1>
+        <h1 className="xl:text-[42px] lg:text-[35px] md:text-[30px] text-[25px]  font-bold">Blogs</h1>
       </div>
 
-      <div className="container mx-auto px-4 py-8 mt-12">
+      <div className="container mx-auto px-4 py-8 md:mt-12">
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Left Section - Blog Posts */}
           <div className="lg:w-1/2">
-            <h2 className="text-3xl font-bold text-gray-800 mb-6">Blogs</h2>
+            <h2 className="xl:text-[42px] lg:text-[35px] md:text-[30px] text-[25px] font-bold text-gray-800 mb-6">Blogs</h2>
             
             <div className="space-y-4">
               {blogPosts.map((post, index) => (

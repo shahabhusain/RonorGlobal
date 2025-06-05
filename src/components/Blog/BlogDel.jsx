@@ -7,12 +7,12 @@ const BlogDel = () => {
       {/* Hero Section */}
       <div className="relative ">
         <div className=" px-4 py-8">
-          <div className=" flex">
+          <div className=" flex flex-col md:flex-row">
           
-     <img className=' w-[70%]' src={blog} alt="" />
+     <img className=' md:w-[70%]' src={blog} alt="" />
 
             {/* Right - CTA Card */}
-            <div className="lg:col-span-1 w-[30%] ">
+            <div className="lg:col-span-1 md:w-[30%] mt-5 md:mt-0 ">
               <div className="bg-white rounded-lg  shadow-lg p-6 max-w-sm mx-auto">
                 <div className="text-center mb-4 flex flex-col items-center justify-center">
                      <p className="text-sm text-gray-600 leading-relaxed">

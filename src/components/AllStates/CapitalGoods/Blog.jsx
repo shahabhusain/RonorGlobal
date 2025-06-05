@@ -42,7 +42,7 @@ const Blog = () => {
     <div className="min-h-screen bg-gray-100">
       {/* Header */}
       <div className="bg-red-500 mt-20 text-white text-center py-4">
-        <h1 className="text-[42px] font-bold">Blogs</h1>
+        <h1 className="xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-bold">Blogs</h1>
       </div>
 
       <div className=" w-[80%] mx-auto px-4 py-8 mt-12">

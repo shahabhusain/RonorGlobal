@@ -115,8 +115,8 @@ const NewsUI = () => {
     <div className="">
       <div className="w-[95%] mx-auto p-4">
         {/* Header */}
-        <div className="flex items-center justify-between mb-6">
-          <div className="flex items-center gap-12 justify-between w-full">
+        <div className="flex items-center flex-col md:flex-row justify-between mb-6">
+          <div className="flex items-center md:gap-12 gap-2 justify-between w-full">
             <div className="relative w-full pl-4 pr-10 py-3 border border-gray-300 rounded-md  focus:outline-none focus:ring-2 focus:ring-blue-500">
               <input
                 type="text"
@@ -136,7 +136,7 @@ const NewsUI = () => {
           <div className="lg:col-span-3">
             {/* Latest Articles Header */}
             <div className=" mb-12 flex items-center gap-6">
-              <h2 className=" font-semibold bg-red-600 w-[500px] text-white px-4 py-2 rounded-r-md text-[36px]">Latest Articles</h2>
+              <h2 className=" font-semibold bg-red-600 md:w-[500px] w-[300px] text-white px-4 py-2 rounded-r-md md:text-[36px] text-[25px]">Latest Articles</h2>
               <div className='bg-red-600 w-full h-[2px]'></div>
             </div>
 
@@ -144,12 +144,12 @@ const NewsUI = () => {
             <div className="bg-white border border-gray-200 rounded-b-md">
               {articles.map((article, index) => (
                 <div key={article.id} className={`p-4 ${index !== articles.length - 1 ? 'border-b border-gray-200' : ''}`}>
-                  <div className="flex items-start space-x-4">
+                  <div className="flex flex-col md:flex-row items-start space-x-4">
                     {/* Article Image */}
-                  <img className=' w-[200px]' src={article.image} alt="" />
+                  <img className=' md:w-[200px]' src={article.image} alt="" />
 
                     {/* Article Content */}
-                    <div className="flex-1">
+                    <div className="flex-1 mt-4 md:mt-0">
                       <div className="text-sm text-gray-500 mb-1">{article.date}</div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-2 hover:text-blue-600 cursor-pointer">
                         {article.title}

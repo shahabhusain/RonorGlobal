@@ -90,7 +90,7 @@ const Transforming = () => {
               }
         </div>
         <div className=' md:w-[70%] w-[60%]'>
-           {select === 0 ? <><ThirdLargest /></> : select === 1 ? <><GreenEnergy /></> : select === 2 ? <><Ev /></> : select === 3 ? <><Pharmace /></> : select === 4 ? <><Es /></> : select === 5 ? <><Chemical /></> : select === 6 ? <><Food /></> : select === 7 ? <><Texttile /></> : null}
+           {select === 0 ? <><ThirdLargest /></> : select === 1 ? <><GreenEnergy /></> : select === 2 ? <><Ev /></> : select === 3 ? <><Pharmace /></> : select === 4 ? <><Es /></> : select === 6 ? <><Chemical /></> : select === 5 ? <><Food /></> : select === 7 ? <><Texttile /></> : null}
         </div>
        </div>
     </div>

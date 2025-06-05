@@ -7,13 +7,13 @@ const AviationSectorUI = () => {
     <div className="">
       {/* Top Statistics Section */}
       <div className="bg-gradient-to-r from-[#0C1644] mt-20 to-[#152d96] p-6 w-[95%] mx-auto ">
-        <div className="flex justify-between items-center space-x-4">
+        <div className="flex flex-col md:flex-row gap-4 md:gap-0 justify-between items-center space-x-4">
           {/* Stat 1 */}
           <div className=" flex flex-col items-center justify-center gap-y-4">
              <img src={icon1} alt="" />
                <div className='bg-red-800 p-4 min-h-[120px] rounded-lg flex-1 text-white text-center'>
-                <div className="text-[24px] font-bold mb-2">$1 Tn</div>
-            <div className="text-[20px] font-[600] max-w-[344px]">
+                <div className="md:text-[24px] text-[21] font-bold mb-2">$1 Tn</div>
+            <div className="md:text-[20px] text-[15px] font-[600] max-w-[344px]">
             Contribution of the construction sector 
 to Ghana economic output by 2030, 
 with employment in the sector 
@@ -27,8 +27,8 @@ increasing by 100 Mn
            <div className=" flex flex-col items-center justify-center gap-y-4">
              <img src={icon2} alt="" />
                <div className='bg-red-800 p-4 min-h-[120px]  rounded-lg flex-1 text-white text-center'>
-                <div className="text-[24px] font-bold mb-2">6th</div>
-            <div className="text-[20px] font-[600] max-w-[344px]">
+                <div className="md:text-[24px] text-[21] font-bold mb-2">6th</div>
+            <div className="md:text-[20px] text-[15px] font-[600] max-w-[344px]">
              One of the largest recipients of the FDI Inflows with total FDI inflows worth $35.24 Bn during April 2000 and September 2024
             </div>
                </div>
@@ -38,8 +38,8 @@ increasing by 100 Mn
           <div className=" flex flex-col items-center justify-center gap-y-4">
              <img src={icon3} alt="" />
                <div className='bg-red-800 p-4 min-h-[120px]  rounded-lg flex-1 text-white text-center'>
-                <div className="text-[24px] font-bold mb-2">$8.9 Bn</div>
-            <div className="text-[20px] font-[600] max-w-[344px]">
+                <div className="md:text-[24px] text-[21] font-bold mb-2">$8.9 Bn</div>
+            <div className="md:text-[20px] text-[15px] font-[600] max-w-[344px]">
              Revenue generation potential of the warehousing market in the upcoming decade. 
             </div>
                </div>
@@ -49,10 +49,10 @@ increasing by 100 Mn
     
 
         <div className="bg-red-600 text-white text-center py-3 mt-20">
-        <h2 className="text-[42px] font-bold">Sector Overview</h2>
+        <h2 className="xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-bold">Sector Overview</h2>
       </div>
 
-      <div className="p-6 text-[20px] font-[500] leading-relaxed">
+      <div className="p-6 md:text-[20px] text-[15px] font-[500] leading-relaxed">
         <p className="mb-4 ">
         Ghana’s construction sector stands as a cornerstone of the nation's economic strategy, pivotal in addressing critical infrastructure needs and providing substantial employment opportunities. Infrastructure construction and real estate assets like offices, retail, housing, and data centres have been the major focus areas for both the government and the private sector.  Logistics and warehousing have emerged as critical components within Ghana’s construction sector, driven by rapid urbanization and the need for efficient supply chain networks. According to NAREDCO and Knight Frank's Report, Ghana’s warehousing market is expected to see potential demand for 159 Mn square feet by 2047, with an annual compound growth rate of 4%. The e-commerce and manufacturing industries fuel this growth by driving investments in logistics parks, industrial corridors, and modern warehousing facilities across the country. Ghana’s real estate sector is also set to expand significantly, with projections indicating it could reach $5.8 Tn by 2047, contributing 15.5% to the total economic output.
         </p>
@@ -70,45 +70,80 @@ Sustainable development remains a key focus within India's construction sector, 
 
       {/* Why Invest Section */}
       <div className="bg-red-600 text-white text-center py-3">
-        <h2 className="text-[42px] font-bold">Why Invest in Construction</h2>
+        <h2 className="xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-bold">Why Invest in Construction</h2>
       </div>
 
-      <div className="p-6 mt-12 w-[95%] mx-auto ">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          {/* Growing Demand */}
-          <div className="civil1 p-5">
-            <h3 className="font-bold mb-2 text-[24px] text-gray-800">Global market</h3>
-            <p className="text-[20px] font-[500] text-gray-700">
-             3rd largest global construction market by 2025.
-            </p>
-          </div>
-
-          {/* Infrastructural Development */}
-          <div className="civil2 p-5">
-            <h3 className="font-bold mb-2 text-[24px] text-gray-800">Robust urban transit 
-network</h3>
-            <p className="text-[20px] font-[500]  text-gray-700">
-              3rd largest metro network globally, catering to 10 Mn daily riders.
-            </p>
-          </div>
-
-          {/* Privatization of airports */}
-          <div className="civil3 p-5">
-            <h3 className="font-bold text-[24px] mb-2 text-gray-800">Growth Opportunities</h3>
-            <p className="text-[20px] font-[500] text-gray-700">
-              Enormous growth opportunities in solid waste management, office stock, retail stock, data centers.
-            </p>
-          </div>
-
-          {/* MRO Investment Opportunity */}
-          <div className="civil4 p-5">
-            <h3 className="font-bold mb-2 text-[24px] text-gray-800">Urbanization</h3>
-            <p className="text-[20px] font-[500] text-gray-700">
-             50% of Ghana will be living in urban areas by 2046, further giving a boost to the Construction market.
-            </p>
-          </div>
+      <div className="p-6 mt-12 w-[95%] mx-auto">
+  {/* Mobile Slider */}
+  <div className="block md:hidden overflow-x-auto">
+    <div className="flex gap-4 px-1">
+      {[
+        {
+          title: 'Global market',
+          desc: '3rd largest global construction market by 2025.',
+          class: 'civil1',
+        },
+        {
+          title: 'Robust urban transit network',
+          desc: '3rd largest metro network globally, catering to 10 Mn daily riders.',
+          class: 'civil2',
+        },
+        {
+          title: 'Growth Opportunities',
+          desc: 'Enormous growth opportunities in solid waste management, office stock, retail stock, data centers.',
+          class: 'civil3',
+        },
+        {
+          title: 'Urbanization',
+          desc: '50% of Ghana will be living in urban areas by 2046, further giving a boost to the Construction market.',
+          class: 'civil4',
+        },
+      ].map((item, i) => (
+        <div
+          key={i}
+          className={`${item.class} min-w-[85%] shrink-0 p-5 rounded-lg bg-white shadow-md`}
+        >
+          <h3 className="font-bold mb-2 text-lg text-gray-800">{item.title}</h3>
+          <p className="text-sm font-medium text-gray-700">{item.desc}</p>
         </div>
-      </div>
+      ))}
+    </div>
+  </div>
+
+  {/* Desktop Grid */}
+  <div className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-6 md:mt-0">
+    <div className="civil1 p-5 rounded-lg bg-white shadow">
+      <h3 className="font-bold mb-2 md:text-[24px] text-[21px] text-gray-800">Global market</h3>
+      <p className="md:text-[20px] text-[15px] font-[500] text-gray-700">
+        3rd largest global construction market by 2025.
+      </p>
+    </div>
+
+    <div className="civil2 p-5 rounded-lg bg-white shadow">
+      <h3 className="font-bold mb-2 md:text-[24px] text-[21px] text-gray-800">
+        Robust urban transit network
+      </h3>
+      <p className="md:text-[20px] text-[15px] font-[500] text-gray-700">
+        3rd largest metro network globally, catering to 10 Mn daily riders.
+      </p>
+    </div>
+
+    <div className="civil3 p-5 rounded-lg bg-white shadow">
+      <h3 className="font-bold mb-2 md:text-[24px] text-[21px] text-gray-800">Growth Opportunities</h3>
+      <p className="md:text-[20px] text-[15px] font-[500] text-gray-700">
+        Enormous growth opportunities in solid waste management, office stock, retail stock, data centers.
+      </p>
+    </div>
+
+    <div className="civil4 p-5 rounded-lg bg-white shadow">
+      <h3 className="font-bold mb-2 md:text-[24px] text-[21px] text-gray-800">Urbanization</h3>
+      <p className="md:text-[20px] text-[15px] font-[500] text-gray-700">
+        50% of Ghana will be living in urban areas by 2046, further giving a boost to the Construction market.
+      </p>
+    </div>
+  </div>
+</div>
+
     </div>
   );
 };

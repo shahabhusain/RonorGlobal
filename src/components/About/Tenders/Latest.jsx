@@ -85,131 +85,136 @@ export default function Latest() {
   const years = ['2025', '2024', '2023', '2022', '2021'];
 
   return (
-    <div className="w-[95%] mx-auto">
-      {/* Search Bar */}
-      <div className="flex flex-wrap gap-4 mb-8 ">
-        <div className="flex-1 min-w-64">
-          <div className="relative">
-            <input
-              type="text"
-              placeholder="Search Here..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full pl-4 pr-10 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-            />
-            <Search className="absolute right-3 top-3.5 h-5 w-5 text-gray-400" />
-          </div>
-        </div>
-        
-        <div className="min-w-32">
-          <select
-            value={selectedMonth}
-            onChange={(e) => setSelectedMonth(e.target.value)}
-            className="w-full px-3 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white"
-          >
-            <option value="">Month</option>
-            {months.map((month, index) => (
-              <option key={index} value={month}>{month}</option>
-            ))}
-          </select>
-        </div>
-        
-        <div className="min-w-24">
-          <select
-            value={selectedYear}
-            onChange={(e) => setSelectedYear(e.target.value)}
-            className="w-full px-3 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white"
-          >
-            <option value="">Year</option>
-            {years.map((year) => (
-              <option key={year} value={year}>{year}</option>
-            ))}
-          </select>
-        </div>
+   <div className="w-[95%] mx-auto">
+  {/* Search Bar */}
+  <div className="flex flex-wrap gap-4 mb-8">
+    <div className="flex-1 min-w-64">
+      <div className="relative">
+        <input
+          type="text"
+          placeholder="Search Here..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="w-full pl-4 pr-10 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-base md:text-lg"
+        />
+        <Search className="absolute right-3 top-3.5 h-5 w-5 text-gray-400" />
       </div>
+    </div>
+    
+    <div className="min-w-32">
+      <select
+        value={selectedMonth}
+        onChange={(e) => setSelectedMonth(e.target.value)}
+        className="w-full px-3 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-base md:text-lg"
+      >
+        <option value="">Month</option>
+        {months.map((month, index) => (
+          <option key={index} value={month}>{month}</option>
+        ))}
+      </select>
+    </div>
+    
+    <div className="min-w-24">
+      <select
+        value={selectedYear}
+        onChange={(e) => setSelectedYear(e.target.value)}
+        className="w-full px-3 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-base md:text-lg"
+      >
+        <option value="">Year</option>
+        {years.map((year) => (
+          <option key={year} value={year}>{year}</option>
+        ))}
+      </select>
+    </div>
+  </div>
 
-      {/* Tender Listings */}
-      <div className="space-y-8">
-        {tenders.map((tender, index) => (
-            <div>
-                            <h2 className="text-[40px] font-bold text-center">{index + 1} Tender</h2>
-               <div key={tender.id} className="bg-white rounded-lg shadow-sm border mt-6 border-gray-200">
-            {/* Tender Header */}
-            {/* Tender Details */}
-            <div className="p-6">
-              {/* Reference Number and Release Date */}
-              <div className="flex justify-between items-center mb-4">
-                <div>
-                  <span className="text-[24px] font-[600] text-gray-600">Tender Reference No.: </span>
-                  <span className="text-[24px] font-[600]">{tender.referenceNo}</span>
-                </div>
-                  <div>
-                  <span className="text-[24px] font-[600] text-[#0C1644] ">Release Date: {tender.releaseDate}</span>
-                </div>
-              </div>
-
-              {/* Pre-Bid Meeting Info */}
-              <div className="bg-[#0C1644] text-white px-3 py-6 rounded-md mb-4">
-                <div className="flex  gap-4 text-[18px] font-[600]">
-                  <span>
-                    <span className="text-red-400">{tender.preBidMeeting ? "Pre-Bid Meeting:" : null}</span> {tender.preBidMeeting}
-                  </span>
-                  {tender.preBidMeetingSecond && (
-                    <span>
-                      | <span className="text-red-400"> {tender.preBidMeetingSecond ? "Pre-Bid Meeting:" : null}</span> {tender.preBidMeetingSecond}
-                    </span>
-                  )}
-                  {tender.lastDate && (
-                    <span>
-                      | <span className="text-red-400"> {tender.lastDate ? "Last Date of query submission:" : null}</span> {tender.lastDate}
-                    </span>
-                  )}
-                  {tender.bidSubmission && (
-                    <span>
-                      | <span className="text-red-400">Last Date of bid Submission:</span> {tender.bidSubmission}
-                    </span>
-                  )}
-                </div>
-              </div>
-
-              {/* Tender Title */}
-              <h3 className="text-[32px] font-semibold text-gray-900 mb-3">{tender.title}</h3>
-
-              {/* Description */}
-              <p className="text-gray-700 text-[20px] font-[500] leading-relaxed mb-4">{tender.description}</p>
-
-              {/* Links Section */}
+  {/* Tender Listings */}
+  <div className="space-y-8">
+    {tenders.map((tender, index) => (
+      <div key={tender.id}>
+        <h2 className="text-2xl md:text-[40px] font-bold text-center">{index + 1} Tender</h2>
+        <div className="bg-white rounded-lg shadow-sm border mt-6 border-gray-200">
+          {/* Tender Details */}
+          <div className="p-4 md:p-6">
+            {/* Reference Number and Release Date */}
+            <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4 gap-2">
               <div>
-                <h4 className="font-semibold text-gray-900 text-[36px] mb-3">Links:</h4>
-                <ul className="space-y-1">
-                  {tender.links.map((link, linkIndex) => (
-                    <li key={linkIndex} className="flex items-center">
-                      <span className="w-2 h-2 bg-blue-600 rounded-full mr-3 flex-shrink-0"></span>
-                      
+                <span className="text-sm md:text-[24px] font-[600] text-gray-600">Tender Reference No.: </span>
+                <span className="text-sm md:text-[24px] font-[600]">{tender.referenceNo}</span>
+              </div>
+              <div>
+                <span className="text-sm md:text-[24px] font-[600] text-[#0C1644]">Release Date: {tender.releaseDate}</span>
+              </div>
+            </div>
+
+            {/* Pre-Bid Meeting Info */}
+            <div className="bg-[#0C1644] text-white px-3 py-4 md:py-6 rounded-md mb-4">
+              <div className="flex flex-col md:flex-row md:gap-4 text-xs md:text-[18px] font-[600] space-y-1 md:space-y-0">
+                {tender.preBidMeeting && (
+                  <span>
+                    <span className="text-red-400">Pre-Bid Meeting:</span> {tender.preBidMeeting}
+                  </span>
+                )}
+                {tender.preBidMeetingSecond && (
+                  <span>
+                    {tender.preBidMeeting && "| "}
+                    <span className="text-red-400">Pre-Bid Meeting:</span> {tender.preBidMeetingSecond}
+                  </span>
+                )}
+                {tender.lastDate && (
+                  <span>
+                    {(tender.preBidMeeting || tender.preBidMeetingSecond) && "| "}
+                    <span className="text-red-400">Last Date of query submission:</span> {tender.lastDate}
+                  </span>
+                )}
+                {tender.bidSubmission && (
+                  <span>
+                    {(tender.preBidMeeting || tender.preBidMeetingSecond || tender.lastDate) && "| "}
+                    <span className="text-red-400">Last Date of bid Submission:</span> {tender.bidSubmission}
+                  </span>
+                )}
+              </div>
+            </div>
+
+            {/* Tender Title */}
+            <h3 className="text-xl md:text-[32px] font-semibold text-gray-900 mb-3">{tender.title}</h3>
+
+            {/* Description */}
+            <p className="text-gray-700 text-sm md:text-[20px] font-[500] leading-relaxed mb-4">{tender.description}</p>
+
+            {/* Links Section */}
+            <div>
+              <h4 className="font-semibold text-gray-900 text-lg md:text-[36px] mb-3">Links:</h4>
+              <ul className="space-y-1">
+                {tender.links.map((link, linkIndex) => (
+                  <li key={linkIndex} className="flex items-start md:items-center">
+                    <span className="w-2 h-2 bg-blue-600 rounded-full mr-3 mt-2 md:mt-0 flex-shrink-0"></span>
+                    <div className="flex flex-col md:flex-row md:items-center">
                       <a 
                         href="#" 
-                        className="text-blue-600 hover:text-blue-800 underline text-[28px] font-[600]"
+                        className="text-blue-600 hover:text-blue-800 underline text-sm md:text-[28px] font-[600]"
                         onClick={(e) => e.preventDefault()}
                       >
                         {link.text}
                       </a>
-                       {link.date ? <h1 className='text-[28px] font-[600]'>({link.date})</h1> : null}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+                      {link.date && <span className="text-sm md:text-[28px] font-[600] md:ml-2">({link.date})</span>}
+                    </div>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
-            </div>
-        ))}
+        </div>
       </div>
+    ))}
+  </div>
 
-      {/* Load More or Pagination could be added here */}
-      <div className="mt-8 text-center my-20">
-        <button className="bg-red-600 text-[32px] font-medium text-white px-6 py-2 rounded-md hover:bg-red-700 transition duration-200">
-          Load More 
-        </button>
-      </div>
-    </div>
+  {/* Load More Button */}
+  <div className="mt-8 text-center my-10 md:my-20">
+    <button className="bg-red-600 text-lg md:text-[32px] font-medium text-white px-6 py-2 rounded-md hover:bg-red-700 transition duration-200">
+      Load More 
+    </button>
+  </div>
+</div>
   );
 }

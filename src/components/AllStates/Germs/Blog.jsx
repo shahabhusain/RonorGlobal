@@ -42,10 +42,10 @@ const Blog = () => {
     <div className="min-h-screen bg-gray-100">
       {/* Header */}
       <div className="bg-red-500 mt-20 text-white text-center py-4">
-        <h1 className="text-[42px] font-bold">Latest Updates</h1>
+        <h1 className="xl:text-[42px] lg:text-[35px] md:text-[30px] text-[25px] font-bold">Latest Updates</h1>
       </div>
 
-      <div className=" w-[80%] mx-auto  px-4 py-8 mt-12">
+      <div className=" md:w-[80%] w-full mx-auto  md:px-4 py-8 mt-12">
         <div className="">
 
           {/* Right Section - Latest Updates */}

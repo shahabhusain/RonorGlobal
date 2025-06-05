@@ -37,13 +37,13 @@ export default function Collaborate() {
 
   return (
         <div className=' mt-20'>
-            <div className=' bggg4'>
-               <h1 className='text-[42px] font-[700] text-white pt-40 pl-6'>Collaborate with ODOP!</h1>
+            <div className=' bggg4 md:h-[555px] h-[333px]'>
+               <h1 className='xl:text-[40px] lg:text-[35px] md:text-[30px] text-[35px] font-[700] text-white pt-40 pl-6'>Collaborate with ODOP!</h1>
             </div>
-            <h1 className=' text-center bg-[#0C1644] py-3 px-5 text-[42px] font-[700] text-white mt-12'>Collaborate with ODOP</h1>
-              <div className="w-[95%] mx-auto p-6 mt-20 min-h-screen">
+            <h1 className=' text-center bg-[#0C1644] py-3 px-5 xl:text-[40px] lg:text-[35px] md:text-[30px] text-[35px] font-[700] text-white mt-12'>Collaborate with ODOP</h1>
+              <div className="md:w-[95%] mx-auto p-6 mt-20 min-h-screen">
       {/* Header Information */}
-      <div className="bg-[#0C1644] text-white p-12 rounded-lg mb-6">
+      <div className="bg-[#0C1644] text-white md:p-12 p-4 rounded-lg md:mb-6">
         <p className="text-[20px] font-[500] leading-relaxed">
    The One District One Product (ODOP) Initiative is aimed at manifesting the vision of the Hon'ble Prime Minister of Ghana to foster balanced regional development across all districts of the country. The idea is to select, brand, and promote one product from each district of the country through various interventions. To explore opportunities for collaborating with ODOP, please fill the form below. A team member will reach out to you shortly for more details !
         </p>

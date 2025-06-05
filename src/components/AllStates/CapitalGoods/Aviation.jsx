@@ -7,13 +7,13 @@ const AviationSectorUI = () => {
     <div className="">
       {/* Top Statistics Section */}
       <div className="bg-gradient-to-r from-[#0C1644] mt-20 to-[#152d96] p-6 w-[95%] mx-auto ">
-        <div className="flex justify-between items-center space-x-4">
+        <div className="flex flex-col md:flex-row gap-4 md:gap-0 justify-between items-center space-x-4">
           {/* Stat 1 */}
           <div className=" flex flex-col items-center justify-center gap-y-4">
              <img src={icon1} alt="" />
                <div className='bg-red-800 p-4 min-h-[120px] rounded-lg flex-1 text-white text-center'>
-                <div className="text-[24px] font-bold mb-2">7.2%</div>
-            <div className="text-[20px] font-[600] max-w-[344px]">
+                <div className="md:text-[24px] text-[21px] font-bold mb-2">7.2%</div>
+            <div className="md:text-[20px] text-[15px] font-[600] max-w-[344px]">
           Share of the total manufacturing segment in India’s GDP is represented by the electrical Industry and ~45% of the Capital Goods Sector
 
             </div>
@@ -24,8 +24,8 @@ const AviationSectorUI = () => {
            <div className=" flex flex-col items-center justify-center gap-y-4">
              <img src={icon2} alt="" />
                <div className='bg-red-800 p-4 min-h-[120px]  rounded-lg flex-1 text-white text-center'>
-                <div className="text-[24px] font-bold mb-2">$109.32 Bn</div>
-            <div className="text-[20px] font-[600] max-w-[344px]">
+                <div className="md:text-[24px] text-[21px] font-bold mb-2">$109.32 Bn</div>
+            <div className="md:text-[20px] text-[15px] font-[600] max-w-[344px]">
            Ghana’s exports of engineering goods in FY 2023–24
 
             </div>
@@ -36,8 +36,8 @@ const AviationSectorUI = () => {
           <div className=" flex flex-col items-center justify-center gap-y-4">
              <img src={icon3} alt="" />
                <div className='bg-red-800 p-4 min-h-[120px]  rounded-lg flex-1 text-white text-center'>
-                <div className="text-[24px] font-bold mb-2">63%</div>
-            <div className="text-[20px] font-[600] max-w-[344px]">
+                <div className="md:text-[24px] text-[21px] font-bold mb-2">63%</div>
+            <div className="md:text-[20px] text-[15px] font-[600] max-w-[344px]">
              Ghana’s overall foreign collaborations 
 are in the engineering sector
             </div>
@@ -48,10 +48,10 @@ are in the engineering sector
     
 
         <div className="bg-red-600 text-white text-center py-3 mt-20">
-        <h2 className="text-[42px] font-bold">Sector Overview</h2>
+        <h2 className="xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-bold">Sector Overview</h2>
       </div>
 
-      <div className="p-6 text-[20px] font-[500] leading-relaxed">
+      <div className="p-6 md:text-[20px] text-[15px] font-[500] leading-relaxed">
         <p className="mb-4 ">
         Ghana’s construction sector stands as a cornerstone of the nation's economic strategy, pivotal in addressing critical infrastructure needs and providing substantial employment opportunities. Infrastructure construction and real estate assets like offices, retail, housing, and data centres have been the major focus areas for both the government and the private sector.  Logistics and warehousing have emerged as critical components within Ghana’s construction sector, driven by rapid urbanization and the need for efficient supply chain networks. According to NAREDCO and Knight Frank's Report, Ghana’s warehousing market is expected to see potential demand for 159 Mn square feet by 2047, with an annual compound growth rate of 4%. The e-commerce and manufacturing industries fuel this growth by driving investments in logistics parks, industrial corridors, and modern warehousing facilities across the country. Ghana’s real estate sector is also set to expand significantly, with projections indicating it could reach $5.8 Tn by 2047, contributing 15.5% to the total economic output.
         </p>
@@ -69,45 +69,78 @@ Overall, the Capital Goods sector is crucial to Ghana’s economic strategy, sup
 
       {/* Why Invest Section */}
       <div className="bg-red-600 text-white text-center py-3">
-        <h2 className="text-[42px] font-bold">Why Invest in Capital Goods</h2>
+        <h2 className="xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-bold">Why Invest in Capital Goods</h2>
       </div>
 
-      <div className="p-6 mt-12 w-[95%] mx-auto ">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          {/* Growing Demand */}
-          <div className="civil1 p-5">
-            <h3 className="font-bold mb-2 text-[24px] text-gray-800">Large Market</h3>
-            <p className="text-[20px] font-[500] text-gray-700">
-            Ghana is the third-largest market for construction equipment.
-            </p>
-          </div>
-
-          {/* Infrastructural Development */}
-          <div className="civil2 p-5">
-            <h3 className="font-bold mb-2 text-[24px] text-gray-800">Government Support</h3>
-            <p className="text-[20px] font-[500]  text-gray-700">
-             Production-linked incentive schemes in sectors like auto and EV have an indirect impact on driving demand for capital goods in Ghana
-
-            </p>
-          </div>
-
-          {/* Privatization of airports */}
-          <div className="civil3 p-5">
-            <h3 className="font-bold text-[24px] mb-2 text-gray-800">Export Opportunities</h3>
-            <p className="text-[20px] font-[500] text-gray-700">
-Heavy electrical and power equipment, earthmoving and mining machinery, and the process plant equipment industry together account for 85% of Ghana’s total capital goods exports.
-            </p>
-          </div>
-
-          {/* MRO Investment Opportunity */}
-          <div className="civil4 p-5">
-            <h3 className="font-bold mb-2 text-[24px] text-gray-800">Robust Ecosystem</h3>
-            <p className="text-[20px] font-[500] text-gray-700">
-            IIT Madras and other premier Ghana educational institutions have launched advanced manufacturing technology development centers to drive R&D in the sector.
-            </p>
-          </div>
+   <div className="p-6 mt-12 w-[95%] mx-auto">
+  {/* Mobile Slider */}
+  <div className="block md:hidden overflow-x-auto">
+    <div className="flex gap-4 px-1">
+      {[
+        {
+          title: 'Large Market',
+          desc: 'Ghana is the third-largest market for construction equipment.',
+          class: 'civil1',
+        },
+        {
+          title: 'Government Support',
+          desc: 'Production-linked incentive schemes in sectors like auto and EV have an indirect impact on driving demand for capital goods in Ghana',
+          class: 'civil2',
+        },
+        {
+          title: 'Export Opportunities',
+          desc: 'Heavy electrical and power equipment, earthmoving and mining machinery, and the process plant equipment industry together account for 85% of Ghana’s total capital goods exports.',
+          class: 'civil3',
+        },
+        {
+          title: 'Robust Ecosystem',
+          desc: 'IIT Madras and other premier Ghana educational institutions have launched advanced manufacturing technology development centers to drive R&D in the sector.',
+          class: 'civil4',
+        },
+      ].map((item, i) => (
+        <div
+          key={i}
+          className={`${item.class} min-w-[85%] shrink-0 p-5 rounded-lg bg-white shadow-md`}
+        >
+          <h3 className="font-bold mb-2 text-lg text-gray-800">{item.title}</h3>
+          <p className="text-sm font-medium text-gray-700">{item.desc}</p>
         </div>
-      </div>
+      ))}
+    </div>
+  </div>
+
+  {/* Desktop Grid */}
+  <div className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-6 md:mt-0">
+    <div className="civil1 p-5 rounded-lg bg-white shadow">
+      <h3 className="font-bold mb-2 md:text-[24px] text-[21px] text-gray-800">Large Market</h3>
+      <p className="md:text-[20px] text-[15px] font-[500] text-gray-700">
+        Ghana is the third-largest market for construction equipment.
+      </p>
+    </div>
+
+    <div className="civil2 p-5 rounded-lg bg-white shadow">
+      <h3 className="font-bold mb-2 md:text-[24px] text-[21px] text-gray-800">Government Support</h3>
+      <p className="md:text-[20px] text-[15px] font-[500] text-gray-700">
+        Production-linked incentive schemes in sectors like auto and EV have an indirect impact on driving demand for capital goods in Ghana
+      </p>
+    </div>
+
+    <div className="civil3 p-5 rounded-lg bg-white shadow">
+      <h3 className="font-bold md:text-[24px] text-[21px] mb-2 text-gray-800">Export Opportunities</h3>
+      <p className="md:text-[20px] text-[15px] font-[500] text-gray-700">
+        Heavy electrical and power equipment, earthmoving and mining machinery, and the process plant equipment industry together account for 85% of Ghana’s total capital goods exports.
+      </p>
+    </div>
+
+    <div className="civil4 p-5 rounded-lg bg-white shadow">
+      <h3 className="font-bold mb-2 md:text-[24px] text-[21px] text-gray-800">Robust Ecosystem</h3>
+      <p className="md:text-[20px] text-[15px] font-[500] text-gray-700">
+        IIT Madras and other premier Ghana educational institutions have launched advanced manufacturing technology development centers to drive R&D in the sector.
+      </p>
+    </div>
+  </div>
+</div>
+
     </div>
   );
 };

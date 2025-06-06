@@ -8,7 +8,6 @@ const Hero = () => {
         <div className='bgg md:h-[540px] h-[333px]'>
             <div className=' w-[95%] mx-auto'>
             <div className=' flex items-center pt-12 justify-between'>
-          <img className=' md:w-[200px] w-[100px]' src={image} alt="" />
           <h1 className=' flex items-center md:gap-3 gap-1 xl:text-[30px] lg:text-[25px] md:text-[20px] text-[16px] font-[700] text-white'><img src={logo} alt="" /> Invest Ghana</h1>
           </div>
          <h1 className=' xl:text-[80px] lg:text-[60px] md:text-[50px] text-[30px] font-[800] text-white text-center pt-12'>

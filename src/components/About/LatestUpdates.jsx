@@ -1,5 +1,5 @@
 import React from 'react'
-import main from '../../assets/modi.png'
+import main from '../../assets/modi.jpg'
 import { FaCircle } from 'react-icons/fa';
 
 const LatestUpdates = () => {
@@ -40,7 +40,10 @@ const LatestUpdates = () => {
   ];
   return (
     <div className=' mt-20'>
-        <img src={main} alt="" />
+        <img className=' relative w-full md:h-[550px] h-[300px] object-cover' src={main} alt="" />
+        <div className=' absolute md:top-[322px] top-[222px] md:left-52 left-6'>
+          <h1 className=' text-white xl:text-[84px] lg:text-[52px] md:text-[42px] text-[30px] font-[700] bg-[#0000006b] md:p-6 p-3 rounded-lg'>MAKE IN GHANA</h1>
+        </div>
 
            <div className=' xl:p-20 lg:p-10 border-[2px] bg-[#f8f8f8] border-[#0000004f] rounded-2xl border-inside-blur w-[90%] mx-auto my-20 '> 
           <h1 className=' xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-[700] text-[#00105C]'>Latest Updates</h1>

@@ -11,11 +11,10 @@ import { Link } from 'react-router-dom'
 
 const Initiatives = () => {
   const sectors = [
-    { image: img1 },
-    { image: img2 },
-    { image: img3 },
-    { image: img4 },
-    { image: img5 },
+    { image: "https://images.openai.com/thumbnails/6532680b0cd7e46dff6967f4184b2122.jpeg" },
+    { image: "https://i0.wp.com/ghana-invest.org/wp-content/uploads/2021/12/ghana-01.png?fit=2084%2C859&ssl=1" },
+    { image: "https://images.squarespace-cdn.com/content/v1/64350f273f788a47f330939f/8321157a-d3a0-4714-9adf-0e4ccbdf0748/Logo%2BNEW.png" },
+    { image: "https://academy.itu.int/sites/default/files/styles/image_rectangular/public/media2/image/GIFEC_0.jpg?itok=vPlXhN-J" },
   ]
 
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -54,7 +53,6 @@ const Initiatives = () => {
           </h1>
 
           <div className='flex flex-col md:flex-row items-center gap-6 mt-6 justify-between'>
-            <img src={lion} alt="lion" className='w-[100px] md:w-[150px] lg:w-[200px]' />
             <div className='flex flex-col gap-4'>
               <p className='text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] font-medium text-black'>
                 The Make in Ghana initiative was launched by the Prime Minister in September 2014 as part of a wider set of nation-building initiatives. Devised to transform ghana into a global design and manufacturing hub, Make in ghana was a timely response to a critical situation.

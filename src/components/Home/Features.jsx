@@ -9,7 +9,15 @@ const Features = () => {
       
       {/* Left Section */}
       <div className='w-full lg:w-[40%] flex flex-col items-center lg:items-start'>
-        <img src={fea} alt="Featured" className='w-full max-w-[350px] object-contain' />
+                      <iframe
+     src="https://www.youtube.com/embed/UTEr4chaYJY"
+     title="YouTube video player"
+     width="100%"
+     height="100%"
+     className="border-0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+     allowFullScreen
+   ></iframe>
         <button className='text-[14px] md:text-[15px] lg:text-[20px] xl:text-[25px] font-[800] text-red-500 bg-white py-3 px-5 rounded-md mt-4 text-center'>
           Become the next success story
         </button>

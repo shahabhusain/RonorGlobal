@@ -6,7 +6,7 @@ const Overview = () => {
             <h1 className=' bg-[#00105C] text-center p-4 my-20 xl:text-[40px] lg:text-[30px] text-[25px] font-[700] text-white'>Overview</h1>
               <div className=' w-[95%] mx-auto '>
         <div className=' flex flex-col-reverse md:flex-row items-center justify-between gap-12'>
-            <p className=' xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px] font-[600] xl:leading-[3rem] leading-[2rem]'>Welcome to Ghana’s participation at the 55th Annual Meeting of the World Economic Forum in Davos-Klosters, 
+            <p className=' w-[70%] xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px] font-[600] xl:leading-[3rem] leading-[2rem]'>Welcome to Ghana’s participation at the 55th Annual Meeting of the World Economic Forum in Davos-Klosters, 
 Switzerland, from January 20th to 24th, 2025.
 <span className=' text-red-500'>Innovate, Inspire, Invest </span>
 As a global leader and a unifying voice of the Global South, Ghana continues to embody the ethos of unity and 
@@ -17,7 +17,17 @@ From advancing AI and frontier technologies to expanding its renewable energy ca
 partnerships, Ghana's progress resonates with WEF 2025's theme: "<span className=' text-red-500'>Collaboration for the Intelligent Age.</span>"
 
 Aligned with WEF 2025's focus, Ghana is at the forefront of exploring solutions across the five key workstreams:</p>
-       <img src={you} alt="" />
+          <div className=' w-[30%] h-[300px]'>
+              <iframe
+     src="https://www.youtube.com/embed/UTEr4chaYJY"
+     title="YouTube video player"
+     width="100%"
+     height="100%"
+     className="border-0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+     allowFullScreen
+   ></iframe>
+          </div>
         </div>
 
             <div className=' flex flex-col md:flex-row items-center justify-between gap-12'>

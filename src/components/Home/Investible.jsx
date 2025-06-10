@@ -132,7 +132,7 @@ const Investible = () => {
                   <img
                     src={sector.image}
                     alt={sector.title}
-                    className="w-full h-[300px]  object-cover transition-all duration-500 group-hover:scale-105"
+                    className="w-full h-[500px]  object-cover transition-all duration-500 group-hover:scale-105"
                     loading="lazy"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent">

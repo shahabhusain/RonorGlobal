@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import invest from '../../assets/invest.png';
+import { Link } from 'react-router-dom';
 
 const Invest = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -18,11 +19,34 @@ const Invest = () => {
   }, []);
 
   // News items data
-  const newsItems = Array(4).fill(0).map((_, i) => ({
-    id: i,
-    title: 'Swedish home furnishing retailer, IKEA, marks strategic e-commerce foray in Ghana',
-    date: '28-5-2025',
-  }));
+const newsItems = [
+  {
+    id: 1,
+    title: "Swedish home furnishing retailer, IKEA, marks strategic e-commerce foray in Ghana",
+    date: "28-05-2025",
+  },
+  {
+    id: 2,
+    title: "Ghana launches $500M Green Energy Fund to boost renewable investments",
+    date: "24-05-2025",
+  },
+  {
+    id: 3,
+    title: "Tech giant Huawei to open regional innovation hub in Accra",
+    date: "20-05-2025",
+  },
+  {
+    id: 4,
+    title: "Ghana and UAE sign MoU to expand bilateral trade and investment",
+    date: "16-05-2025",
+  },
+  {
+    id: 5,
+    title: "Textile and apparel sector receives $200M boost from global investors",
+    date: "12-05-2025",
+  }
+];
+
 
   // Slider navigation
   const nextSlide = () => {
@@ -70,7 +94,7 @@ const Invest = () => {
                 {item.title}
               </h2>
               <button className='flex items-center gap-2 mt-2 text-sm'>
-                {item.date} <span className='text-red-500 hover:text-red-600 underline transition-colors duration-200'>Know more</span>
+                {item.date} <Link to="/blog" className='text-red-500 hover:text-red-600 underline transition-colors duration-200'>Know more</Link>
               </button>
             </div>
           ))}

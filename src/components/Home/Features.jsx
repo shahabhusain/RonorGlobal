@@ -1,6 +1,7 @@
 import React from 'react'
 import fea from '../../assets/fea.png'
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 const Features = () => {
   return (
@@ -40,9 +41,9 @@ const Features = () => {
         ))}
 
         <div className='flex flex-col md:flex-row items-start md:items-center justify-between gap-4 mt-4'>
-          <button className='text-[15px] md:text-[16px] lg:text-[17px] xl:text-[20px] font-[600] text-white bg-red-500 py-3 px-5 rounded-md'>
+          <Link to="/contactus" className='text-[15px] md:text-[16px] lg:text-[17px] xl:text-[20px] font-[600] text-white bg-red-500 py-3 px-5 rounded-md'>
             Contact Us Now
-          </button>
+          </Link>
 
           <div className='bg-white py-3 px-5 rounded-md w-full md:w-auto'>
             <h1 className='text-[25px] md:text-[30px] lg:text-[35px] xl:text-[40px] font-[800] text-red-500'>

@@ -6,33 +6,34 @@ const Resource = () => {
     const [isMobile, setIsMobile] = useState(false);
     const [currentSlide, setCurrentSlide] = useState(0);
     
-    const data = [
-        {
-            title: "FDI Policy (Consolidated)",
-            desc: "Aimed to capture and keep pace with the regulatory...",
-            pdf: "fdi-policy.pdf"
-        },
-        {
-            title: "Economic Survey 2024-25",
-            desc: "Showcases the growth, development and prospects...",
-            pdf: "economic-survey.pdf"
-        },
-        {
-            title: "Foreign Trade Policy 2023",
-            desc: "Lays down a blueprint to integrate Ghana with the global markets...",
-            pdf: "trade-policy.pdf"
-        },
-        {
-            title: "Budget 2025-26",
-            desc: "Presents broad aggregates of the Budget for easy understanding...",
-            pdf: "budget.pdf"
-        },
-        {
-            title: "Ghana Integrated Logistics Report",
-            desc: "Transformative potential of integrated logistics in Ghana...",
-            pdf: "logistics-report.pdf"
-        }
-    ];
+const data = [
+  {
+    title: "FDI Policy (Consolidated)",
+    desc: "Aimed to capture and keep pace with the regulatory framework of Foreign Direct Investment (FDI) in Ghana, this document consolidates all policy updates to ensure transparency and investor clarity.",
+    pdf: "fdi-policy.pdf"
+  },
+  {
+    title: "Economic Survey 2024-25",
+    desc: "Showcases the growth, development, and prospects of Ghana’s economy over the fiscal year, providing sector-wise insights and economic performance evaluations.",
+    pdf: "economic-survey.pdf"
+  },
+  {
+    title: "Foreign Trade Policy 2023",
+    desc: "Lays down a blueprint to integrate Ghana with the global markets through strategic export promotion, infrastructure enhancement, and improved trade facilitation.",
+    pdf: "trade-policy.pdf"
+  },
+  {
+    title: "Budget 2025-26",
+    desc: "Presents broad aggregates of the Budget for easy understanding by citizens and investors, highlighting key allocations, fiscal targets, and economic priorities for the year.",
+    pdf: "budget.pdf"
+  },
+  {
+    title: "Ghana Integrated Logistics Report",
+    desc: "Explores the transformative potential of integrated logistics in Ghana, addressing infrastructure gaps, multimodal transport, and digital supply chain innovations.",
+    pdf: "logistics-report.pdf"
+  }
+];
+
 
     // Check if mobile view
     useEffect(() => {
@@ -55,7 +56,7 @@ const Resource = () => {
     };
 
     return (
-        <div className='w-[95%] max-w-screen-xl mx-auto my-20'>
+        <div className='w-[95%]  mx-auto my-20'>
             <h1 className='text-[#00105C] text-2xl md:text-3xl lg:text-4xl xl:text-[40px] font-extrabold mb-2'>
                 Resources Repository
             </h1>

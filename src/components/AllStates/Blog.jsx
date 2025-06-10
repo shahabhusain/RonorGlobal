@@ -1,26 +1,27 @@
 import React from 'react';
 
 const Blog = () => {
-  const blogPosts = [
-    {
-      category: "Civil Aviation",
-      date: "Sep 28, 2024",
-      title: "100 days of progress: How PM Modi's third term...",
-      author: "Jaydeep Saha"
-    },
-    {
-      category: "Civil Aviation", 
-      date: "Feb 23, 2024",
-      title: "Ghana push for infrastructure development",
-      author: "Dewangi Sharma"
-    },
-    {
-      category: "Civil Aviation",
-      date: "Feb 1, 2024", 
-      title: "Highlights of the interim budget 2024-2025",
-      author: "Ankit Agrawal"
-    }
-  ];
+const blogPosts = [
+  {
+    category: "Investment Opportunities",
+    date: "May 12, 2025",
+    title: "Ghana's Rising Sectors: Where to Invest in 2025",
+    author: "Kwame Boateng"
+  },
+  {
+    category: "Infrastructure Development",
+    date: "April 27, 2025",
+    title: "Ghana Pushes for Major Infrastructure Growth",
+    author: "Abena Mensah"
+  },
+  {
+    category: "Economic Insights",
+    date: "March 15, 2025",
+    title: "Ghana's Budget 2025: Boosting Private Sector Investment",
+    author: "Yaw Osei"
+  }
+];
+
 
   const latestUpdates = [
     "Aviation major, Air Ghana enters into codeshare partnership with Virgin Australia",

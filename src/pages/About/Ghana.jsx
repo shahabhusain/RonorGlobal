@@ -12,8 +12,8 @@ const Ghana = () => {
         <Hero />
         <Overview />
         <Agenda />
-        <Participating />
-        <Brochures />
+        {/* <Participating /> */}
+        {/* <Brochures /> */}
         <Contact />
     </div>
   )

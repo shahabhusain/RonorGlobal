@@ -19,7 +19,7 @@ export default function Latest() {
         { text: 'Corrigendum-1 (01/02/2025)', date: '01/02/2025' },
         { text: 'Response to Pre-bid Queries (26/02/2025)', date: '26/02/2025' },
         { text: 'Format of Pre-bid Queries (25/02/2025)', date: '25/02/2025' },
-        { text: 'Notice inviting tender (NIT) for Hiring of Agency for IT Projects- Milestone basis (20/02/2025)', date: '20/02/2025' }
+        { text: 'Notice inviting tender (NIT) for Hiring of Agency for IT Projects- Milestone basis', date: '20/02/2025' }
       ]
     },
     {
@@ -177,27 +177,27 @@ export default function Latest() {
             </div>
 
             {/* Tender Title */}
-            <h3 className="text-xl md:text-[32px] font-semibold text-gray-900 mb-3">{tender.title}</h3>
+            <h3 className="text-xl md:text-[22px] font-semibold text-gray-900 mb-3">{tender.title}</h3>
 
             {/* Description */}
-            <p className="text-gray-700 text-sm md:text-[20px] font-[500] leading-relaxed mb-4">{tender.description}</p>
+            <p className="text-gray-700 text-sm md:text-[15px] font-[500] leading-relaxed mb-4">{tender.description}</p>
 
             {/* Links Section */}
             <div>
               <h4 className="font-semibold text-gray-900 text-lg md:text-[36px] mb-3">Links:</h4>
-              <ul className="space-y-1">
+              <ul className="space-y-2 mt-5">
                 {tender.links.map((link, linkIndex) => (
                   <li key={linkIndex} className="flex items-start md:items-center">
-                    <span className="w-2 h-2 bg-blue-600 rounded-full mr-3 mt-2 md:mt-0 flex-shrink-0"></span>
+                    <h1 className="w-2 h-2 bg-blue-600 rounded-full mr-3 mt-2 md:mt-0 flex-shrink-0"></h1>
                     <div className="flex flex-col md:flex-row md:items-center">
                       <a 
                         href="#" 
-                        className="text-blue-600 hover:text-blue-800 underline text-sm md:text-[28px] font-[600]"
+                        className="text-blue-600 leading-[2rem] hover:text-blue-800 underline text-sm md:text-[20px] font-[600]"
                         onClick={(e) => e.preventDefault()}
                       >
                         {link.text}
                       </a>
-                      {link.date && <span className="text-sm md:text-[28px] font-[600] md:ml-2">({link.date})</span>}
+                      {link.date && <span className="text-sm md:text-[20px] font-[600] md:ml-2">({link.date})</span>}
                     </div>
                   </li>
                 ))}
@@ -211,7 +211,7 @@ export default function Latest() {
 
   {/* Load More Button */}
   <div className="mt-8 text-center my-10 md:my-20">
-    <button className="bg-red-600 text-lg md:text-[32px] font-medium text-white px-6 py-2 rounded-md hover:bg-red-700 transition duration-200">
+    <button className="bg-red-600 text-lg md:text-[22px] font-medium text-white px-6 py-2 rounded-md hover:bg-red-700 transition duration-200">
       Load More 
     </button>
   </div>

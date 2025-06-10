@@ -138,11 +138,11 @@ export default function Participating() {
     <div className="w-full">
          <h1 className=' bg-[#00105C] text-center p-4 my-20 xl:text-[40px] lg:text-[30px] md:text-[25px] text-[25px] font-[700] text-white'>Participating States and their Agenda</h1>
          <div className=' grid md:grid-cols-5 grid-cols-3 w-[95%] mb-20 mx-auto'>
-            <img className=' xl:w-[500px] w-[100px]' src={icon1} alt="" />
-            <img className=' xl:w-[500px] w-[100px]' src={icon2} alt="" />
-            <img className=' xl:w-[500px] w-[100px]' src={icon3} alt="" />
-            <img className=' xl:w-[500px] w-[100px]' src={icon4} alt="" />
-            <img className=' xl:w-[500px] w-[100px]' src={icon5} alt="" />
+            <img className=' xl:w-[500px] w-[100px]' src="https://images.squarespace-cdn.com/content/v1/64ba3c23b46969218a3f439c/e6b74ee7-4321-4639-92e8-81b261031714/Government+Coat+of+Arms.jpg" alt="" />
+            <img className=' xl:w-[500px] w-[100px]' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOh9q59PbD2Ab2DD_MX5jiHCcKlfuutzttdQ&s" alt="" />
+            <img className=' xl:w-[500px] w-[100px]' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuyLpVbLP3Q6BOpECzbGnNEVpsz702aFIjqA&s" alt="" />
+            <img className=' xl:w-[500px] w-[100px]' src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Coat_of_arms_of_South_Africa_%28heraldic%29.svg" alt="" />
+            <img className=' xl:w-[500px] w-[100px]' src="https://static.vecteezy.com/system/resources/previews/007/703/412/non_2x/kenya-flag-national-africa-emblem-map-icon-illustration-abstract-design-element-free-vector.jpg" alt="" />
          </div>
       <div className="overflow-x-auto w-[95%] mx-auto shadow-lg rounded-lg">
         <table className="min-w-full bg-white border-collapse">

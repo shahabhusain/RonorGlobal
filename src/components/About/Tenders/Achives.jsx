@@ -175,21 +175,21 @@ export default function Archives() {
             </div>
 
             {/* Tender Title */}
-            <h3 className="text-lg md:text-[32px] font-semibold text-gray-900 mb-2 md:mb-3">{tender.title}</h3>
+            <h3 className="text-lg md:text-[22px] font-semibold text-gray-900 mb-2 md:mb-3">{tender.title}</h3>
 
             {/* Description */}
-            <p className="text-gray-700 text-sm md:text-[20px] font-[500] leading-relaxed mb-3 md:mb-4">{tender.description}</p>
+            <p className="text-gray-700 text-sm md:text-[15px] font-[500] leading-relaxed mb-3 md:mb-4">{tender.description}</p>
 
             {/* Links Section */}
             <div>
               <h4 className="font-semibold text-gray-900 text-base md:text-[36px] mb-2 md:mb-3">Links:</h4>
-              <ul className="space-y-1">
+              <ul className="space-y-3 mt-5">
                 {tender.links.map((link, linkIndex) => (
                   <li key={linkIndex} className="flex items-start md:items-center">
                     <span className="w-2 h-2 bg-blue-600 rounded-full mr-2 md:mr-3 mt-1.5 md:mt-0 flex-shrink-0"></span>
                     <a 
                       href="#" 
-                      className="text-blue-600 hover:text-blue-800 underline text-sm md:text-[28px] font-[600]"
+                      className="text-blue-600 hover:text-blue-800 underline text-sm md:text-[20px] font-[600]"
                       onClick={(e) => e.preventDefault()}
                     >
                       {link.text}
@@ -206,7 +206,7 @@ export default function Archives() {
 
   {/* Load More Button */}
   <div className="mt-6 md:mt-8 text-center my-10 md:my-20">
-    <button className="bg-red-600 text-base md:text-[32px] font-medium text-white px-4 py-1 md:px-6 md:py-2 rounded-md hover:bg-red-700 transition duration-200">
+    <button className="bg-red-600 text-base md:text-[22px] font-medium text-white px-4 py-1 md:px-6 md:py-2 rounded-md hover:bg-red-700 transition duration-200">
       Load More 
     </button>
   </div>

@@ -1,7 +1,8 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper/modules';
 import 'swiper/css';
+import 'swiper/css/effect-fade';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
@@ -17,68 +18,98 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   const heroImages = [hero1, hero2, hero3];
+  const stats = [
+    {
+      icon: img1,
+      title: "5th Largest Economy",
+      description: "Estimated GDP Growth: 6.4% (FY25) — Fastest Among Large Economies"
+    },
+    {
+      icon: img2,
+      title: "Robust FDI",
+      description: "69.14% of total FDI inflows (since April 2000) came after 2014"
+    },
+    {
+      icon: img3,
+      title: "Booming Exports",
+      description: "Total: 433.09 Bn during FY 2023-24"
+    }
+  ];
 
   return (
-    <Swiper
-      modules={[Autoplay, Pagination, Navigation]}
-      autoplay={{ delay: 5000 }}
-      loop
-    >
-      {heroImages.map((bg, index) => (
-        <SwiperSlide key={index}>
-          <div
-            className="md:h-screen h-[400px] bg-cover bg-center flex items-center justify-center"
-            style={{ backgroundImage: `url(${bg})` }}
-          >
-            <div className="flex flex-col gap-5 items-center w-[90%] sm:w-[80%] md:w-[70%] mx-auto text-center md:backdrop-blur-sm p-5 sm:p-8 md:p-10 rounded-lg">
-              <h1 className="text-[22px] md:text-[42px] lg:text-[72px] xl:text-[98px] font-[800] text-white drop-shadow-lg">
-                Ghana
-              </h1>
+    <div className="relative">
+      <Swiper
+        modules={[Autoplay, Pagination, Navigation, EffectFade]}
+        effect="fade"
+        autoplay={{ 
+          delay: 5000,
+          disableOnInteraction: false 
+        }}
+        loop
+        speed={1000}
+        pagination={{ 
+          clickable: true,
+          dynamicBullets: true 
+        }}
+        navigation
+        className="hero-swiper"
+      >
+        {heroImages.map((bg, index) => (
+          <SwiperSlide key={index}>
+            <div 
+              className="h-screen bg-cover bg-center flex items-center relative"
+              style={{ backgroundImage: `url(${bg})` }}
+            >
+              {/* Overlay for better text visibility */}
+              <div className="absolute inset-0 md:bg-black/30"></div>
+              
+              <div className="md:container mx-auto md:px-4 z-10">
+                <div className="flex flex-col md:gap-6 gap-3 items-center text-center backdrop-blur-sm md:bg-white/10 p-2 sm:p-8 md:p-10 rounded-xl md:border border-none md:border-white/20 max-w-4xl mx-auto transform transition-all duration-700 hover:scale-[1.02]">
+                  <h1 className="text-3xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold text-white drop-shadow-lg animate-fadeIn">
+                    Ghana
+                  </h1>
 
-              <button className="text-[10px] md:text-[20px] lg:text-[25px] xl:text-[27px] rounded-md font-[600] text-white py-2 md:py-3 px-4 md:px-6 bg-red-500">
-                A LAND OF ECONOMIC OPPORTUNITIES
-              </button>
+                  <div className="relative group">
+                    <div className="absolute -inset-1 bg-gradient-to-r from-red-600 to-yellow-500 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-200"></div>
+                    <button className="relative text-sm md:text-xl lg:text-2xl rounded-lg font-bold text-white py-2 md:py-3 px-5 md:px-7 bg-red-600 hover:bg-red-700 transition-all duration-300">
+                      A LAND OF ECONOMIC OPPORTUNITIES
+                    </button>
+                  </div>
 
-              <div className="bg-[#ffffff31] border-[#ffffff61] border-[2px] rounded-lg flex items-center justify-center p-4 sm:p-6 gap-4 sm:gap-6 w-full">
-                {/* Box 1 */}
-                <div className="flex flex-col items-center justify-center md:gap-3 gap-1 border-b-[1px] md:border-b-0 md:border-r-[2px] border-[#ffffff77] pb-4 md:pb-0 md:pr-6 w-full md:w-auto">
-                  <img className="w-[50px] sm:w-[60px] md:w-[70px]" src={img1} alt="" />
-                  <h1 className="text-[8px] md:text-[14px] lg:text-[16px] xl:text-[18px] font-[700] text-white">5th Largest Economy</h1>
-                  <p className="text-[6px] md:text-[13px] lg:text-[14px] xl:text-[16px] font-[500] text-white max-w-[300px] text-center">
-                    Estimated GDP Growth: 6.4% (FY25) — Fastest Among Large Economies
-                  </p>
-                </div>
+                  <div className="grid grid-cols-3 gap-4 w-full mt-4">
+                    {stats.map((stat, i) => (
+                      <div 
+                        key={i}
+                        className="bg-white/10 border border-white/20 rounded-xl p-4 flex flex-col items-center gap-3 hover:bg-white/20 transition-all duration-300 hover:-translate-y-1"
+                      >
+                        <div className="p-3 bg-white/20 rounded-full">
+                          <img 
+                            className="w-12 h-12 md:w-16 md:h-16 object-contain" 
+                            src={stat.icon} 
+                            alt={stat.title} 
+                          />
+                        </div>
+                        <h3 className="text-sm md:text-lg font-bold text-white">{stat.title}</h3>
+                        <p className="text-xs md:text-sm text-white/90 text-center">{stat.description}</p>
+                      </div>
+                    ))}
+                  </div>
 
-                {/* Box 2 */}
-                <div className="flex flex-col items-center justify-center md:gap-3 gap-1 border-b-[1px] md:border-b-0 md:border-r-[2px] border-[#ffffff77] pb-4 md:pb-0 md:pr-6 w-full md:w-auto">
-                  <img className="w-[50px] sm:w-[60px] md:w-[70px]" src={img2} alt="" />
-                  <h1 className="text-[8px] md:text-[14px] lg:text-[16px] xl:text-[18px] font-[700] text-white">Robust FDI</h1>
-                  <p className="text-[6px] md:text-[13px] lg:text-[14px] xl:text-[16px] font-[500] text-white max-w-[300px] text-center">
-                    69.14% of total FDI inflows (since April 2000) came after 2014
-                  </p>
-                </div>
-
-                {/* Box 3 */}
-                <div className="flex flex-col items-center justify-center md:gap-3 gap-1 w-full md:w-auto">
-                  <img className="w-[50px] sm:w-[60px] md:w-[70px]" src={img3} alt="" />
-                  <h1 className="text-[8px] md:text-[14px] lg:text-[16px] xl:text-[18px] font-[700] text-white">Booming Exports</h1>
-                  <p className="text-[6px] md:text-[13px] lg:text-[14px] xl:text-[16px] font-[500] text-white max-w-[300px] text-center">
-                    Total: 433.09 Bn during FY 2023-24
-                  </p>
+                  <Link
+                    to="/opportunity"
+                    className="mt-6 text-sm md:text-base font-semibold bg-gradient-to-r from-red-600 to-red-700 text-white py-3 px-6 rounded-lg flex items-center gap-2 hover:gap-3 hover:shadow-lg transition-all duration-300 group"
+                  >
+                    Know More 
+                    <FaArrowRight className="group-hover:translate-x-1 transition-transform duration-300" />
+                  </Link>
                 </div>
               </div>
-
-              <Link
-                to="/opportunity"
-                className="text-[12px] md:text-[14px] lg:text-[16px] xl:text-[20px] font-[600] bg-red-500 text-white py-2 md:py-3 px-4 md:px-5 rounded-md flex items-center gap-3 hover:px-8 transition-all duration-300 ease-in-out"
-              >
-                Know More <FaArrowRight />
-              </Link>
             </div>
-          </div>
-        </SwiperSlide>
-      ))}
-    </Swiper>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+
+    </div>
   );
 };
 

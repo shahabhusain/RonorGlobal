@@ -10,10 +10,10 @@ In the case of domestic consumption, the <span className=' text-[700]'>duty on i
 
 <span className=' text-[700]'>For better understanding, illustration below</span> show how a manufacturer benefits from bonded manufacturing.</p>
 <div className=' mt-12 flex flex-col gap-5'>
-    <button onClick={()=>setOpen(1)} className={` xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-[800] ${open === 1 ? "text-white bg-[#00105C]" : "bg-[#bbabab38] text-black"} w-full px-12 py-6 flex items-center justify-between`}>Manufacture <span>{open === 1 ? <>+</> : <>-</>}</span></button>
+    <button onClick={()=>setOpen(1)} className={` xl:text-[25px] lg:text-[35px] md:text-[30px] text-[25px] font-[800] ${open === 1 ? "text-white bg-[#00105C]" : "bg-[#bbabab38] text-black"} w-full px-12 py-6 flex items-center justify-between`}>Manufacture <span>{open === 1 ? <>+</> : <>-</>}</span></button>
     <div>
         {
-            open === 1 ? <><p className=' md:text-[22px] text-[15px]'>Manufacture Forest Ghana is a pioneering initiative dedicated to transforming Ghana’s industrial landscape through sustainable forestry-based manufacturing. Rooted in the heart of West Africa, this venture blends ecological responsibility with economic advancement by fostering an integrated value chain—from managed forest plantations to high-value industrial outputs.
+            open === 1 ? <><p className=' md:text-[18px] text-[15px]'>Manufacture Forest Ghana is a pioneering initiative dedicated to transforming Ghana’s industrial landscape through sustainable forestry-based manufacturing. Rooted in the heart of West Africa, this venture blends ecological responsibility with economic advancement by fostering an integrated value chain—from managed forest plantations to high-value industrial outputs.
 
 At its core, Manufacture Forest Ghana promotes responsible timber sourcing and value-added manufacturing, helping reduce deforestation while empowering local communities through employment and skill development. By leveraging Ghana’s rich biodiversity and strategic location, the initiative attracts global investors and partners in sectors like furniture, packaging, paper production, eco-construction materials, and bioenergy.
 
@@ -34,10 +34,10 @@ Manufacture Forest Ghana is not just an industrial project — it’s a symbol o
 </p></> : null
         }
     </div>
-    <button onClick={()=>setOpen(2)} className={` xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-[800] ${open === 2 ? "text-white bg-[#00105C]" : "bg-[#bbabab38] text-black"} w-full px-12 py-6 flex items-center justify-between`}>Export goods <span>{open === 2 ? <>+</> : <>-</>}</span></button> 
+    <button onClick={()=>setOpen(2)} className={` xl:text-[25px] lg:text-[35px] md:text-[30px] text-[25px] font-[800] ${open === 2 ? "text-white bg-[#00105C]" : "bg-[#bbabab38] text-black"} w-full px-12 py-6 flex items-center justify-between`}>Export goods <span>{open === 2 ? <>+</> : <>-</>}</span></button> 
     <div>
         {
-            open === 2 ? <p className=' md:text-[22px] text-[15px]'>Export Goods represents the core of international commerce — the movement of high-quality, locally manufactured or sourced products to markets across the globe. From raw materials and agricultural produce to sophisticated industrial goods, the export sector fuels economic growth, fosters cross-border partnerships, and elevates a nation's standing in the global economy.
+            open === 2 ? <p className=' md:text-[18px] text-[15px]'>Export Goods represents the core of international commerce — the movement of high-quality, locally manufactured or sourced products to markets across the globe. From raw materials and agricultural produce to sophisticated industrial goods, the export sector fuels economic growth, fosters cross-border partnerships, and elevates a nation's standing in the global economy.
 
 At the heart of every successful export operation lies a strong commitment to quality, compliance, efficiency, and sustainability. Export Goods is more than just moving products — it’s about delivering value, trust, and consistency to international buyers and stakeholders.
 
@@ -83,10 +83,10 @@ Global Reach: Established trade routes to North America, Europe, the Middle East
 Whether it’s Ghanaian agricultural exports or Africa's emerging industrial output, Export Goods is the engine that connects local economies to global opportunities.</p> : null
         }
     </div>
-    <button onClick={()=>setOpen(3)} className={` xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-[800] ${open === 3 ? "text-white bg-[#00105C]" : "bg-[#bbabab38] text-black"} w-full px-12 py-6 flex items-center justify-between`}>Goods for home consumption <span>{open === 3 ? <>+</> : <>-</>}</span></button>
+    <button onClick={()=>setOpen(3)} className={` xl:text-[25px] lg:text-[35px] md:text-[30px] text-[25px] font-[800] ${open === 3 ? "text-white bg-[#00105C]" : "bg-[#bbabab38] text-black"} w-full px-12 py-6 flex items-center justify-between`}>Goods for home consumption <span>{open === 3 ? <>+</> : <>-</>}</span></button>
     <div>
         {
-            open === 3 ? <p className=' md:text-[22px] text-[15px]'>Goods for Home Consumption refer to products that are imported and cleared through customs for direct use within the domestic market, rather than for resale, re-export, or industrial processing. These goods play a critical role in supporting the needs of individuals, households, and communities — helping to maintain quality of life, promote health, and meet daily living standards.
+            open === 3 ? <p className=' md:text-[18px] text-[15px]'>Goods for Home Consumption refer to products that are imported and cleared through customs for direct use within the domestic market, rather than for resale, re-export, or industrial processing. These goods play a critical role in supporting the needs of individuals, households, and communities — helping to maintain quality of life, promote health, and meet daily living standards.
 
 Whether it’s nutritious food items, household electronics, clothing, personal care products, or essential medicines, home consumption goods are central to economic stability and social well-being.
 
@@ -116,10 +116,10 @@ Encourages competitive pricing and innovation in local markets
 Goods for home consumption are subject to customs duties, taxes, and regulatory inspections, ensuring they meet domestic safety and quality standards before reaching consumers. These goods are typically cleared under the “import for home use” category and must comply with relevant import documentation and valuation procedures.</p> : null
         }
     </div>
-    <button onClick={()=>setOpen(4)} className={` xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-[800] ${open === 4 ? "text-white bg-[#00105C]" : "bg-[#bbabab38] text-black"} w-full px-12 py-6 flex items-center justify-between`}>Waste/ refused goods <span>{open === 4 ? <>+</> : <>-</>}</span></button>
+    <button onClick={()=>setOpen(4)} className={` xl:text-[25px] lg:text-[35px] md:text-[30px] text-[25px] font-[800] ${open === 4 ? "text-white bg-[#00105C]" : "bg-[#bbabab38] text-black"} w-full px-12 py-6 flex items-center justify-between`}>Waste/ refused goods <span>{open === 4 ? <>+</> : <>-</>}</span></button>
     <div>
         {
-            open === 4 ? <p className=' text-[15px] md:text-[22px]'>Waste or Refused Goods refer to items that are either rejected by customs authorities, abandoned by the importer, or deemed unfit for use, consumption, or sale upon inspection. These goods may be damaged during transit, fail to meet quality standards, pose safety risks, or violate regulatory requirements such as labeling, origin, or health certifications.
+            open === 4 ? <p className=' text-[15px] md:text-[18px]'>Waste or Refused Goods refer to items that are either rejected by customs authorities, abandoned by the importer, or deemed unfit for use, consumption, or sale upon inspection. These goods may be damaged during transit, fail to meet quality standards, pose safety risks, or violate regulatory requirements such as labeling, origin, or health certifications.
 
 This category includes a wide range of items — from perishable goods spoiled in transit to counterfeit products, hazardous materials, or expired consumer goods.
 

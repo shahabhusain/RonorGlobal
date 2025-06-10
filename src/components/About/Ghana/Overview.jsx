@@ -17,7 +17,7 @@ From advancing AI and frontier technologies to expanding its renewable energy ca
 partnerships, Ghana's progress resonates with WEF 2025's theme: "<span className=' text-red-500'>Collaboration for the Intelligent Age.</span>"
 
 Aligned with WEF 2025's focus, Ghana is at the forefront of exploring solutions across the five key workstreams:</p>
-          <div className=' w-[30%] h-[300px]'>
+          <div className=' md:w-[30%] h-[300px]'>
               <iframe
      src="https://www.youtube.com/embed/UTEr4chaYJY"
      title="YouTube video player"

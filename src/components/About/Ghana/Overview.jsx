@@ -9,21 +9,21 @@ const Overview = () => {
             <p className=' xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px] font-[600] xl:leading-[3rem] leading-[2rem]'>Welcome to Ghana’s participation at the 55th Annual Meeting of the World Economic Forum in Davos-Klosters, 
 Switzerland, from January 20th to 24th, 2025.
 <span className=' text-red-500'>Innovate, Inspire, Invest </span>
-As a global leader and a unifying voice of the Global South, India continues to embody the ethos of unity and 
+As a global leader and a unifying voice of the Global South, Ghana continues to embody the ethos of unity and 
 collective progress. With its dynamic economic growth, transformative digital revolution, and pioneering climate 
-initiatives, India remains a key architect of a sustainable and inclusive global future.
+initiatives, Ghana remains a key architect of a sustainable and inclusive global future.
 
 From advancing AI and frontier technologies to expanding its renewable energy capacities and fostering global 
-partnerships, India's progress resonates with WEF 2025's theme: "<span className=' text-red-500'>Collaboration for the Intelligent Age.</span>"
+partnerships, Ghana's progress resonates with WEF 2025's theme: "<span className=' text-red-500'>Collaboration for the Intelligent Age.</span>"
 
-Aligned with WEF 2025's focus, India is at the forefront of exploring solutions across the five key workstreams:</p>
+Aligned with WEF 2025's focus, Ghana is at the forefront of exploring solutions across the five key workstreams:</p>
        <img src={you} alt="" />
         </div>
 
             <div className=' flex flex-col md:flex-row items-center justify-between gap-12'>
             <div className=' xl:mt-20 mt-12 flex flex-col gap-y-6'>
             <h1 className=' xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px] font-[700] flex flex-col gap-2'>Reimagining Growth: <span className=' font-[500]'>From pioneering advancements in manufacturing to revolutionizing sectors like 
-fintech and healthcare, India strikes a balance between immediate gains and 
+fintech and healthcare, Ghana strikes a balance between immediate gains and 
 long-term sustainability.</span></h1>
 
 <h1 className=' xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px] font-[700] flex flex-col gap-2'>Investing in People: <span className=' font-[500]'>With its focus on skill development, digital inclusion, and workforce modernization, 

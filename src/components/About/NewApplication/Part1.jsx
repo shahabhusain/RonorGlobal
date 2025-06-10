@@ -568,7 +568,7 @@ export default function BusinessDetailsForm() {
         <div className="mt-8">
           <div className="border-2 border-gray-300 rounded-lg p-6">
             <h4 className="text-lg font-semibold text-gray-800 mb-4">
-              7. DETAILS OF EXISTING MANUFACTURING FACILITY IN INDIA AND/OR OVERSEAS?
+              7. DETAILS OF EXISTING MANUFACTURING FACILITY IN GHANA AND/OR OVERSEAS?
             </h4>
             
             <div className="space-y-3">

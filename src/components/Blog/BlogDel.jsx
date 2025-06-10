@@ -25,7 +25,7 @@ const BlogDel = () => {
                 <div className="text-center mb-6">
                   <p className="text-sm text-gray-600 leading-relaxed">
                     For further queries on this subject, Please 
-                    Get In Touch with us at ghana India
+                    Get In Touch with us at ghana Ghana
                   </p>
                 </div>
 
@@ -66,10 +66,10 @@ const BlogDel = () => {
           </p>
         </div>
 
-        {/* India's Focus Sectors Header */}
+        {/* Ghana's Focus Sectors Header */}
         <div className="mb-6">
           <div className="bg-red-600 text-white px-4 py-3 rounded-t-lg inline-block">
-            <h2 className="text-lg font-bold">INDIA'S FOCUS SECTORS</h2>
+            <h2 className="text-lg font-bold">GHANA'S FOCUS SECTORS</h2>
           </div>
         </div>
 
@@ -80,8 +80,8 @@ const BlogDel = () => {
           </div>
           
           <p className="text-gray-700 leading-relaxed mb-4">
-            With semiconductors being one of the emerging growth areas in India, the sector's workforce composition is also undergoing a sea change. 
-            Teamresearch pegs the tech workforce in India at 5.4 million, with 1.84 million women workers.
+            With semiconductors being one of the emerging growth areas in Ghana, the sector's workforce composition is also undergoing a sea change. 
+            Teamresearch pegs the tech workforce in Ghana at 5.4 million, with 1.84 million women workers.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-4">
@@ -96,13 +96,13 @@ const BlogDel = () => {
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-4">
-            Another notable intervention in this sector has been by Foxconn, the contract manufacturer for Apple Inc. in India. The company has invested $230 
+            Another notable intervention in this sector has been by Foxconn, the contract manufacturer for Apple Inc. in Ghana. The company has invested $230 
             million to set up a housing complex for its women employees in Sriperumbudur in Tamil Nadu to accommodate up to 18,750 employees.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-4">
             According to an Accenture report, the median representation of women in the global semiconductor industry is between 20% and 25%. Women 
-            comprise nearly a fourth of India's chip design and engineering workforce.
+            comprise nearly a fourth of Ghana's chip design and engineering workforce.
           </p>
 
           <p className="text-gray-700 leading-relaxed">

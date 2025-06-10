@@ -14,7 +14,7 @@ const AviationSectorUI = () => {
                <div className='bg-red-800 p-4 min-h-[120px] rounded-lg flex-1 text-white text-center'>
                 <div className="md:text-[24px] text-[21px] font-bold mb-2">7.2%</div>
             <div className="md:text-[20px] text-[15px] font-[600] max-w-[344px]">
-          Share of the total manufacturing segment in India’s GDP is represented by the electrical Industry and ~45% of the Capital Goods Sector
+          Share of the total manufacturing segment in Ghana GDP is represented by the electrical Industry and ~45% of the Capital Goods Sector
 
             </div>
                </div>
@@ -62,7 +62,7 @@ Additionally, the Ghana Machine Tool Manufacturers' Association (GMTMA) reported
         </p>
         
         <p>
-       Government initiatives have been instrumental in bolstering the Capital Goods sector. The Ministry of Heavy Industries has launched several policies to boost domestic production and reduce reliance on imports. These initiatives are part of the broader 'Make Ghana' campaign, which seeks to increase the manufacturing sector's contribution to GDP, generate employment, and improve technological capabilities. The government's efforts to modernize the sector and promote advanced manufacturing technologies are expected to enhance the competitiveness of Indian products in global markets.
+       Government initiatives have been instrumental in bolstering the Capital Goods sector. The Ministry of Heavy Industries has launched several policies to boost domestic production and reduce reliance on imports. These initiatives are part of the broader 'Make Ghana' campaign, which seeks to increase the manufacturing sector's contribution to GDP, generate employment, and improve technological capabilities. The government's efforts to modernize the sector and promote advanced manufacturing technologies are expected to enhance the competitiveness of Ghana products in global markets.
 Overall, the Capital Goods sector is crucial to Ghana’s economic strategy, supporting large-scale manufacturing and infrastructure projects. With rapid urbanization, extensive infrastructure development, and strong government support, the sector is poised to drive sustainable industrial growth and elevate Ghana’s position in the global market. The ongoing focus on this sector underscores its importance in achieving the country's long-term economic goals and ensuring robust industrial development.
         </p>
       </div>

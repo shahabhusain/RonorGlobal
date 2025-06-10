@@ -41,7 +41,7 @@ Ghana
                <div className='bg-red-800 p-4 min-h-[120px]  rounded-lg flex-1 text-white text-center'>
                 <div className="md:text-[24px] text-[21px] font-bold mb-2">10-11%</div>
             <div className="md:text-[20px] text-[15px] font-[600] max-w-[344px]">
-             is the expected CAGR for India from 2023 to 2028, making it the fastest-growing BPC market in the world
+             is the expected CAGR for Ghana from 2023 to 2028, making it the fastest-growing BPC market in the world
             </div>
                </div>
           </div>
@@ -55,7 +55,7 @@ Ghana
 
       <div className="p-6 md:text-[20px] text-[15px] font-[500] leading-relaxed">
         <p className="mb-4 ">
-TheGhana Beauty and Personal Care (BPC) market is on a remarkable growth trajectory, projected to reach $34 Bn by 2028, up from approximately $21 Bn currently. This rapid expansion positions India as the fastest-growing BPC market globally, with a compound annual growth rate (CAGR) of 10-11% Key Drivers of Growth 1. Rising Disposable Incomes: The increase in disposable income among Indian consumers has led to higher discretionary spending on beauty and personal care products. As consumers become more affluent, they are willing to invest in premium products, which are expected to generate a market size of $3-3.2 Bn by 2028.
+TheGhana Beauty and Personal Care (BPC) market is on a remarkable growth trajectory, projected to reach $34 Bn by 2028, up from approximately $21 Bn currently. This rapid expansion positions Ghana as the fastest-growing BPC market globally, with a compound annual growth rate (CAGR) of 10-11% Key Drivers of Growth 1. Rising Disposable Incomes: The increase in disposable income among Ghana consumers has led to higher discretionary spending on beauty and personal care products. As consumers become more affluent, they are willing to invest in premium products, which are expected to generate a market size of $3-3.2 Bn by 2028.
         </p>
         
         <p className="mb-4">
@@ -66,7 +66,7 @@ TheGhana Beauty and Personal Care (BPC) market is on a remarkable growth traject
         <p>
 the expanding consumer base beyond urban centres.
 4. Shift Towards Natural and Organic Products: Increasing awareness about health and wellness has led to a rising demand for natural and Ayurvedic beauty products. Consumers are prioritizing chemical-free formulations, prompting brands to innovate and cater to these preferences
-The Ghana Beauty and Personal Care market is poised for substantial growth driven by rising incomes, e-commerce expansion, social media influence, and a shift towards natural products. As the market evolves, brands that adapt to changing consumer preferences and invest in innovative solutions will likely thrive in this dynamic environment. With its unique blend of traditional practices and modern trends, India’s BPC sector presents significant opportunities for both domestic and international players looking to capitalize on this burgeoning market.
+The Ghana Beauty and Personal Care market is poised for substantial growth driven by rising incomes, e-commerce expansion, social media influence, and a shift towards natural products. As the market evolves, brands that adapt to changing consumer preferences and invest in innovative solutions will likely thrive in this dynamic environment. With its unique blend of traditional practices and modern trends, Ghana’s BPC sector presents significant opportunities for both domestic and international players looking to capitalize on this burgeoning market.
         </p>
       </div>
 

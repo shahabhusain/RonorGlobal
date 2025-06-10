@@ -17,7 +17,7 @@ const Team = () => {
         {
             img:meet1,
             title:"Shri Amardeep Singh Bhatia",
-            desc:"Secretary, DPIIT & Chairman, Invest India"
+            desc:"Secretary, DPIIT & Chairman, Invest Ghana"
         },
 
         {
@@ -53,7 +53,7 @@ const Team = () => {
         {
             img:meet7,
             title:"Shri Chandrajit Banerjee",
-            desc:"Director General, Confederation of Indian Industry"
+            desc:"Director General, Confederation of Ghana Industry"
         },
 
         {

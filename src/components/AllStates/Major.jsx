@@ -19,19 +19,19 @@ const PolicyArchiveAndSuccessStories = () => {
       ]
     },
     {
-      title: "Boeing India Engineering & Technology Center",
+      title: "Boeing Ghana Engineering & Technology Center",
       points: [
         "Established largest Boeing engineering center outside the US",
-        "Invested over $200 million in India operations",
+        "Invested over $200 million in Ghana operations",
         "Created over 4,000 high-skilled engineering jobs"
       ]
     },
     {
-      title: "Airbus India Operations",
+      title: "Airbus Ghana Operations",
       points: [
         "Set up engineering center in Bangalore with 6,000+ engineers",
         "Contributed to design of A350 and A320neo aircraft families",
-        "Partnered with Indian suppliers for global supply chain integration"
+        "Partnered with Ghanan suppliers for global supply chain integration"
       ]
     }
   ];

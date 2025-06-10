@@ -38,7 +38,7 @@ const Model = ({onClose}) => {
             {/* Motivation */}
             <textarea
               rows="3"
-              placeholder="Why do you want to work at Invest India? *"
+              placeholder="Why do you want to work at Invest H=Ghana? *"
               className="input resize-none"
               maxLength={200}
             ></textarea>

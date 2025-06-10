@@ -18,7 +18,7 @@ const Links = () => {
         <div className="bg-blue-100 p-4 rounded-b-lg">
           <div className="space-y-2">
             <div className="grid grid-cols-2 gap-4 items-center">
-              <div className=' text-[20px] font-[500]'>Schemes of Government of India relevant to the OOCF Initiative</div>
+              <div className=' text-[20px] font-[500]'>Schemes of Government of Ghana relevant to the OOCF Initiative</div>
               <div><a href="#" className="text-[#0029E8] text-[20px] font-[500] underline hover:text-blue-800">Click here</a></div>
             </div>
             <div className="grid grid-cols-2 gap-4 items-center">

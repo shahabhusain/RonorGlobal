@@ -23,10 +23,10 @@ const Blog = () => {
   ];
 
   const latestUpdates = [
-    "Aviation major, Air India enters into codeshare partnership with Virgin Australia",
+    "Aviation major, Air Ghana enters into codeshare partnership with Virgin Australia",
     "Himalayan Heli Services orders 2 Airbus H125 helicopters",
     "JSW Group to invest INR 16,000 Cr in power project in Bengal",
-    "Air India Express launches daily direct flight service between Mangaluru and Delhi",
+    "Air Ghana Express launches daily direct flight service between Mangaluru and Delhi",
     "JSW Defence to invest INR 800 Cr in Telangana for drone manufacturing",
     "Hospitality sector Confident Hotel & Resorts open Telangana OURONE"
   ];

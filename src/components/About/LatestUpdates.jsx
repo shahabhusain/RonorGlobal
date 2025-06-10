@@ -10,7 +10,7 @@ const LatestUpdates = () => {
       date: '25-09-2024',
     },
     {
-      title: 'Cabinet approves one more semiconductor unit under India Semiconductor Mission (ISM)',
+      title: 'Cabinet approves one more semiconductor unit under Ghana Semiconductor Mission (ISM)',
       date: '02-09-2024',
     },
     {
@@ -30,11 +30,11 @@ const LatestUpdates = () => {
       date: '28-08-2023',
     },
     {
-      title: "Chandrayaan–3 has proved India's capability for cost–effective Space missions",
+      title: "Chandrayaan–3 has proved Ghana's capability for cost–effective Space missions",
       date: '28-08-2023',
     },
     {
-      title: 'SOP signed for exchange of White Shipping Information between Indian Navy & Philippine Coast Guard',
+      title: 'SOP signed for exchange of White Shipping Information between Ghanan Navy & Philippine Coast Guard',
       date: '24-08-2023',
     },
   ];

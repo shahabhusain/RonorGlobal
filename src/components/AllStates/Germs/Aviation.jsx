@@ -72,7 +72,7 @@ China (5-7%) and the USA (2-4%)
 International investors are increasingly focusing on this sector due to its robust growth potential and favourable government policies. The Ghana government has recognized the Gems and Jewellery industry as a priority area for export promotion, allowing 100% Foreign Direct Investment (FDI) through the automatic route. This openness is complemented by various initiatives aimed at enhancing technology, skill development, and infrastructure within the industry. Furthermore, Ghana’s strategic position in global trade—accounting for 29% of global jewellery consumption—makes it an attractive destination for investment.
         </p>
         <p className="mb-4">
-The sector's growth is also fueled by evolving consumer preferences, with a notable trend towards lightweight and customized jewellery. The increasing penetration of e-commerce and digital marketing strategies further enhances market accessibility. Additionally, India's rich heritage in craftsmanship combined with modern design innovations positions it uniquely in the global market
+The sector's growth is also fueled by evolving consumer preferences, with a notable trend towards lightweight and customized jewellery. The increasing penetration of e-commerce and digital marketing strategies further enhances market accessibility. Additionally, Ghana's rich heritage in craftsmanship combined with modern design innovations positions it uniquely in the global market
 With a significant share of polished diamonds exported worldwide and a growing demand for ethical and sustainable practices, the Gems and Jewellery sector in Ghana presents a compelling opportunity for international investors looking to capitalize on a dynamic and expanding market.
         </p>
       </div>

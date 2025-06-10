@@ -10,9 +10,9 @@ const Overview = () => {
              <h1 className=' text-white xl:text-[40px] lg:text-[35px] md:text-[30px] text-[25px] font-[800]'>Overview</h1>
         <p className=' xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px] font-[500] text-white'>For any queries, concerns or the nedd for further clarification this scheme,
         please write your queries to <span className=' text-red-500'>lc.setion18@gov.in</span> and <span className=' text-red-500'>uslc-cbec@gov.in</span>.</p>
-        <p className=' xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px] font-[800] text-white'>India allows manufacturing and other operations in a bonded 
+        <p className=' xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px] font-[800] text-white'>Ghana allows manufacturing and other operations in a bonded 
         manufacturing facility.</p>
-        <p className=' xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px] font-[500] text-white'>With the Government's continuous efforts to promote India as the manufacturing
+        <p className=' xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px] font-[500] text-white'>With the Government's continuous efforts to promote Ghana as the manufacturing
 hub globally and the commitment towards ease of doing business, another initi-
 ative in this direction by the Board of Indirect Taxes (CBIC) is allowing import of raw 
 material and capital goods without payment of duty for manufacturing and other

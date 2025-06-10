@@ -57,7 +57,7 @@ const Initiatives = () => {
             <img src={lion} alt="lion" className='w-[100px] md:w-[150px] lg:w-[200px]' />
             <div className='flex flex-col gap-4'>
               <p className='text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] font-medium text-black'>
-                The Make in Ghana initiative was launched by the Prime Minister in September 2014 as part of a wider set of nation-building initiatives. Devised to transform India into a global design and manufacturing hub, Make in India was a timely response to a critical situation.
+                The Make in Ghana initiative was launched by the Prime Minister in September 2014 as part of a wider set of nation-building initiatives. Devised to transform ghana into a global design and manufacturing hub, Make in ghana was a timely response to a critical situation.
               </p>
               <Link to="/latest" className='flex items-center w-fit gap-2 text-white bg-[#00105C] py-2 px-5 rounded-full text-[14px] md:text-[15px] lg:text-[17px] xl:text-[20px] font-semibold'>
                 More Detail <FaArrowRight />
@@ -107,7 +107,7 @@ const Initiatives = () => {
             Come Work With Us
           </h1>
           <p className='text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] font-medium text-white'>
-            We are an organisation of young & vibrant professionals, looking for candidates who are passionate about India’s...
+            We are an organisation of young & vibrant professionals, looking for candidates who are passionate about ghana...
           </p>
           <button className='flex items-center w-fit gap-2 text-white bg-[#00105C] py-2 px-5 rounded-full text-[14px] md:text-[15px] lg:text-[17px] xl:text-[20px] font-semibold'>
             Know more <FaArrowRight />

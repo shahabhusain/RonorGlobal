@@ -28,8 +28,8 @@ export default function Archives() {
       releaseDate: '08 Feb 2025',
       preBidMeeting: '12 Feb 2025 11:00 Hrs',
       lastDate: '13 Feb 2025 23:59 Hrs',
-      title: 'Notice inviting tender ( NIT) for Renovation of Invest India office at ICID building Nyay Marg Chanakyapuri New Delhi',
-      description: 'Invest Ghana, Section-3 Not for Profit entity under the aegis of Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce and Industry, Government of Ghana invites proposals from reputed companies for "Renovation of Invest India office at ICID building Nyay Chanakyapuri New Delhi".',
+      title: 'Notice inviting tender ( NIT) for Renovation of Invest Ghana office at ICID building Nyay Marg Chanakyapuri New Delhi',
+      description: 'Invest Ghana, Section-3 Not for Profit entity under the aegis of Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce and Industry, Government of Ghana invites proposals from reputed companies for "Renovation of Invest Ghana office at ICID building Nyay Chanakyapuri New Delhi".',
       links: [
         { text: 'Pre-Qualification Criteria', date: '01/02/2025' },
         { text: 'Corrigendum-1', date: '01/02/2025' },

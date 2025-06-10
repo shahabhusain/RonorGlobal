@@ -34,7 +34,7 @@ const BudgetTheme = () => {
             <li className='md:text-[20px] text-[10px]'>Spurring Agricultural Growth and Productivity;</li>
             <li className='md:text-[20px] text-[10px]'>Building Rural Prosperity and Resilience;</li>
             <li className='md:text-[20px] text-[10px]'>Taking Everyone Together on an Inclusive Growth path;</li>
-            <li className='md:text-[20px] text-[10px]'>Boosting Manufacturing and Furthering Make in India;</li>
+            <li className='md:text-[20px] text-[10px]'>Boosting Manufacturing and Furthering Make in Ghana;</li>
             <li className='md:text-[20px] text-[10px]'>Supporting MSMEs;</li>
             <li className='md:text-[20px] text-[10px]'>Enabling Employment–led Development;</li>
             <li className='md:text-[20px] text-[10px]'>Investing in people, economy and innovation;</li>

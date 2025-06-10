@@ -3,7 +3,7 @@ import React from 'react'
 const State = () => {
     const stateEmporiums = [
     { id: 1, state: "All", name: "Cottage Emporium" },
-    { id: 2, state: "All", name: "Tribes India" },
+    { id: 2, state: "All", name: "Tribes Ghana" },
     { id: 3, state: "All", name: "KAIRAS" },
     { id: 4, state: "Andhra Pradesh", name: "Lepakshi Handicrafts and Andhra Pradesh State Handloom Weavers Cooperative Society (APCO)" },
     { id: 5, state: "Gujarat", name: "Garvi Gurjari" },
@@ -31,7 +31,7 @@ const State = () => {
               Orders and procure a product under GOCF through official government e-commercial platforms, including those empowered and Ministry- supported 
               marketplaces. Showcasing the rich craftsmanship and unique heritage of each region, these platforms ensure quality and access to locally made products. It's 
               for this seamless path ensures for individuals, businesses, and institutions. To make its trusted into a product basis, offering a diverse shopping experience 
-              sourced throughout the India.
+              sourced throughout the Ghana.
             </p>
           </div>
 

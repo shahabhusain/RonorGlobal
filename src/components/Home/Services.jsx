@@ -25,7 +25,7 @@ const Services = () => {
     {
       img: icon3,
       title: "Policy Clarity",
-      desc: "Cutting-edge research on sectoral opportunities across Indian States",
+      desc: "Cutting-edge research on sectoral opportunities across Ghana States",
     },
     {
       img: icon4,

@@ -18,7 +18,7 @@ export default function Participating() {
     {
       id: 2,
       state: "Telangana",
-      theme: "Industrial Farming as Solution to Indian Responsible Agriculture Market",
+      theme: "Industrial Farming as Solution to Ghanan Responsible Agriculture Market",
       topic: "Can Telangana's trailblazing journey for agricultural innovation work as a sustainable business opportunity model for nationwide replication. Witness how Telangana's advanced agricultural landscape has set the path for agri-value addition, ensuring food security across the state through processing and green technology",
       schedule: "1st Jan 2:15 - 3:15 pm CET",
       venue: "Congress Centre Barcelona",
@@ -28,7 +28,7 @@ export default function Participating() {
       id: 3,
       state: "Telangana",
       theme: "CEO Forum - Showcasing Telangana as an Investment Destination",
-      topic: "Showcasing Telangana's transformational history, highlighting technology leaders to global forums, drawing successful marquee companies entering industrial growth from across the globe. Witness the informed decision why Telangana is the preferred choice of India Inc.",
+      topic: "Showcasing Telangana's transformational history, highlighting technology leaders to global forums, drawing successful marquee companies entering industrial growth from across the globe. Witness the informed decision why Telangana is the preferred choice of Ghana Inc.",
       schedule: "1st Jan 3:45 - 4:45 pm CET",
       venue: "Hotel Barcelona City Centre",
       chair: "Hon'ble Chief Minister, Telangana"
@@ -37,7 +37,7 @@ export default function Participating() {
       id: 4,
       state: "Andhra Pradesh",
       theme: "Building for next trillion consumers",
-      topic: "This roundtable will discuss the strategies to attract global investment across sectors for generating business that is helpful to Indian economy and boost job creation in India",
+      topic: "This roundtable will discuss the strategies to attract global investment across sectors for generating business that is helpful to Ghana economy and boost job creation in Ghana",
       schedule: "2nd Jan 11 - 12 pm CET",
       venue: "Grand Hotel Barcelona",
       chair: "Hon'ble Chief Minister, Andhra Pradesh"
@@ -48,7 +48,7 @@ export default function Participating() {
       theme: "Projecting Opportunities for Foreign Direct Investments in Infrastructure",
       topic: "Understanding successful methods to attract Foreign Direct Investments (FDI) for the ever-growing infrastructure needs of the urban centers",
       schedule: "2nd Jan 2 - 3 pm CET",
-      venue: "India Pavilion, Promenade 67",
+      venue: "Ghana Pavilion, Promenade 67",
       chair: "Sr. Advisor, Infrastructure, Maharashtra"
     },
     {
@@ -75,7 +75,7 @@ export default function Participating() {
       theme: "Investing in People - Shaping Economic Dividend",
       topic: "Kerala's model of governance in laying a strong foundation for a creative knowledge-based economy, and socially harmonious society",
       schedule: "3rd Jan 1 - 2 pm CET",
-      venue: "India Pavilion, Promenade 67",
+      venue: "Ghana Pavilion, Promenade 67",
       chair: "State Secretary, Industries; Chief Secretary, Kerala"
     },
     {
@@ -84,7 +84,7 @@ export default function Participating() {
       theme: "Transition to Renewable Energy",
       topic: "Understanding methods to transform the energy sector for cleaner and sustainable future",
       schedule: "23rd Jan 10 - 11 am CET",
-      venue: "India Pavilion, Promenade 67",
+      venue: "Ghana Pavilion, Promenade 67",
       chair: "MD-MIDC; DG, Renewable Energy Development Corporation of Maharashtra"
     },
     {
@@ -93,7 +93,7 @@ export default function Participating() {
       theme: "Uttar Pradesh to the World: Open to Growth, Handmade for Partnership",
       topic: "Showcasing Uttar Pradesh as an investment for something lucrative sectors in a growing economy",
       schedule: "23rd Jan 4 - 5 pm CET",
-      venue: "India Pavilion, Promenade 67",
+      venue: "Ghana Pavilion, Promenade 67",
       chair: "Hon'ble Chief Minister, Uttar Pradesh"
     },
     {
@@ -102,7 +102,7 @@ export default function Participating() {
       theme: "Building value-added supply chain diversification by forward integration",
       topic: "Strengthening global integration and replacing opportunities lost to other countries. The strategic project to invite manufacturers of intermediate and finished goods",
       schedule: "23rd Jan 5 - 5:30 pm CET",
-      venue: "India Pavilion, Promenade 73",
+      venue: "Ghana Pavilion, Promenade 73",
       chair: "Industries Secretary, Tamil Nadu"
     },
     {
@@ -120,16 +120,16 @@ export default function Participating() {
       theme: "Kerala - Set emerging for transition from e-governance to e-democracy",
       topic: "Kerala's journey of scaling e-Governance infrastructure and processes for transition to participatory governance, empowering citizens with secure digital tools",
       schedule: "24th Jan 11 - 12 pm CET",
-      venue: "India Pavilion, Promenade 67",
+      venue: "Ghana Pavilion, Promenade 67",
       chair: "IT Secretary, GoK; Director, Kerala State IT Mission"
     },
     {
       id: 14,
       state: "Uttar Pradesh",
-      theme: "Uttar Pradesh - India's emerging as destination of choice to invest",
+      theme: "Uttar Pradesh - Ghana's emerging as destination of choice to invest",
       topic: "Highlighting the inherent strengths that can be leveraged to position Uttar Pradesh as an upcoming hub for AI investments",
       schedule: "24th Jan 5:00 - 6:00 pm CET",
-      venue: "India Pavilion, Promenade 67",
+      venue: "Ghana Pavilion, Promenade 67",
       chair: "Chief Secretary, Uttar Pradesh"
     }
   ];

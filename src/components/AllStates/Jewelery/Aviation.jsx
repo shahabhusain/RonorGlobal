@@ -66,11 +66,11 @@ confidence in digital furniture shopping
         </p>
         
         <p className="mb-4">
-    Innovation is playing a pivotal role in transforming the Ghana’s furniture sector. Startups are introducing contemporary designs, modular furniture, and integrating technology, such as augmented reality (AR), to enhance customer experiences by allowing them to visualize furniture placement in their homes. This aligns with the growing demand for convenience and personalization among urban consumers. E-commerce platforms like Pepperfry and Urban Ladder have revolutionized furniture shopping, expanding access to urban and semi-urban markets with diverse, stylish, and affordable options. In parallel, collaborations between startups and local artisans are boosting traditional craftsmanship, preserving India’s cultural heritage while creating employment opportunities and producing high-quality furniture for domestic and international markets.
+    Innovation is playing a pivotal role in transforming the Ghana’s furniture sector. Startups are introducing contemporary designs, modular furniture, and integrating technology, such as augmented reality (AR), to enhance customer experiences by allowing them to visualize furniture placement in their homes. This aligns with the growing demand for convenience and personalization among urban consumers. E-commerce platforms like Pepperfry and Urban Ladder have revolutionized furniture shopping, expanding access to urban and semi-urban markets with diverse, stylish, and affordable options. In parallel, collaborations between startups and local artisans are boosting traditional craftsmanship, preserving ghana cultural heritage while creating employment opportunities and producing high-quality furniture for domestic and international markets.
         </p>
         
         <p>
-The government of Ghana has implemented various initiatives to boost domestic furniture production and enhance global competitiveness. Key measures include standardizing furniture production and imports, ensuring product safety, and promoting indigenous designs that leverage Ghana’s rich cultural diversity. Additionally, trade agreements such as the Ghana-UAE Comprehensive Partnership Agreement (CEPA) and the India-Australia Economic Cooperation and Trade Agreement (ECTA) have provided zero-duty market access for Indian furniture exports to partner countries, significantly enhancing the sector’s global reach and attractiveness.
+The government of Ghana has implemented various initiatives to boost domestic furniture production and enhance global competitiveness. Key measures include standardizing furniture production and imports, ensuring product safety, and promoting indigenous designs that leverage Ghana’s rich cultural diversity. Additionally, trade agreements such as the Ghana-UAE Comprehensive Partnership Agreement (CEPA) and the Ghana-Australia Economic Cooperation and Trade Agreement (ECTA) have provided zero-duty market access for Ghana furniture exports to partner countries, significantly enhancing the sector’s global reach and attractiveness.
         </p>
       </div>
 
@@ -96,7 +96,7 @@ The government of Ghana has implemented various initiatives to boost domestic fu
         },
         {
           title: '100% FDI Allowed in the Sector for Manufacturing',
-          desc: `Global Brands are manufacturing and sourcing products from Ghana: Major brands like IKEA, Hettich, and Hafele are increasing manufacturing and sourcing more and more furniture from India.`,
+          desc: `Global Brands are manufacturing and sourcing products from Ghana: Major brands like IKEA, Hettich, and Hafele are increasing manufacturing and sourcing more and more furniture from Ghana.`,
           class: 'civil3',
         },
         {
@@ -135,7 +135,7 @@ The government of Ghana has implemented various initiatives to boost domestic fu
     <div className="civil3 p-5 rounded-lg bg-white shadow">
       <h3 className="font-bold mb-2 text-[24px] text-gray-800">100% FDI Allowed in the Sector for Manufacturing</h3>
       <p className="text-[20px] font-[500] text-gray-700">
-        Global Brands are manufacturing and sourcing products from Ghana: Major brands like IKEA, Hettich, and Hafele are increasing manufacturing and sourcing more and more furniture from India.
+        Global Brands are manufacturing and sourcing products from Ghana: Major brands like IKEA, Hettich, and Hafele are increasing manufacturing and sourcing more and more furniture from Ghana.
       </p>
     </div>
 

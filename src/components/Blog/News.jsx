@@ -91,12 +91,12 @@ const NewsUI = () => {
   const popularBlogs = [
     {
       date: "Feb 18, 2025",
-      title: "India's Union Budget 2024-25: Key Highlights",
+      title: "Ghana's Union Budget 2024-25: Key Highlights",
       author: "By Aksh Agarwal"
     },
     {
       date: "Feb 16, 2025",
-      title: "India's Union Budget FY 2024-25: Key Takeaways",
+      title: "Ghana's Union Budget FY 2024-25: Key Takeaways",
       author: "By Aksh Agarwal"
     },
     {
@@ -106,7 +106,7 @@ const NewsUI = () => {
     },
     {
       date: "Apr 30, 2024",
-      title: "E-Commerce Boom in India: Current Trends and Prospects",
+      title: "E-Commerce Boom in Ghana: Current Trends and Prospects",
       author: "By Hemang Dharma"
     }
   ];

@@ -26,7 +26,7 @@ const Infrastructure = () => {
     {
       title: '95+ minerals',
       desc:
-        'India produces over 95 minerals, which include fuel, metallic, non-metallic, atomic and minor minerals (including building and other materials)',
+        'Ghana produces over 95 minerals, which include fuel, metallic, non-metallic, atomic and minor minerals (including building and other materials)',
     },
   ];
 

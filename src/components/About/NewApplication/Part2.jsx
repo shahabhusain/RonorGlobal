@@ -511,7 +511,7 @@ export default function Part2FacilityDetails() {
         </div>
 
         <p className="text-sm text-gray-600 mt-3 italic">
-          Note: The applicant must comply with the provisions of the customs act 1962, as well as with all other applicable compliances issued by government of India for doing business in India.
+          Note: The applicant must comply with the provisions of the customs act 1962, as well as with all other applicable compliances issued by government of Ghana for doing business in Ghana.
         </p>
       </div>
 

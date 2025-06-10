@@ -11,7 +11,7 @@ const GhanaInside = () => {
           <div className=' flex  items-center justify-between md:gap-12 gap-4'>
           <div className=' flex flex-col gap-4'>
           <h1 className=' text-[#FF0000] font-[700] xl:text-[30px] lg:text-[25px] md:text-[20px] text-[12px] '>Ghana Insights</h1>
-          <p className='  md:text-[18px] text-[8px] font-[400] text-white'>The dynamic economic landscape of India, where innovation, diversity, and growth intersect to shape a compelling narrative of progress and opportunity.</p>
+          <p className='  md:text-[18px] text-[8px] font-[400] text-white'>The dynamic economic landscape of Ghana, where innovation, diversity, and growth intersect to shape a compelling narrative of progress and opportunity.</p>
           </div>
           <img className=' w-[150px] md:w-[500px]' src={rono} alt="" />
           </div>

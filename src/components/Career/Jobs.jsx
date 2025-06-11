@@ -82,7 +82,6 @@ function JobBoard() {
         
             
             <div className=' flex items-center gap-4'>
-                    <img src={logo} alt="" />
                   <div>
                      <h2 className="font-bold text-lg">{job.title}</h2>
         <p className="text-sm text-gray-600">{job.group}</p>

@@ -86,7 +86,7 @@ const Header = () => {
             to="/"
             className="text-[#00105C] text-xl md:text-2xl font-bold flex items-center gap-2"
           >
-RONOR
+Ronor
             <span>Group</span>
           </Link>
         </motion.div>

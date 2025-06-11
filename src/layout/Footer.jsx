@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="bg-[#0C1644] w-full text-white py-10 px-6 md:px-20">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Left Section */}
         <div className="max-w-lg">
           <h3 className="text-2xl font-bold">Ronor Global</h3>
@@ -49,43 +49,6 @@ const Footer = () => {
                 fill="white"
               />
             </svg>
-          </div>
-        </div>
-
-        {/* Middle Section */}
-        <div className="grid grid-cols-2 gap-8">
-          <div>
-            <h3 className="text-xs tracking-widest font-semibold mb-4 uppercase text-gray-400">
-              Company
-            </h3>
-            <ul className="text-sm space-y-4">
-              {["About", "Service", "Projects", "Blog"].map((item, index) => (
-                <li key={index}>
-                  <a href="#" className="hover:text-gray-300">
-                    {item}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-xs tracking-widest font-semibold mb-4 uppercase text-gray-400">
-              Help
-            </h3>
-            <ul className="text-sm space-y-4">
-              {[
-                "Customer Support",
-                "Delivery Details",
-                "Terms & Conditions",
-                "Privacy Policy",
-              ].map((item, index) => (
-                <li key={index}>
-                  <a href="#" className="hover:text-gray-300">
-                    {item}
-                  </a>
-                </li>
-              ))}
-            </ul>
           </div>
         </div>
 

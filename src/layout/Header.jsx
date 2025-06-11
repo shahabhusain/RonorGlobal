@@ -221,30 +221,7 @@ RONOR
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4 }}
         >
-          <div ref={searchRef} className="relative">
-            {searchOpen ? (
-              <motion.div
-                initial={{ width: 0 }}
-                animate={{ width: 200 }}
-                exit={{ width: 0 }}
-                className="bg-black text-white px-3 py-2 rounded-md overflow-hidden"
-              >
-                <input
-                  className="w-full bg-transparent text-white focus:outline-none text-sm"
-                  type="text"
-                  placeholder="Search..."
-                  autoFocus
-                />
-              </motion.div>
-            ) : (
-              <button 
-                onClick={() => setSearchOpen(true)}
-                className="text-gray-600 hover:text-[#F00] transition-colors"
-              >
-                <FaSearch size={18} />
-              </button>
-            )}
-          </div>
+       
 
           <Link to="/contactus">
             <motion.button 
@@ -400,14 +377,7 @@ RONOR
               </Link>
             </div>
 
-            <div className="relative mt-4">
-              <input
-                className="w-full bg-gray-100 px-4 py-3 rounded-lg text-lg focus:outline-none focus:ring-2 focus:ring-[#F00]"
-                type="text"
-                placeholder="Search..."
-              />
-              <FaSearch className="absolute right-4 top-4 text-gray-500" />
-            </div>
+        
           </motion.div>
         )}
       </AnimatePresence>

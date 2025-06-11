@@ -42,10 +42,10 @@ Ghana exemplifies the power of human capital in building resilient societies.</s
 <h1 className=' xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px] font-[700] flex flex-col gap-2'>Rebuilding Trust: <span className=' font-[500]'>Through global partnerships and inclusive policymaking, Ghana champions 
 stakeholder collaboration to bridge divides and foster trust worldwide.</span> <span className=' xl:text-[20px] lg:text-[17px] md:text-[15px] text-[14px] font-[600] text-[#00105C]'>Join us in shaping the future at Davos 2025.</span></h1>
         
-        <div className=' flex items-center gap-5 mt-6'>
+        {/* <div className=' flex items-center gap-5 mt-6'>
             <button className=' text-white bg-red-500 p-4 rounded-md   xl:text-[24px] lg:text-[20px] md:text-[15px] text-[14px] font-[600]'>Register Now</button>
             <button className=' text-white bg-[#00105C] p-4 rounded-md xl:text-[24px] lg:text-[20px] md:text-[15px] text-[14px] font-[600]'>View Ghana Factbook</button>
-        </div>
+        </div> */}
         </div>
 
         <div className='flex flex-col gap-y-6'>

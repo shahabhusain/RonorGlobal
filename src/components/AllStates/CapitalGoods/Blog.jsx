@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Blog = () => {
  const blogPosts = [
@@ -73,13 +74,15 @@ const Blog = () => {
                 </div>
               ))}
               
-              <button className="bg-red-500 text-white px-6 py-2 rounded hover:bg-red-600 transition-colors">
+               <div className=' mt-5'>
+                 <Link to="/blog" className="bg-red-500 text-white px-6 py-2 rounded hover:bg-red-600 transition-colors">
                 More Blogs
-              </button>
+              </Link>
+               </div>
             </div>
         </div>
 
-        {/* Important Links Section */}
+        {/* Important Links Section
         <div className="mt-16">
           <h2 className="text-3xl font-bold text-gray-800 text-center mb-8">Important Links</h2>
           
@@ -93,7 +96,7 @@ const Blog = () => {
               </button>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const CivilAviation = () => {
   return (
@@ -10,7 +11,7 @@ const CivilAviation = () => {
        </div>
       <div className=' flex flex-col gap-3 bg-[#ffffff5a] md:p-5 p-2 rounded-2xl max-w-[400px]'>
         <h1 className=' md:text-[24px] text-[15px] font-[700] text-white'>Connect with Sector Expert</h1>
-        <button className=' md:text-[24px] text-[15px] font-[700] text-white bg-red-500 py-3 px-5 rounded-xl'>Connect</button>
+        <Link to="/contactus" className=' text-center md:text-[24px] text-[15px] font-[700] text-white bg-red-500 py-3 px-5 rounded-xl'>Connect</Link>
       </div>
    </div>
     </div>

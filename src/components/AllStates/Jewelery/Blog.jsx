@@ -72,7 +72,7 @@ const Blog = () => {
           </div>
         </div>
 
-        {/* Important Links Section */}
+        {/* Important Links Section
         <div className="mt-16">
           <h2 className="text-3xl font-bold text-gray-800 text-center mb-8">Important Links</h2>
           
@@ -86,7 +86,7 @@ const Blog = () => {
               </button>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

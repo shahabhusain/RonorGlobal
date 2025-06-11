@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa6";
 import preside from '../../assets/About/preside.png'
+import { Link } from 'react-router-dom';
 const Investing = () => {
   return (
     <div className=' flex items-center gap-12 bg-[#00105C] py-12 md:px-0 px-4 w-[95%] mx-auto md:my-20 my-5 rounded-3xl'>
@@ -12,9 +13,9 @@ const Investing = () => {
         <p className=' xl:text-[16px] lg:text-[14px] md:text-[12px] text-[10px] font-[400] text-white'>In the new mandate, Invest ghana is entrusted with three key responsibilities: Facilitating investments; Facilitating trade growth and working with the investors and supporting them till they see a return on investments; and Identifying and enabling research and development collaborations, with a focus on deep technology and AI across all sectors from electronics, energy, automotive, agriculture and pharmaceuticals</p>
         <div>
           <div className=' flex items-center gap-5'>
-          <button className='xl:text-[20px] lg:text-[17px] md:text-[15px] text-[10px] font-[700] rounded-full text-[#00105C] bg-white py-2 px-5 flex items-center gap-4'>VIEW Ghana OPPORTUNITY <FaArrowRight /></button>
+          <Link to="/allstates" className='xl:text-[20px] lg:text-[17px] md:text-[15px] text-[10px] font-[700] rounded-full text-[#00105C] bg-white py-2 px-5 flex items-center gap-4'>VIEW Ghana OPPORTUNITY <FaArrowRight /></Link>
 
-<button className='xl:text-[20px] lg:text-[17px] md:text-[15px] text-[10px] font-[700] rounded-full text-[#00105C] bg-white py-2 px-5 flex items-center gap-4'>CONTACT US NOW<FaArrowRight /></button>
+<Link to="/contactus" className='xl:text-[20px] lg:text-[17px] md:text-[15px] text-[10px] font-[700] rounded-full text-[#00105C] bg-white py-2 px-5 flex items-center gap-4'>CONTACT US NOW<FaArrowRight /></Link>
           </div>
         </div>
           </div>

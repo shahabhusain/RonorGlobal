@@ -107,9 +107,9 @@ const Initiatives = () => {
           <p className='text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] font-medium text-white'>
             We are an organisation of young & vibrant professionals, looking for candidates who are passionate about ghana...
           </p>
-          <button className='flex items-center w-fit gap-2 text-white bg-[#00105C] py-2 px-5 rounded-full text-[14px] md:text-[15px] lg:text-[17px] xl:text-[20px] font-semibold'>
+          <Link to="/latest" className='flex items-center w-fit gap-2 text-white bg-[#00105C] py-2 px-5 rounded-full text-[14px] md:text-[15px] lg:text-[17px] xl:text-[20px] font-semibold'>
             Know more <FaArrowRight />
-          </button>
+          </Link>
         </div>
       </div>
     </div>

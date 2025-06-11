@@ -5,6 +5,7 @@ import img2 from '../../assets/AllStates/img2.png'
 import img3 from '../../assets/AllStates/img3.png'
 import img4 from '../../assets/AllStates/img4.png'
 import img5 from '../../assets/AllStates/img5.png'
+import { Link } from 'react-router-dom';
 const PolicyArchiveAndSuccessStories = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -295,12 +296,12 @@ const PolicyArchiveAndSuccessStories = () => {
 
   {/* Buttons */}
   <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mt-6">
-    <button className="bg-white text-blue-900 px-5 py-2 rounded font-medium text-sm hover:bg-gray-100 transition">
+    {/* <button className="bg-white text-blue-900 px-5 py-2 rounded font-medium text-sm hover:bg-gray-100 transition">
       Become the next success story
-    </button>
-    <button className="bg-red-600 text-white px-5 py-2 rounded font-medium text-sm hover:bg-red-700 transition">
+    </button> */}
+    <Link to="contactus" className="bg-red-600 text-white px-5 py-2 rounded font-medium text-sm hover:bg-red-700 transition">
       CONTACT US NOW
-    </button>
+    </Link>
   </div>
 
   {/* Pagination dots */}
